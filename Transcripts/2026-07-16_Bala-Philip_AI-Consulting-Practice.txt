@@ -1,0 +1,438 @@
+ Notes
+Jul 16, 2026
+
+Balasubramanian / Philip
+
+Invited Philip Samuelraj Balasubramanian GR
+Attachments Balasubramanian / Philip
+Meeting records Transcript
+
+Summary
+
+Discussion regarding project status and revenue potential led to the strategic decision
+to launch an AI consulting practice.
+
+Current Project Status Review
+Proposals for PHOPS and CRM phase 3 are under review, with feedback pending.
+Management of client expectations remains a priority as team transitions occur.
+
+Market Opportunity and Positioning
+Existing client relationships reveal high revenue potential through enterprise-ready
+solutions. Leadership decided to launch a dedicated AI consulting practice to
+differentiate services from abstract management firms.
+
+Consulting Strategy and Growth
+The new practice will leverage existing design and discovery engagements to offer
+actionable implementation plans. This strategy capitalizes on technical execution
+capabilities to provide unique value.
+Decisions
+
+Aligned
+
+     TechJS AI consulting practice The team will establish an AI consulting
+         practice within TechJS to provide pre-study and operational readiness services
+         to clients.
+
+We've updated the Decisions section using your feedback.
+Let us know what you think: Helpful or Not Helpful
+
+Next steps
+
+        [Balasubramanian GR] Research AI Consultancies: Contact leadership
+         connections to gather details on prior AI consulting engagements and reporting
+         structures. Evaluate the methodologies used before AI implementation within
+         their organizations.
+        [Balasubramanian GR] Identify Potential Hires: Review personal network for
+         individuals interested in professional opportunities within the AI consulting
+         practice. Communicate potential candidates to the team.
+        [The group] Schedule Follow up: Arrange a time to discuss the development and
+         implementation strategy for the new AI consulting practice.
+
+Details
+
+     Project Proposals Status: Balasubramanian GR and Philip Samuelraj discussed
+         the status of proposals for PHOPS and CRM phase 3. For PHOPS, they are
+         currently addressing clarifying questions from the client. Regarding CRM phase
+         3, Balasubramanian GR is waiting on feedback from Liz and plans to send a
+         gentle status update without pushing for an immediate response (00:00:53).
+ Project Handovers and Client Feedback: Balasubramanian GR noted that
+    next week will be the last day for a colleague, meaning the project will come
+    under their purview. Philip Samuelraj highlighted the importance of using
+    project case studies for future references and mentioned that they provided
+    specific disclaimers during the initial timeline estimations to manage client
+    expectations effectively (00:01:57).
+
+ Client Value and Revenue Potential: Philip Samuelraj discussed a client
+    relationship, noting the client currently pays around $250,000 per year, but the
+    application is critical, serving as the client's "nervous system". Given the
+    potential impact of an outage on a $400 million company, Philip Samuelraj
+    emphasized the need for enterprise-ready solutions, suggesting the
+    opportunity could be worth half a million dollars (00:03:26).
+
+ Project Scoping and Risk Management: Philip Samuelraj and
+    Balasubramanian GR discussed scoping out the new opportunity to ensure they
+    understand the project requirements, aiming to leverage work already
+    completed for CRM phase 3. Balasubramanian GR mentioned that Dharma had
+    also discussed the importance of the ops AI project in a recent one-on-one
+    meeting, noting that they must handle the client staff carefully to avoid internal
+    friction (00:05:08).
+
+ AI Audit Strategy and Market Positioning: Balasubramanian GR revisited the
+    concept of performing an AI audit to identify system improvements and
+    process opportunities (00:06:27). Philip Samuelraj noted that clients often
+    approach them with specific workflows and proof of concepts, which they
+    typically manage via a paid, six-week, $60,000 discovery phase to define
+    requirements and costs (00:07:20).
+
+ Value Proposition for AI Consulting: Philip Samuelraj and Balasubramanian GR
+    discussed aligning their services with three key goals: increasing revenue,
+    improving margins through cost savings, and enhancing client experience. Philip
+    Samuelraj suggested that instead of competing directly with large management
+    consulting firms--which often charge high fees for abstract strategy--they can
+    offer a specialized consulting practice that provides actionable, high-ROI, and
+    low-cost implementation plans (00:08:57).
+
+ Pre-readiness and Consulting Services: Philip Samuelraj proposed
+    developing an AI consulting practice within TechJS, offering a "pre-readiness"
+    service to map business processes in detail for approximately $150,000 over
+         eight weeks (00:11:37). Balasubramanian GR agreed, noting that their Design and
+         Discovery (DND) engagements are effectively quasi-consulting services that
+         can be rebranded to help clients reimagine their systems for AI integration
+         (00:13:05).
+
+     Competitive Differentiation: Balasubramanian GR observed that while large
+         firms provide similar studies, they charge significantly higher fees compared to
+         the TechJS model. Philip Samuelraj emphasized that their advantage lies in
+         having "skin in the game," as they not only advise clients on strategy but also
+         possess the capability to execute and build the solutions, which differentiates
+         them from pure strategy consultants (00:14:50).
+
+     Intelligence Gathering and Next Steps: Balasubramanian GR and Philip
+         Samuelraj discussed the next steps, including scheduling time to further
+         develop the consulting practice strategy. Balasubramanian GR committed to
+         leveraging their network of leaders in the industry to gather intelligence on
+         existing AI consulting engagements and reports, aiming to report findings back
+         to Philip Samuelraj in a few days (00:17:09).
+
+     Allotment Update: Balasubramanian GR concluded by noting that they expect
+         the project allotment to arrive around the first week of August and agreed to
+         keep Philip Samuelraj updated on the progress (00:18:12).
+
+You should review Gemini's notes to make sure they're accurate. Get tips and learn
+how Gemini takes notes
+How is the quality of these specific notes? Take a short survey to let us know your
+feedback, including how helpful the notes were for your needs.
+ Transcript
+Jul 16, 2026
+
+Balasubramanian / Philip -
+Transcript
+
+00:00:53
+
+Philip Samuelraj: Hey Bala, good evening. How are you?
+Balasubramanian GR: Good man. How are you?
+Philip Samuelraj: Good, good, good. Everybody
+Balasubramanian GR: Good. Like NSR is both the projects we have proposed and day
+before yesterday we proposed
+Philip Samuelraj: good?
+Balasubramanian GR: the plan for both PHOPS and for CRM phase 3. Um PHOPS
+back and forth they had a couple of questions so we're just clarifying them. CRM phase
+three she said Liz said she'll get back to us. I'm going to send the send her asma like a
+general reminder today in status like uh give a little nudge and ask her like you know
+what's that what did she think what what's her feedback and also otherwise good uh
+okay
+Philip Samuelraj: proposals. First time she first time I worked on the
+Balasubramanian GR: Okay.
+Philip Samuelraj: proposal Philip we don't work at your pace so some more time
+Balasubramanian GR: Okay. Okay. Then then I'll then I'll hold on that gentle reminder.
+I'll just send a daily status report but then I'm not going to push her
+
+00:01:57
+Philip Samuelraj: Hello.
+Balasubramanian GR: because she was very specific and I'll get back to you.
+Philip Samuelraj: Hello.
+Balasubramanian GR: I'll get back to you. I said okay fine no problem. You get back to
+us. No problem. So yeah that's what going on.
+Philip Samuelraj: I'm
+Balasubramanian GR: So yeah, next week is his last day. So it's coming under me. So
+Darma was talking to me. So yeah, I'm just going through opsai context and trying to
+understand the project etc. So the work is over. So
+Philip Samuelraj: I say uh just I want to give you my the leadership contract
+Balasubramanian GR: yeah.
+Philip Samuelraj: right it's going to be our we once we launch that that is going to be
+a phenomenal case study phenomenal Uh,
+Balasubramanian GR: Yeah.
+Philip Samuelraj: okay.
+Balasubramanian GR: N uh no no when we when we were planning for this right
+when we were doing the timeline estimates we like put a very specific disclaimer that
+like
+Philip Samuelraj: It's awesome that you know not started you can actually project you
+can take because and manage yeah uh they are a great customer great reference
+
+00:03:26
+
+Balasubramanian GR: Yeah.
+Philip Samuelraj: talks to them and gives really good feedback as well.
+Balasubramanian GR: One more
+Philip Samuelraj: Okay. Half a million straight
+Balasubramanian GR: straight away. Okay.
+Philip Samuelraj: Okay.
+Balasubramanian GR: How much they are paying right now?
+Philip Samuelraj: 250 per year something like that
+Balasubramanian GR: Wow. Okay.
+Philip Samuelraj: procedurate and they have a very long-term
+Balasubramanian GR: Okay.
+Philip Samuelraj: relationship because that's their almost like their nervous system. All
+right. Center nervous system.
+Balasubramanian GR: Yeah.
+Philip Samuelraj: It runs their entire company. We cannot have like
+Balasubramanian GR: Yeah.
+Philip Samuelraj: I think a $400 million company there half an hour across uh uh easily
+that's the outage will soon amount to millions of dollars.
+Balasubramanian GR: Yeah. Yeah. Makes sense.
+Philip Samuelraj: So yeah more than a million dollars in revenues on
+Balasubramanian GR: Yeah.
+Philip Samuelraj: stake. So application has to be like purely enterprise ready and so
+on. That's how it should be. If you're half a million a lot of the functionality and so on so
+on.
+
+00:05:08
+
+Philip Samuelraj: So we need to figure out how best to take that opportunity
+Balasubramanian GR: Yeah.
+Philip Samuelraj: and I want to actually put a couple of guys there start scoping it out
+start building it and so on that we understand say for example 70 80% of C3 already
+this 30% and so on. We'll do it or we have making the progress we will be able to do it.
+Let's help you reprod. Written proposal for
+Balasubramanian GR: Yeah, I think Dharma also brought it up today like we had a
+one-on-one with Dharma today morning. I was just discussing when Dharma was
+explaining me all this right like ops AI you will probably have to you'll have to take care
+and all. So he was telling me like seated like we are working in the background. So
+Philip Samuelraj: Amanda people will get you
+Balasubramanian GR: sure point
+Philip Samuelraj: know they all lower level and they might actually get like hey we
+want you
+Balasubramanian GR: agree
+Philip Samuelraj: know or see the whole risk. Okay, that's very
+Balasubramanian GR: got it got.
+
+00:06:27
+
+Balasubramanian GR: Uhhuh.
+Philip Samuelraj: important.
+Balasubramanian GR: So getting back to what we were discussing right like two
+weeks back we had that quick call I was thinking so like now so we we we we left it off
+at an audit stage we said like let's do a let's enter it uh stating that let's do a AI audit and
+see like how AI your systems are where in your process AI can help and all um then I
+went a little deeper like pretty much like all the big four and all your big companies are
+doing that only now they like pretty much they have
+Philip Samuelraj: Come
+Balasubramanian GR: employed a lot of people they are doing that.
+Philip Samuelraj: on.
+Balasubramanian GR: So what I was thinking is like when clients came and spoke to
+you like because they were a little apprehension apprehension to immediately uh start
+an AI project right without actually knowing like what they can do what needs to be
+done uh were they really thinking about the cost or like what was their what was the
+reason why they wanted to do a sort of a pre-study
+00:07:20
+
+Philip Samuelraj: No no no no see uh there
+Balasubramanian GR: before uh application.
+Philip Samuelraj: are majority buckets on the fall under two one is uh they come with
+notar my CEO coach is the same CEO coach for non-star
+Balasubramanian GR: Huh?
+Philip Samuelraj: Jerry So Jerry had uh told them you have these many people I think
+a
+Balasubramanian GR: Huh?
+Philip Samuelraj: can solve for all of this build an operational platform. So they went
+over and did some amount of pre-work and say this is our entire workflow. uh or when
+they came to us they actually gave us a deck. Rajes and the team showed up with here
+is a pre proof of concept of how they were floored like are
+Balasubramanian GR: No,
+Philip Samuelraj: amazing.
+Balasubramanian GR: no, no.
+Philip Samuelraj: This is a million dollar deal now every how do we structure it we'll do
+a discovery phase or six weeks $60,000 discovery we'll capture all of that we'll get your
+and then give you the cost okay that's most of the areas where people come up with
+this is my problem only in the discovery phall Half million There's a but the
+
+00:08:57
+
+Balasubramanian GR: All right.
+Philip Samuelraj: large portion also
+Balasubramanian GR: Correct.
+Philip Samuelraj: There are three things we need to tie. Even when people come back
+with idea, right? The three things we tie. increase something that increases revenue,
+something that increases margin by saving on costs,
+Balasubramanian GR: Number
+Philip Samuelraj: provides like a way improved client experience mostly. Number two,
+Balasubramanian GR: two.
+Philip Samuelraj: I'll save $5 million per year. increase revenue in certain. Hey, hey, we
+need to bid more to win more deals uplift increase and this okay I went over I gave the
+art of the possible tech you know overview to all of the bolden seuite our board is
+asking why don't to go and engage with Mck
+Balasubramanian GR: Yeah.
+Philip Samuelraj: will sit with you. we will conduct you know all interviews we will
+identify Christos doesn't want to go with the the big the big the big three of
+Balasubramanian GR: Not the big force, the big ones.
+Philip Samuelraj: management consulting or the big four of uh the rest accounting or
+so because he knows that he is going to pay a huge price for just action he feels right
+that's we don't have an offering and saying this is give us $100,000 we will work with
+your team for two months $150,000 we will work with your team for two months or
+eight weeks from we will definitely identify all of this we will plot them by a 2x2 matrix
+across ROI and
+
+00:11:37
+
+Philip Samuelraj: cost and see what is the highest ROI lowest cost for we'll stack rank
+them and then we can come over and go over and deliver it. We don't have like a pure
+consulting and the consulting what I'm thinking
+Balasubramanian GR: You got it.
+Philip Samuelraj: of building Dean. I think he my I need to take care of my kids. My
+wife is the one who's having a full-time job. I'm in a consulting job. So that's okay. But I
+do believe we can build the AA consulting practice inside of techjs which is going to be
+very very important. The first services like hey we will do all of this identify what are
+things The second part is identify the same which is slightly like
+Balasubramanian GR: Yeah, I was going to say Yeah.
+Philip Samuelraj: discovery but I my entire business process and all others to be
+Balasubramanian GR: Huh?
+Philip Samuelraj: mapped to be done and so on that in itself as a service okay the pre
+readiness for AI
+Balasubramanian GR: Yeah.
+Philip Samuelraj: particular operations we will map everything to the tiniest detail
+about operations here is like uh uh it needs uh you know 8 weeks uh I'm just saying
+right it needs $150,000 now they
+
+00:13:05
+
+Balasubramanian GR: Mhm.
+Philip Samuelraj: many people will happily sign for that service because we don't have
+the strength behind it we have not even offered we can
+Balasubramanian GR: Yeah. exact point the point actually you I was thinking that you
+said the exact same thing like DND that is pretty much a quasi consulting engagement
+only what we are doing we
+Philip Samuelraj: I'm up.
+Balasubramanian GR: studying their system current system how can we reimagine
+and how can we make it better how can we make it AI enabled or how can we make it
+how can we automate
+Philip Samuelraj: Yeah.
+Balasubramanian GR: pretty much we can just change a little bit of how we narrate it
+and how we present it. That can pretty much be as you said it's a it's a pre-study
+consulting engagement like definitely it's a good yeah we
+Philip Samuelraj: Come on.
+Balasubramanian GR: can we can definitely do
+Philip Samuelraj: So that's the whole idea I had.
+Balasubramanian GR: it.
+Philip Samuelraj: You can set like hey this is how the techj consulting practice looks
+like we need to be able to sell right what are things how do we sell how do we position
+how do we sell cross study as well hey what do the other big guys what terminologies
+are they using how are they selling what are what are they seeing and how is the
+market reacting I can find out and say hey because from a client perspective
+perspective We can study and we can stand up just that
+
+00:14:50
+
+Philip Samuelraj: practice.
+Balasubramanian GR: Got it. I think see what I what I went through is that right like all
+big fores are doing the same thing. So I my first initial thought was then what's the
+difference and that was my first thought then the point that you made answered that
+question actually like cost is the biggest
+Philip Samuelraj: Come
+Balasubramanian GR: factor if they if they if they go to Mckenzie for that same
+report for that same study Mckenzie
+Philip Samuelraj: on.
+Balasubramanian GR: is going to charge us four or five times that what we are going
+to charge them and the quality of work in my perspective that we can give that quality
+of work I'm
+Philip Samuelraj: Exactly. See they will have a lot of polish. This is the understanding
+also with um uh a lot of CEOs. Okay. The same people have told me,
+Balasubramanian GR: Yeah.
+Philip Samuelraj: Philip, if I work with you, you will find me something valuable,
+Balasubramanian GR: Yeah.
+Philip Samuelraj: you will help me build it because you have skin in the game.
+00:15:59
+
+Philip Samuelraj: See, for example, maintenance CEO Stan, he is now joined in
+Harvard maintenance. He is an ex strategy and consultant.
+Balasubramanian GR: Okay.
+Philip Samuelraj: He also realizes also this even when he is an ex strategy
+Balasubramanian GR: So other point right like the other point you pointed out right
+like we can build we can not only consult
+Philip Samuelraj: consultant
+Balasubramanian GR: we can go ahead and execute it also we can tell what to do we
+can tell how to do and we can do that also for you. So we can continue with that also
+but yeah uh that's a very uh sensible line to sensitive line to cross because There could
+be a a perspective that hey like since because you are building it you'll come back and
+say that like you have to build it so that's a line that we need to tread very carefully but
+yes
+Philip Samuelraj: Come on.
+Balasubramanian GR: from purely from a consulting perspective yes we can the DND
+bundle I
+Philip Samuelraj: Yes.
+Balasubramanian GR: think we can definitely do that
+Philip Samuelraj: we can set things up.
+
+00:17:09
+
+Balasubramanian GR: Um
+Philip Samuelraj: Uh what even more right I think who are people in who can be part
+of part of that who do we need to hire? If you can think of all of those things,
+Balasubramanian GR: see so what do you think was the next plan of action like let me
+report like if I can like report we'll see like next If we can find some time to discuss
+Philip Samuelraj: actually find time to
+Balasubramanian GR: uh we'll we'll we'll we'll we'll pick a time and we'll discuss it.
+Philip Samuelraj: discuss.
+Balasubramanian GR: Yeah. Give me like a couple of days time. I mean Monday
+college group let
+Philip Samuelraj: Okay.
+Balasubramanian GR: me ask around because there are a lot of people who are at a
+leadership level who are implementing AI in their I'll ask them what kind of consulting
+engagements they did with any consulting companies and what kind of reports that
+they got. What kind of studies have they did before they implemented certain AI
+capabilities in their organization. I'll check with them and get back to you.
+
+00:18:12
+
+Balasubramanian GR: I'll see like what can what are the intelligence I can gather and
+I'll let you know.
+Philip Samuelraj: Super hiring in your network or so
+Balasubramanian GR: Cool.
+Philip Samuelraj: on who are interested.
+Balasubramanian GR: Uh uh I'll let you know. I'll let you already But let me check again.
+Philip Samuelraj: Uh,
+Balasubramanian GR: Like I didn't put a very strong one. I'll talk to people and I'll let
+you know. Um yeah, I'll good. This is a good direction like last two weeks
+Philip Samuelraj: okay.
+Balasubramanian GR: like I wanted to like focus fully on that. So I want to like put my
+full attention on that and get that done. So uh once because like last one one day I was
+a little like so I thought like let me get back to this. So yeah sure I'll get back to you
+soon.
+Philip Samuelraj: Okay,
+Balasubramanian GR: And another
+Philip Samuelraj: cool.
+Balasubramanian GR: update so
+Philip Samuelraj: Come on, man.
+Balasubramanian GR: mostly in the month end August first week we can expect our
+allotment. So I'll keep you posted.
+Philip Samuelraj: Lovely, lovely. Bala,
+Balasubramanian GR: Sure.
+Philip Samuelraj: congrats.
+Balasubramanian GR: Ch.
+Philip Samuelraj: Uh,
+Balasubramanian GR: No.
+Philip Samuelraj: take off and enjoy your time during that time.
+Balasubramanian GR: Yeah. Yeah. Sure. Sure.
+Philip Samuelraj: Okay.
+Balasubramanian GR: I'll let you know.
+Philip Samuelraj: Okay.
+Balasubramanian GR: So, man,
+Philip Samuelraj: Awesome.
+Balasubramanian GR: see you. Take care. Bye.
+Philip Samuelraj: Bye-bye.
+
+Transcription ended after 00:19:39
+
+This editable transcript was computer generated and might contain errors. People can
+also change the text after it was created.
+

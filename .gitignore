@@ -1,0 +1,11 @@
+# Local-only files (never pushed), if ever needed
+*.local.md
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Office temp files
+~$*
+*.tmp
