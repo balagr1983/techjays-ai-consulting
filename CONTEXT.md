@@ -3,8 +3,10 @@
 > Living context anchor for the AI Consulting wing initiative. Maintained by Claude Code and
 > updated as new transcripts, research, and drafts arrive. Everything in this repo is tracked
 > and pushed to GitHub as backup.
-> Last updated after the 16 Jul 2026 Bala / Philip call: **decision aligned to launch an AI
-> consulting practice inside Techjays**, offering pre-study and operational-readiness services.
+> Last updated 17 Jul 2026 after the market research sweep: research documents live in
+> `Research/`, roadmap draft v0.1 in `Offering/roadmap.md`. Prior milestone, 16 Jul 2026
+> call: **decision aligned to launch an AI consulting practice inside Techjays**, offering
+> pre-study and operational-readiness services.
 
 ---
 
@@ -26,6 +28,13 @@ know "where we are and what we should do" before committing to an AI build.
   raised the differentiation question: what is different about a Techjays offering?
 - **16 Jul 2026 call:** Most of the differentiation doubts answered (see section 4). Aligned
   on launching the practice. Transcript in `Transcripts/`.
+- **17 Jul 2026:** Deep market research sweep completed (107-agent verified web research).
+  Key results: the fixed-fee 4 to 8 week assessment is an established, purchasable market
+  format; a named scoring framework is table stakes at every tier; PwC is the most
+  productized big-firm example (12 domains, 0-100 score); West Monroe already markets the
+  builder-advisor combination; the only verified public price is a boutique at USD 15,000
+  to USD 25,000 for 4 weeks, leaving the mid-market fee band undocumented (peer interviews
+  to fill it). Full findings in `Research/`; roadmap draft v0.1 in `Offering/roadmap.md`.
 
 ## 3. Why clients would buy (demand signals from Philip)
 
@@ -91,10 +100,11 @@ how does the market react), sales positioning, cross-selling into delivery, team
 
 | # | Owner | Item | Status |
 |---|-------|------|--------|
-| 1 | Bala | Research AI consultancies through leadership network: what consulting engagements they ran, what reports/studies they received before implementing AI, and the methodologies used. Report back to Philip in a few days. | Open |
+| 1 | Bala | Research AI consultancies through leadership network: what consulting engagements they ran, what reports/studies they received before implementing AI, and the methodologies used. Report back to Philip in a few days. Question set ready in `Research/peer-interview-questions.md`; prioritize real fees (Q7) and builder-bias perception (Q8). | Open |
 | 2 | Bala | Identify potential hires from personal network interested in the AI consulting practice. | Open |
-| 3 | Bala + Philip | Schedule a follow-up call to develop the practice strategy (positioning, terminology, selling motion, team). | Open |
-| 4 | Bala | Study how the big firms sell these engagements: terminology, packaging, market reaction. | Open |
+| 3 | Bala + Philip | Schedule a follow-up call to develop the practice strategy (positioning, terminology, selling motion, team). Roadmap draft v0.1 ready as the agenda backbone. | Open |
+| 4 | Bala | Study how the big firms sell these engagements: terminology, packaging, market reaction. | Done 17 Jul 2026 - see `Research/competitive-teardown.md` |
+| 5 | Claude | Second research pass: BCG X, Bain, Deloitte, EY, IBM Consulting packaging + targeted procurement-records hunt for real assessment fees + verify the buyer-survey figures before client-facing use. | Open |
 
 ## 8. People
 
@@ -111,8 +121,11 @@ Consulting_Stuff/
   COMMUNICATIONS.md     <- log of key messages/emails once outreach starts
   README.md             <- repo purpose and structure
   Transcripts/          <- call transcripts (PDF originals + extracted text)
-  Research/             <- market intel: big-firm offerings, network findings, methodologies
-  Offering/             <- packaging drafts: service definitions, pricing, positioning, decks
+  Research/             <- research-plan, competitive-teardown, pricing-benchmarks,
+                           frameworks-and-methodologies, buyer-demand-signals,
+                           peer-interview-questions
+  Offering/             <- roadmap.md (v0.1 draft for Philip); later: SKU one-pagers,
+                           framework, report template, decks
   Notes/                <- working notes that do not fit elsewhere
 ```
 
