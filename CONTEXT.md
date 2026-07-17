@@ -35,6 +35,11 @@ know "where we are and what we should do" before committing to an AI build.
   builder-advisor combination; the only verified public price is a boutique at USD 15,000
   to USD 25,000 for 4 weeks, leaving the mid-market fee band undocumented (peer interviews
   to fill it). Full findings in `Research/`; roadmap draft v0.1 in `Offering/roadmap.md`.
+- **17 Jul 2026:** Received IIT Madras Walmart Center for Tech Excellence brochure (via
+  Bala's friend at the CoE) - MSME manufacturing analytics: productized platforms +
+  subsidized channel (FaMe TN) + skilling. Different segment, but reinforces three
+  patterns: reusable delivery assets, ecosystem co-funding of the client's cost, and
+  training as a packaged line. Summary in `Research/iitm-wcte-summary.md`.
 
 ## 3. Why clients would buy (demand signals from Philip)
 
