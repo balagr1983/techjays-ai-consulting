@@ -17,6 +17,10 @@
 | FOREST | Thoughtworks | 6 dimensions: Foundational architecture, Operating model, Ready data, Experiences for humans + AI, Strategic alignment, Trustworthy AI |
 | Rewired (research base: 200+ at-scale AI transformations) | McKinsey | 6 dimensions: strategy, talent, operating model, technology, data, adoption and scaling *(extracted, unverified)* |
 | Kriv AI readiness scorecard | Kriv AI | 7 dimensions + regulatory mapping (NIST AI RMF, ISO/IEC 42001, sector rules) |
+| EY.ai Maturity Model | EY | 7 dimensions, GenAI maturity; free 15-minute self-serve scan + report + roadmap |
+| AI Deployment Matrix | Bain | 2x2 of deployment archetypes: Personal Productivity, Amplified Intelligence, Embedded Assistant, Digital Worker AI; diagnostic positions the client in the matrix |
+| Agentic AI readiness assessment | Deloitte | 3 dimensions (embedded agentic capabilities, external-agent operability, trustworthiness); scoped to digital channels |
+| Responsible AI Maturity Assessment (retired) | IBM | 9-question quiz scoring 3 themes (strategy and governance, data and technology, people and culture) |
 
 **Convergence:** every framework scores 6 to 12 dimensions, and the recurring core is:
 strategy, data, technology/engineering, talent/workforce, governance/risk, operating

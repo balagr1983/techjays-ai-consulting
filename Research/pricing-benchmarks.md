@@ -28,13 +28,27 @@
 | US federal AI contract obligations | USD 261 million (2022) to USD 675 million (2024) to USD 7,200 million (2026) | **B** (Brookings, May 2026) | Market context; 98.9% of 2026 spend is DoD. |
 | Federal award examples | Chickasaw Federal Health USD 3,500,000 "AI planning and support services"; Data Federal USD 276,000 "AI support services" | **B** (Govly public explorer) | Closest federal analogs to advisory/planning work; explorer shows no explicitly labeled readiness/maturity assessments. |
 
-## What we could NOT find (open)
+## Pricing STRUCTURE signals (pass 2, 21 Jul - no dollar figures, but useful units)
 
-- **No Big Four or mid-tier assessment fee** above the boutique marketplace tier survived
-  verification. US federal/state procurement records (USAspending, GSA schedules, state
-  RFP awards) remain the most promising untapped source; a targeted follow-up pass is
-  queued.
-- No analyst (Gartner/Forrester/IDC) pricing commentary survived this pass.
+- **IBM Expert Labs "Advise" SKUs:** priced **per week of fixed-scope activities**
+  (sometimes under 5 days) on AWS Marketplace; dollar amounts only via private offer.
+  The week-sized fixed-scope SKU is a packaging unit Techjays could adopt.
+- **IBM "Expertise Connect":** monthly subscription for ~1/4 FTE of a product SME,
+  6 or 12 month minimum terms (listing now appears delisted). A retainer-shaped
+  advisory unit.
+- **IBM Consulting ICA4CT ladder:** ~1-hour consult, 2 to 4 week PoC, 8 to 12 week MVP,
+  4 to 10 month delivery - explicit tiering from free/cheap front door to full delivery.
+- Pattern: even firms that productize advisory on marketplaces **never publish the
+  dollar price**; every listing routes through a private offer. Publishing a real fixed
+  price (as boutiques like Kriv do) is itself a differentiation option for Techjays.
+
+## What we could NOT find (open, after two passes)
+
+- **No disclosed contract value for an AI readiness/strategy engagement** surfaced from
+  procurement databases (USAspending, SAM.gov, GSA, UK Contracts Finder, state/local) in
+  either pass. This remains the highest-value untapped source; a manual targeted search
+  (not a broad sweep) is the likely next step.
+- No analyst (Gartner/Forrester/IDC) pricing commentary survived either pass.
 - Assessment-to-delivery attach rates (what fraction of pre-studies convert to build
   work) are not publicly disclosed by anyone; peer interviews are the best source here.
 

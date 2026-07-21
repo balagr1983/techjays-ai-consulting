@@ -1,9 +1,9 @@
 # Competitive Teardown - How AI Pre-Study Offerings Are Packaged
 
-> Source: deep research sweep, 17 Jul 2026. All claims below marked "verified" survived
-> 3-vote adversarial fact-checking against live primary sources (official firm pages,
-> newsroom releases, marketplace listings) fetched 17 Jul 2026. Offering pages change
-> often; treat as current but perishable.
+> Source: deep research sweeps, 17 Jul 2026 (pass 1) and 21 Jul 2026 (pass 2). All
+> claims below marked "verified" survived 3-vote adversarial fact-checking against live
+> primary sources (official firm pages, newsroom releases, marketplace listings).
+> Offering pages change often; treat as current but perishable.
 
 ## The headline pattern (verified components, synthesized pattern)
 
@@ -12,10 +12,11 @@ monetize the top of the funnel differently:
 
 | Tier | Monetization of the diagnostic | Example |
 |------|-------------------------------|---------|
-| Strategy firms | No standalone diagnostic SKU; assessment folded into transformation engagements | McKinsey QuantumBlack |
-| Big Four | Productize and charge for the diagnostic itself, heavy scoring/benchmarking apparatus | PwC AI Readiness Assessment |
+| Strategy firms | No standalone diagnostic SKU; a diagnostic opens the strategy engagement | McKinsey QuantumBlack; Bain (AI Deployment Matrix diagnostic) |
+| Big Four | Either productize and charge for the diagnostic (PwC) or give a self-serve scored scan away as lead-gen (EY) | PwC AI Readiness Assessment; EY.ai Maturity Model |
 | Mid-tier | Give it away as gated lead-gen, or fuse advisory + build into one offer | Thoughtworks FOREST; West Monroe |
 | Boutique / cloud partners | Fixed-fee, fixed-duration (4 to 6 week) productized assessments with explicit deliverable lists | Kriv AI, Storm Reply |
+| Tech-owned consulting | Productized advisory SKUs on cloud marketplaces (fixed scope, price via private offer) + free scored quiz funnels | IBM (Expert Labs Advise SKUs, retired RAI quiz, ICA4CT ladder) |
 
 The common credible deliverable set across all tiers: **scored maturity/gap analysis
 against a named multi-dimension framework (6 to 12 dimensions), benchmarking where data
@@ -96,6 +97,57 @@ time-phased roadmap (typically 90-day / 6-month / 12-month)**.
 - This is the closest publicly documented builder-advisor positioning; verified as
   positioning only, not delivered capability.
 
+### Deloitte - "agentic AI readiness assessment" (pass 2, 21 Jul)
+- Framed in an executive thought-leadership piece ("An Executive's Framework for AI
+  Capability Assessment", published 5 May 2026), **scoped to digital customer channels**,
+  not general enterprise AI maturity.
+- Three dimensions: embedded agentic capabilities, operability for external agents,
+  trustworthiness (governance, compliance, observability, cost, performance,
+  scalability, data provenance).
+- Deliverables: quantified baseline, gap analysis, investment prioritization; explicit
+  "From assessment to roadmap" funnel with named partner contacts.
+- Caveat: a perspective page, not a contractual offering sheet. Notable that Deloitte's
+  freshest assessment framing is **agentic-first** - the market is moving there.
+
+### EY - "EY.ai Maturity Model" (pass 2, 21 Jul)
+- **Free self-serve assessment, about 15 minutes**, scoring generative AI maturity
+  across **seven dimensions**; deliverable is a "personal output report" plus a
+  capability-development roadmap.
+- Explicit handoff into paid EY consulting ("An EY team can also work with you...").
+- The EY model = Thoughtworks' FOREST play at Big Four scale: free scored scan as
+  lead-gen. Confirms the two Big Four postures: charge for depth (PwC) or give away
+  breadth (EY).
+
+### Bain - "AI Deployment Matrix" diagnostic (pass 2, 21 Jul)
+- No named standalone readiness/maturity product. Packaging is a proprietary **2x2 "AI
+  Deployment Matrix"** with four archetypes: Personal Productivity AI, Amplified
+  Intelligence AI, Embedded Assistant AI, Digital Worker AI.
+- Engagements "begin with a detailed diagnostic" positioning the client in the matrix,
+  then an AI strategy built on use cases tied to concrete outcomes; downstream linkage
+  via **buy/build/partner** sourcing guidance plus bespoke build by Bain's data science
+  and AI engineering team.
+- Team shape: blended industry + AI consultants, AI product managers, engineers,
+  ecosystem partners.
+- Note for us: Bain also leads with a 2x2 (deployment archetypes) and explicitly frames
+  the buy/build/partner choice - the same objection-handling structure we drafted.
+
+### IBM - three-layer productization (pass 2, 21 Jul)
+- **Free scored quiz (retired):** the "AI Maturity Assessment" campaign page was a
+  nine-question Responsible AI self-assessment scoring three themes, funneling into IBM
+  Consulting's AI governance services and watsonx.governance. Retired between Jan and
+  Jul 2026 (cite the Wayback snapshot if referenced).
+- **Purchasable advisory SKUs on AWS Marketplace:** Technology Expert Labs "Advise"
+  offerings (health checks, architecture guidance, optimization planning for watsonx
+  and other IBM products), **priced per week of fixed-scope activities** - the clearest
+  week-sized SKU packaging in the market. Product-attached, Expert Labs (not IBM
+  Consulting), prices via private offer only. A companion "Expertise Connect"
+  subscription (~1/4 FTE SME, 6/12-month terms) appears delisted.
+- **Engagement ladder:** IBM Consulting's "Agentic Cloud Transformation Accelerator"
+  (ICA4CT) on AWS Marketplace sells four explicit tiers: ~1-hour consult, 2 to 4 week
+  PoC, 8 to 12 week MVP, 4 to 10 month delivery - self-described as "the front door for
+  advisory-led engagements". Cloud transformation, not AI readiness, but the
+  productized ladder is the pattern to copy.
+
 ### Kriv AI (boutique; the pricing datapoint)
 - Fixed-fee "AI Readiness & Governance Assessment for Regulated Healthcare" on AWS
   Marketplace: **USD 15,000 to USD 25,000, 4-week virtual engagement.**
@@ -114,16 +166,19 @@ time-phased roadmap (typically 90-day / 6-month / 12-month)**.
   architecture proposals, ROI analysis, cost estimates, adoption roadmap, upskilling path.
 - Pricing private-offer only.
 
-## Coverage gaps (honest limits of this pass)
+## Coverage gaps (honest limits after two passes)
 
-- **No claims survived verification for BCG X, Bain, Deloitte, EY, or IBM Consulting.**
-  The big-firm picture above rests on PwC, KPMG Germany, McKinsey, and Accenture. A
-  dedicated second pass on those five is queued.
-- One claim was refuted and excluded (West Monroe's Intellio as a suite of eight named
-  tools).
+- **BCG (BCG X) has produced no verifiable packaging claims in two consecutive passes.**
+  Remaining ideas: BCG's published "AI Maturity Matrix" reports and any marketplace
+  listings; low priority now that nine firms are covered.
+- One claim was refuted and excluded in pass 1 (West Monroe's Intellio as a suite of
+  eight named tools).
 - Nearly all sources are the vendors' own marketing pages: correct and primary for
   packaging/positioning, but self-reported figures are unaudited and nothing verifies
-  that any offering delivers as promised.
+  that any offering delivers as promised. Scope caveats to preserve when citing:
+  Deloitte's assessment is digital-channels/agentic scoped; IBM's Advise SKUs are
+  Expert Labs product-attached services, not IBM Consulting.
+- Azure Marketplace listings for the big firms (vs AWS, covered for IBM) not yet swept.
 
 ## What this means for Techjays packaging (working take)
 

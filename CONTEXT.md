@@ -35,6 +35,15 @@ know "where we are and what we should do" before committing to an AI build.
   builder-advisor combination; the only verified public price is a boutique at USD 15,000
   to USD 25,000 for 4 weeks, leaving the mid-market fee band undocumented (peer interviews
   to fill it). Full findings in `Research/`; roadmap draft v0.1 in `Offering/roadmap.md`.
+- **21 Jul 2026:** Second research pass done. Closed the packaging picture for Deloitte
+  (agentic readiness assessment, digital-channels scoped), EY (free 15-minute EY.ai
+  Maturity Model, 7 dimensions, lead-gen play), Bain (AI Deployment Matrix 2x2
+  diagnostic opening strategy engagements, buy/build/partner framing), and IBM
+  (week-sized fixed-scope Advise SKUs on AWS Marketplace, retired self-serve quiz,
+  four-tier ICA4CT engagement ladder). BCG still dark after two passes. No disclosed
+  dollar fees found anywhere (all marketplace SKUs price via private offer), and the six
+  buyer-survey statistics remain unverified - not deck-safe yet. Strawman package
+  (framework, SKU one-pagers, report ToC) and Philip update draft also completed today.
 - **17 Jul 2026:** Received IIT Madras Walmart Center for Tech Excellence brochure (via
   Bala's friend at the CoE) - MSME manufacturing analytics: productized platforms +
   subsidized channel (FaMe TN) + skilling. Different segment, but reinforces three
@@ -109,7 +118,9 @@ how does the market react), sales positioning, cross-selling into delivery, team
 | 2 | Bala | Identify potential hires from personal network interested in the AI consulting practice. | Open |
 | 3 | Bala + Philip | Schedule a follow-up call to develop the practice strategy (positioning, terminology, selling motion, team). Roadmap draft v0.1 ready as the agenda backbone. | Open |
 | 4 | Bala | Study how the big firms sell these engagements: terminology, packaging, market reaction. | Done 17 Jul 2026 - see `Research/competitive-teardown.md` |
-| 5 | Claude | Second research pass: BCG X, Bain, Deloitte, EY, IBM Consulting packaging + targeted procurement-records hunt for real assessment fees + verify the buyer-survey figures before client-facing use. | Open |
+| 5 | Claude | Second research pass: BCG X, Bain, Deloitte, EY, IBM Consulting packaging + targeted procurement-records hunt for real assessment fees + verify the buyer-survey figures before client-facing use. | Done 21 Jul 2026 - 4 of 5 firms closed (BCG still dark); no disclosed fees found; buyer stats still unverified |
+| 6 | Bala | Send the Philip update (draft in COMMUNICATIONS.md) and book the working session. | Open |
+| 7 | Claude | Dedicated verification pass on the six buyer-survey statistics before any client-facing deck (Phase 2 gate). | Open |
 
 ## 8. People
 

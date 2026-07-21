@@ -1,10 +1,12 @@
 # Buyer-Side Demand Signals - Why Companies Stall Before AI
 
 > Source: deep research sweep, 17 Jul 2026. IMPORTANT: the claims below were extracted
-> from primary/reputable sources by the research pass but were NOT in the adversarially
-> verified batch (the verification budget went to the competitive teardown). Treat as
-> well-sourced but pending verification; re-verify any number before putting it in a
-> client-facing deck.
+> from primary/reputable sources but remain UNVERIFIED after two passes: the 21 Jul
+> second pass attempted adversarial verification of the six headline statistics and
+> returned no verdicts either way (verification budget was consumed by the firm
+> teardown). Status: neither confirmed nor refuted. Do NOT use these figures in
+> client-facing material until a dedicated verification pass (queued for before Phase 2
+> collateral) confirms them against the original publications.
 
 ## The core stall: adoption is high, value is not
 
