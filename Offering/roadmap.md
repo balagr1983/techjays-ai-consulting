@@ -96,3 +96,6 @@
 3. Whether the small "scan" SKU is worth having as the funnel opener.
 4. Who fronts the practice publicly (credibility face).
 5. Marketplace channel: worth the listing effort now, or after the pilot?
+6. Where the practice sits organizationally, and Dharma's sponsorship (the practice
+   overlaps the Chief AI Officer's domain; his early blessing turns a turf risk into
+   air cover). Team detail in `team-plan.md`.
