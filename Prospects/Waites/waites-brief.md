@@ -1,77 +1,90 @@
 # Waites - Prospect Brief
 
 > First inbound opportunity for the AI consulting practice. Introduced by **Gerry Perkel
-> (CEO Coaching)** on a call with Bala, 22 Jul 2026. Call transcript to follow. This
-> brief was researched in a separate Fable session (Bala's) before the call; company
-> figures below are largely Waites' own marketing claims, not independently verified.
+> (CEO Coaching International)**, who coaches Techjays, Northstar, and Waites - he is the
+> CEO-coach channel Philip described on 16 Jul (that transcript's "Jerry"). Call with
+> Bala 22 Jul 2026; transcript in `Transcripts/2026-07-22_Bala-Gerry-Perkel_Waites-Opportunity.txt`.
+> Note: Gemini transcribes the company as "Weights"; it is **Waites** (waites.net).
 
 ## Company snapshot
 
-- **Waites (Waites Sensor Technologies, Inc.)**, Cincinnati, Ohio. AI-powered
-  predictive / condition-based maintenance for industrial plants.
-- Founded by Andrew Waites and Rob Ratterman (CEO); ~20 years operating, ~280+
-  employees. Privately held, no funding disclosures found.
-- Scale claims: 500,000+ sensors deployed across 6 continents, AI trained on 13+
-  trillion machine readings, ~10 billion new datapoints daily, 16 languages.
+- **Waites (Waites Sensor Technologies, Inc.)**, Cincinnati, Ohio. AI-powered predictive
+  / condition-based maintenance: vibration/temperature sensors + own network protocol +
+  cloud ML/AI + human vibration analysts qualifying alerts before customers see them.
+- ~200 employees, ~USD 50 million revenue, growing industrial B2B (Gerry's figures).
+  Serves 200 to 300 clients across 700 to 1,000 sites, ~500,000 sensors deployed.
+- Founded by Andrew Waites and Rob Ratterman (CEO). ~20 years old, privately held.
+- Org per Gerry: sales (15 to 20), business development (8 to 10 BDRs booking discovery
+  calls for AEs), customer service (analyst-to-client reviews), marketing, software dev
+  (agentic AI, rewriting core software), hardware dev, product, installation teams;
+  manufacturing mostly outsourced.
+- Systems: NetSuite, HubSpot, internal systems; data silos; "data not ready for AI" fear
+  inside the company (Gerry: connectivity is fixable, do not let it block).
+- Recent moves: MaintainX partnership (Dec 2025), PiezoNode launch (Dec 2025); AWS and
+  Motion Industries partnerships.
 
-## What they sell
+## The situation (why now)
 
-- **Hardware:** wireless 3-axis vibration "Sensor Motes" (C1D1 intrinsically safe,
-  ~2 year battery), tethered sensors, gateways, a Universal Adapter for third-party
-  sensors, and the PiezoNode (Dec 2025) for extreme heat / high pressure.
-- **Software:** Waites Dashboard (real-time equipment health), AI claiming failure
-  pattern recognition months in advance, 99.92% defect detection coverage.
-- **Service layer (their differentiator):** every alert reviewed by a CAT II-IV
-  certified vibration analyst before it reaches the customer; prescriptive guidance,
-  "no PLC access, no IT overhead" full-service model.
+- **The CEO (Rob Ratterman) is highly AI-proficient** - vibe-coding 10 hours a day,
+  driving an in-house rewrite of core software. He believes AI is transformational and
+  thinks his exec team treats it as a minor productivity tool.
+- CEO challenged his ~8 executives (week of 14 Jul): in **3 weeks**, show a plan to run
+  the company with just the eight of them, no additional headcount. A stretch exercise,
+  not a literal target.
+- **Gerry + the COO are chartered to build a roadmap by end of 2026 to double revenue
+  per white-collar employee**, and must finalize the approach **by end of September**.
+  Gerry met the COO on 23 Jul (day after our call).
+- Framing that matters: **grow revenue with the same people**, not cut people.
 
-## Customers and proof
+## The engagement discussed (agreed in principle on the call)
 
-Automotive, food and beverage, mining, pharma, pulp and paper. Case claims: USD
-11,000,000 saved for one customer; 483 downtime hours avoided annually for another.
+| Parameter | What was discussed |
+|-----------|--------------------|
+| Scope | Process mapping + re-architecting of GTM and support functions: **sales, business development, marketing, customer service. Software development explicitly excluded** (they have their own plan). Plus a data-connectivity view (NetSuite/HubSpot silos). |
+| Deliverable | Prioritized roadmap: where agentic AI creates leverage, priority order, starting outline per initiative, projected efficiency/revenue gains. Report first, implementation optional after. |
+| Method (Bala, on the call) | **Process re-engineering first, then a deterministic layer, then an AI layer** - never force-fit AI. |
+| Mode | Onsite (both agreed strongly); introductory calls + 6-week plan + pre-sent questionnaires before travel. |
+| Duration | ~6 weeks onsite (1 to 2 months range, 1.5 months sweet spot). |
+| Price | Bala opened USD 75,000 to 100,000; Gerry pushed on single-consultant cost perception; **landed at USD 40,000 to 50,000** as the effort-based sweet spot. |
+| Timing | Not immediate; Bala's paternity leave (2 to 3 weeks out) accommodated. Fits a ~Sep start given the end-September decision deadline. |
+| Staffing | Bala solo today; internal-first scan underway, plus Bala's US network (Gerry hinted a US-based resource would help). Visa valid to Aug 2029. |
 
-## Recent moves (conversation hooks)
+## Strategic notes (Bala + Claude working view)
 
-- **Dec 2025: MaintainX partnership** (CMMS/work orders) - closing the loop from
-  predictive alert to executed work order (MTTA/MTTR reduction).
-- **Dec 2025: PiezoNode launch** for environments where wireless fails.
-- Partnerships: AWS, Motion Industries (distribution).
+1. **Waites is effectively the pilot engagement from roadmap Phase 3**, arriving early.
+   Gerry said it explicitly: this project is "as much for learning for us about how we
+   could do this and present it and offer it to others" - and he has "lots of other
+   clients trying to figure out this same thing". The real prize is the repeatable
+   CEO Coaching channel.
+2. **Pricing anchor risk:** USD 40,000 to 50,000 is well under the USD 100,000 to
+   150,000 SKU 1 band. Fine for a single-consultant pilot, but the proposal should
+   frame it explicitly as pilot/founding-client pricing for a defined scope, so it does
+   not become the practice's list-price anchor with Gerry (who will calibrate every
+   future referral on it).
+3. **Follow-on build is NOT the default here:** Waites has in-house dev capability and
+   a preconceived notion to build themselves. Gerry's view: doing the study earns the
+   trusted-partner position anyway. The build/buy/partner honesty in our method is the
+   asset in this room. Philip has already met the Waites CEO.
+4. **The three-layer method Bala articulated on the call (re-engineer, deterministic,
+   AI) landed well with Gerry** and should be written into the framework strawman as a
+   core principle.
+5. Bala's Titan revenue/LTV-projection experience resonated as the sales/marketing
+   value model (prioritize prospects by projected value to lift revenue per employee).
 
-Competitive context: Erbessd, Benstone, Meggitt; more broadly Augury, Fluke/Azima.
+## Bala's commitments from the call
 
-## Fit analysis for the Techjays practice (pre-transcript, working hypotheses)
+1. Consulting proposal: discovery process, 6-week timeline, engagement strategy,
+   anticipated efficiency gains, deliverables.
+2. Assessment questionnaire for the target departments (pre-sendable to shorten the
+   engagement).
+3. Structured ideas for marketing/sales revenue growth (LTV/prioritization models).
+4. Discuss with Philip, get his input.
+5. Follow-up call with Gerry end of this week or early next week.
+6. Resourcing: internal scan + US network outreach.
 
-**What kind of client this is:** NOT the "stalled before AI" enterprise persona our
-SKU 1 targets. Waites is an AI company already. The likely consulting surface is
-different and probably closer to our technical depth:
-
-1. **The analyst layer is the scaling bottleneck.** Every alert passes a certified
-   human analyst - that is their differentiator AND their cost/scale ceiling. The
-   obvious engagement: an AI-augmentation study of the analyst workflow (agent-assisted
-   triage, draft prescriptions, analyst-in-the-loop), which is exactly a
-   workflow-level pre-study (our differentiator) on their own operations.
-2. **Data platform roadmap.** ~10 billion datapoints/day is a serious pipeline;
-   questions of architecture, cost, and what new AI products that data could carry
-   (an opportunity-study shape).
-3. **Integration delivery capacity.** The MaintainX-style integrations suggest they
-   may need software/AI delivery muscle around their platform edges - which is
-   Techjays' bread and butter, possibly a faster path to revenue than consulting.
-4. **Channel significance beyond the deal:** Gerry Perkel (CEO Coaching) is the
-   CEO-coach referral channel Philip described on 16 Jul (transcript's "Jerry" is
-   almost certainly Gerry). Handled well, this relationship is a repeatable deal
-   source, worth as much as the Waites deal itself.
-
-**Open questions for the Gerry transcript / first Waites conversation:**
-- What did Gerry actually scope with them: a study, a build, or "help them figure AI
-  out"? Who is the sponsor (Ratterman?) and what triggered it now?
-- How much of the analyst review do they want to automate, and what have they tried?
-- Where does their in-house AI team end and external help begin (280 people, 20 years
-  of hardware DNA - their software/AI bench depth is the key unknown)?
-- Budget shape: product-company engineering budget, not a corporate transformation
-  budget - which SKU shape fits, or is this a custom scope?
-
-## Status
+## Status log
 
 | Date | Event |
 |------|-------|
-| 22 Jul 2026 | Gerry Perkel call; opportunity introduced. Awaiting transcript. |
+| 22 Jul 2026 | Gerry Perkel call: opportunity scoped in principle (see table). Transcript on file. |
+| 22 Jul 2026 | Prior research brief received from Bala's separate Fable session; merged here. |

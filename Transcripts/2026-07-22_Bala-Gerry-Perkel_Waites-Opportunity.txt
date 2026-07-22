@@ -1,0 +1,1135 @@
+ Notes
+Jul 22, 2026
+
+Gerry - Bala
+
+Invited gerryperkel@ceocoachinginternational.com Balasubramanian GR
+Attachments Gerry - Bala
+Meeting records Transcript (Some recordings unavailable)
+
+Summary
+
+Meeting focused on aligning AI consulting strategies for client efficiency gains through
+structured process re-engineering and planning.
+
+Strategic AI Consulting Alignment
+Participants identified that true AI readiness requires process re-architecting rather
+than just cost cutting. The discussion emphasized transitioning toward agent based
+models to scale productivity per employee.
+
+Consulting Methodology and Pricing
+A phased implementation framework was proposed involving process audits before AI
+integration to ensure tangible efficiency gains. The group settled on a project pricing
+structure of 40k to 50k for an onsite engagement.
+
+Operational Scope for Weights
+The project will target sales, marketing, and business development functions while
+excluding software development to meet aggressive growth targets. It was decided
+that the initiative will utilize a structured onsite assessment to address data silos and
+revenue projection.
+Decisions
+
+Aligned
+
+     Prioritization of process re-engineering The consulting strategy is defined to
+         start with process re-engineering before introducing deterministic or AI layers
+         to improve client efficiency.
+
+     On-site consulting engagement preference Consulting engagements for
+         process assessment and planning are agreed to be conducted on-site to
+         optimize collaboration and productivity.
+
+We've updated the Decisions section using your feedback.
+Let us know what you think: Helpful or Not Helpful
+
+Next steps
+
+        [Balasubramanian GR] Create Consulting Proposal: Develop a comprehensive
+         document outlining the discovery process, six week project timeline, and
+         engagement strategy. Include anticipated efficiency gains and deliverables for
+         the client.
+        [Balasubramanian GR] Draft Assessment Questionnaire: Create a set of
+         targeted questions for relevant departments to identify business process
+         improvements. Structure the list to facilitate the discovery phase of the
+         engagement.
+        [Balasubramanian GR] Prepare Strategy Proposal: Research and prepare a
+         structured proposal for marketing and sales revenue growth strategies based
+         on the discussed concepts.
+        [Balasubramanian GR] Consult Philip: Discuss the potential project with Philip to
+         gather his feedback and ideas.
+        [Balasubramanian GR] Schedule Follow-up: Schedule a follow-up meeting for
+         the end of the week or early next week to present findings.
+        [Balasubramanian GR] Recruit Resources: Identify additional personnel within
+         the organization or through personal networks to support project execution.
+
+Details
+
+     Introductions and Professional Background: Balasubramanian GR provided
+         an overview of their background, noting that they graduated in the same
+         engineering batch as Philip and later earned a post-graduation management
+         degree in 2012 (00:00:52). Balasubramanian GR spent approximately 8.5 years
+         heading the data science and analytics division of a domain name registry in
+         Mumbai, followed by 4.5 years running a data science and analytics consulting
+         firm, and has been with TechJS since the beginning of May (00:01:47).
+
+     Current Project Portfolio: Balasubramanian GR updated Gerry Perkel on
+         current active projects, specifically the Northstar Recycling (NSR) PHOPS
+         project, which they are now handling, and the CRM Phase 3 project, for which
+         they are waiting for approval from leadership after completing discovery and
+         design sessions. Additionally, Balasubramanian GR recently assumed
+         responsibility for the Ops AI project (00:02:57).
+
+     AI Implementation Challenges: Gerry Perkel identified a common challenge
+         where companies recognize the need for AI but lack a clear roadmap or
+         understanding of how to become AI or agentic AI-centric (00:03:58). Gerry
+         Perkel expressed that the primary goal is to double revenue per white-collar
+         employee within two years, a shift that requires moving beyond simply using AI
+         for cost-cutting and instead using it to transform processes and productivity
+         within smaller departmental teams (00:05:28).
+
+     AI Readiness Consulting: Balasubramanian GR noted that many executives
+         currently view AI primarily as a cost-cutting tool, a perception that limits the full
+         potential for revenue generation. Balasubramanian GR proposed a consulting
+         framework similar to an "AI readiness report" or audit, where they would analyze
+         a company's business flows to identify opportunities for efficiency and revenue
+         growth rather than focusing exclusively on reducing human resources
+         (00:09:14).
+ Process Re-architecting and Business Case: Gerry Perkel illustrated a
+    scenario using a business development department with 8-10 employees,
+    questioning if they could move toward an AI-agent-based model that operates
+    24/7 (00:14:19). Gerry Perkel emphasized that for these opportunities, there is a
+    two-step requirement: first, someone must perform process mapping and
+    re-architecting to determine where AI can replace or augment current human
+    workflows, and second, a team must implement those solutions, which is the
+    core strength of TechJS (00:11:53) (00:16:40).
+
+ Phased Implementation Framework: Balasubramanian GR recommended a
+    structured approach to engagements that begins with simple process
+    re-engineering before attempting to force-fit AI solutions (00:18:09). If
+    re-engineering does not achieve the required results, they would move to a
+    deterministic layer, and finally to an AI layer, providing clients with a report
+    detailing these steps and the projected efficiency gains rather than moving
+    directly to implementation (00:19:31).
+
+ The Value of Trusted Partnerships: Gerry Perkel discussed the "build versus
+    buy" dilemma, noting that while some clients attempt to build internal AI
+    departments, they often end up with a disjointed, insecure mess of tools
+    (00:21:54). Gerry Perkel argued that TechJS acts as a vital partner, providing the
+    "brute force" necessary to build robust, hardened AI solutions that clients
+    cannot easily produce in-house (00:23:07).
+
+ Onsite Work Preference: Both Balasubramanian GR and Gerry Perkel agreed
+    that consulting work, particularly when reimagining processes and
+    whiteboarding workflows, is significantly more efficient and productive when
+    conducted onsite rather than remotely (00:24:16).
+
+ Engagement Timeline and Logistics: Gerry Perkel asked for an estimation of
+    a project timeline for an industrial B2B company with 200 employees, to which
+    Balasubramanian GR estimated that such an engagement would require one to
+    two months, with 1.5 months being the sweet spot if performed onsite
+    (00:25:11). Balasubramanian GR confirmed they are willing to travel to the United
+    States for this duration, noting they have a valid visa until August 2029
+    (00:28:04).
+
+ Personal Constraints: Balasubramanian GR shared that they are expecting a
+    child in approximately two to three weeks and will need to take a couple of
+    weeks of paternity leave. Gerry Perkel offered congratulations and noted that
+    the project timeline allows for this absence as the preparations will not
+    commence immediately (00:27:12) (00:30:14).
+
+ Relevant Experience: Balasubramanian GR described previous consulting
+    experience, including a project with an Indian manufacturing company where
+    they redesigned a logistics workflow, reducing a 3-week process to 3-4 days
+    (00:28:04). They also highlighted past experience with Unilever, which involved
+    onboarding global analytics products and coordinating cross-functional teams
+    to ensure standard compliance, technical integration, and project management
+    (00:29:03).
+
+ Project Pricing Strategy: Discussing potential fees, Balasubramanian GR
+    initially suggested a range of 75k to 100k, but following Gerry Perkel's
+    observation about the cost perception for a 6-week engagement, they adjusted
+    the estimate to 40k to 50k as a competitive, effort-based sweet spot for a 1.5 to
+    2-month engagement (00:31:18).
+
+ Execution and Planning: Balasubramanian GR detailed the proposed
+    execution plan: holding introductory calls to identify key points of contact,
+    creating a 6-week project plan before arrival, and coordinating necessary site
+    visits or departmental meetings in advance to ensure the onsite duration is
+    maximized for efficiency (00:33:32).
+
+ Stakeholder Discovery: Regarding the engagement process, Balasubramanian
+    GR confirmed they would arrive with a pre-planned questionnaire tailored to the
+    departments identified in introductory calls (00:35:48). They suggested that
+    providing these questions to clients beforehand could potentially shorten the
+    engagement length by allowing stakeholders to prepare their answers, thereby
+    saving time and cost (00:36:44).
+
+ Client Overview (Weights): Gerry Perkel provided background on the specific
+    client, "Weights," which manufactures sensors for temperature and vibration
+    analysis (00:37:48). The company serves 200 to 300 clients across 700 to 1,000
+    sites, managing approximately 500,000 sensors, and uses machine learning and
+    AI to alert customers to potential equipment failures (00:38:44).
+
+ Strategic Objective for Weights: Gerry Perkel explained that the CEO of
+    Weights is highly proficient in AI and has challenged the executive team to
+    present a plan within three weeks on how to run the company without adding
+    more human headcount (00:41:40). The goal for Gerry Perkel and the COO is to
+         build a roadmap by the end of the year to double revenue per white-collar
+         employee, a task that requires formal, coordinated guidance rather than ad-hoc
+         departmental efforts (00:42:52).
+
+     Project Scope and Focus Areas: Gerry Perkel suggested the project should
+         exclude the software development team, as they already have a defined
+         roadmap, and instead focus on other functions like Sales, Business
+         Development, and Marketing. Balasubramanian GR agreed, noting these areas
+         offer high potential for revenue growth and efficiency improvements (00:45:13).
+
+     Revenue Projection Models: Balasubramanian GR cited past work with a
+         company called Titan, where they developed revenue and lifetime value
+         projection models for subscription products. They suggested applying similar
+         logic to the client's marketing and sales teams to identify which prospective
+         clients to prioritize, thereby increasing the revenue-per-employee metric
+         (00:47:20).
+
+     Data Readiness and Connectivity: Discussing the client's data infrastructure,
+         Gerry Perkel noted that while the client uses systems like NetSuite and HubSpot,
+         they suffer from data silos and fear that their data is not "ready" for AI.
+         Balasubramanian GR emphasized the ability to create a streamlined, unified
+         data system that connects marketing, sales, and production to provide
+         leadership with actionable insights (00:49:25).
+
+     Next Steps and Resourcing: Balasubramanian GR committed to conducting
+         more research on Weights and preparing a structured execution proposal, with
+         plans to discuss it with Philip and potentially schedule a follow-up call by the end
+         of the week or early next week (00:51:29). Regarding potential scaling,
+         Balasubramanian GR stated they are currently the only resource for this but are
+         proactively reaching out to their network and friends in the United States to
+         identify potential candidates should the need for additional help arise
+         (00:52:18).
+
+You should review Gemini's notes to make sure they're accurate. Get tips and learn
+how Gemini takes notes
+How is the quality of these specific notes? Take a short survey to let us know your
+feedback, including how helpful the notes were for your needs.
+ Transcript
+Jul 22, 2026
+
+Gerry - Bala - Transcript
+
+00:00:52
+
+Balasubramanian GR: Hey. Hi. How are you?
+Gerry Perkel: I'm going and and is Ba how I should
+Balasubramanian GR: Morning. How are you? Good. Good.
+Gerry Perkel: address you?
+Balasubramanian GR: Uh, I'm I'm sorry. I I couldn't hear you properly. Can you?
+Gerry Perkel: Is is Bala how I should address you?
+Balasubramanian GR: Yeah. Yeah. Bal. Yeah.
+Gerry Perkel: Okay. All right. Good.
+Balasubramanian GR: Okay.
+Gerry Perkel: Nice to meet you.
+Balasubramanian GR: Yeah, nice to meet you too. So yeah, Philillip uh gave a very u
+small brief about uh uh you and uh and what could be talking about but apart from that
+um it's a pretty open conversation uh so I'm willing to uh listen and see like uh what we
+can discuss out of here but I don't know whether he gave gave an introduction about
+me what I have done before so if
+Gerry Perkel: Okay.
+Balasubramanian GR: it makes sense I can quickly take you through like what I have
+done like like a two three minute quick introduction Uh so if that helps.
+
+00:01:47
+
+Gerry Perkel: Yes. Let's go ahead and do that.
+Balasubramanian GR: Yeah. So uh I mean I I I Philip must have told you like we uh both
+studied uh in the same engineering batch. Uh we both graduated out of the same
+college out of the same year but different uh uh specializations. Uh I specialized in
+mechanical, he specialized in electronics. Uh post which I worked in various uh IT
+services industries. Then I completed my uh post-graduation management in 2012. Uh
+and uh after that I worked in an organization a domain name uh registry uh based out
+of Mumbai for about uh 8 and a half years where I headed the data science and data
+analytics division for that organization. Uh post that uh I started my own consulting
+company u ran it for almost four four and a half years. um where I did data analytics
+and data science consultant uh consulting uh projects to various companies tech and
+non- tech companies across the country and uh uh for the last two two and a half
+months I've been with uh TechJS uh Philip uh reached out uh regarding this consultant
+part.
+
+00:02:57
+
+Balasubramanian GR: So I was very interesting. So u so I joined uh since the
+beginning of May. So yeah uh right now we are currently working on a couple of
+projects uh NSR Northstar recycling you'll know about it. So uh been handling notar
+recycling projects for the last uh seven eight
+Gerry Perkel: What?
+Balasubramanian GR: weeks. So yeah that's that's what it's been um that's what's
+been going so far.
+Gerry Perkel: And and with Northstar, what is it you're doing?
+Balasubramanian GR: So uh the couple of projects so first one is the NSR PHOPS
+project uh where uh I wasn't there initially but I joined uh halfway through but now I'm
+handling that. The other one is the uh CRM phase 3 project which is uh we started off
+with that we completed the DND sessions uh we have presented our proposal we just
+waiting for the Northstar
+Gerry Perkel: All
+Balasubramanian GR: leadership to get back to us with the green light. So apart from
+that um there's the another running project which is the ops AI project which was also
+uh running when I joined.
+
+00:03:58
+
+Balasubramanian GR: So I have started uh taking care of that also uh since last week.
+Cool.
+Gerry Perkel: right. All right. So, let me tell you what Philip and I talked about um
+related to all of this.
+Balasubramanian GR: Yeah.
+Gerry Perkel: Um I'm finding that uh many uh c companies are saying listen we know
+we need to do something with AI. We don't know what exactly. We we think we should
+be able to become much more productive than we are if we leveraged hi AI properly
+but we really don't know where to start. and and the needs are in my view um less
+about technology and more more about how can you imagine a company that is AI or
+agentic AI centric and how is that different from you built a company that's human
+centric because that's what you had to use right and you see people talking on the
+internet about I've built a oneperson $10 million company. And as hard as that may be,
+Balasubramanian GR: Oh,
+Gerry Perkel: it's a it's a lot easier than starting with a 50 person $10 million company
+and trying to move it to a oneperson company, right?
+
+00:05:28
+
+Balasubramanian GR: agree.
+Gerry Perkel: But the customers we're meeting are already the multiund person
+company. And you know, I'm a CEO coach and I work with lots of companies and
+including uh TechJS. And you know, the challenge I'm I'm putting out in front of my
+clients is something like, how can you get to double your revenue per white collar
+employee? in two years or something like that. And for instance, the the big ops
+project we've been doing at Northstar will do that and more. It should allow them to to
+to need less than half as many people to do the work that they do
+Balasubramanian GR: Yeah.
+Gerry Perkel: today. And so that was easy for Northstar. They were able to say, geez,
+we have a hundred people in this department. And the technology people say they
+think they can make this a lot better. Uh so that's an easy one to find. And if we can do
+that, the return on investment is large. Let's go. Lots of people don't have 100 person
+departments where it's so obvious and they have five person departments and 10
+person departments and seven person departments and and they don't know whether
+
+00:06:40
+
+Balasubramanian GR: Yeah.
+Gerry Perkel: AI can really impact those people. Although my experience so far is that
+the technology is not the limiting factor, the technology will do just about whatever you
+need it to do. It's really, can you imagine a world where instead of 10 people like the
+people at uh at our one TechJS customer, can you imagine instead of having 12 people
+do your bidding for commercial HVAC systems that you can have four people do it with
+the enabled by all of these agents and and stuff to do it and many of them can't
+imagine that. And what's missing is, okay, so I have one client in particular I'm thinking
+about and I think they buy in that that they should double the revenue per white collar
+employee over the next couple years. Okay, now what? And in their software
+development team, it's a pretty easy problem to think about. Okay, we're going to bring
+in cloud code and all this sort of stuff and we'll make people more productive. But you
+know where then where do we go?
+
+00:07:53
+Gerry Perkel: Because that's only a small portion of our white collar employee base.
+We we need to do this in in the other 200 employees or 300 employees we have. And
+so there's a need to help a company kind of evaluate what their company does, the
+processes that have to be completed for the business to run. Think about how they do
+them now, how they could be done differently, and kind of build a road map of, you
+know, here's the places with the most leverage to use Aentic AI. maybe here's a priority
+of which ones we ought to start with first. Here's a kind of a um you know a starting
+outline for the things that we might want to do and then we can bring the AI
+developers in and start working on how do we actually develop it and that sort of stuff.
+So question is, is that work You could
+Balasubramanian GR: H yeah got it got it.
+Gerry Perkel: do
+Balasubramanian GR: Yeah, I mean so just from AC like what I can think of is uh first
+of all AI is again as you rightly pointed out is more being viewed as cost cutting tool
+rather than a revenue generating tool.
+
+00:09:14
+
+Balasubramanian GR: Uh I think that perception is very common. I mean correct me if
+I'm wrong please. Uh that's what I mean I have been experiencing across uh various
+companies uh within my network. If I speak to some of the uh people who are at a C
+level and people who are at an executive level, um they majorly view AI as something
+that can cut cost that can cut human resource and manpower. But the perspective that
+AI can actually help you in increasing revenue is not very common. But yes, I do believe
+that uh the same person can double uh his or her efficiency uh and uh which will
+directly u you know uh affect their revenue. So, so what the current consulting
+companies that I have been uh uh researching for the past few weeks, what they do is
+they generally go to a company and then they provide what do we call as an AI audit
+report or more like an AI readiness report or the the name differs between your
+Mckenzies and your BCGs. the name differs but what they usually do is they uh get into
+the company they understand the current business flows and then they basically give
+them a report card saying that how AI ready they are and where they can implement AI
+to improve their current processes in terms of efficiency
+00:10:35
+
+Balasubramanian GR: gains in terms of revenue increase etc so and then they
+generally don't follow up on the execution part so so what we can propose I mean
+again top of my head I still need to do a lot more research on this. Uh like as I said like
+we can understand their business and understand where what they are doing and see
+where we can implement or where AI can help them to increase revenue first. Yes, cost
+cutting is also a point where we can definitely focus on where we can definitely
+recommend but uh we can focus our efforts and figure out where AI can help them in
+increasing revenue uh rather than just say that only cost cutting is the only way AI can
+help you. So I don't know whether whether that does it does that answer your question
+or is
+Gerry Perkel: I think so.
+Balasubramanian GR: it
+Gerry Perkel: Let me let me just be a little more specific with this customer as a way
+of trying to test this hypothesis. So, I know this company pretty well. I've been working
+with them for three years and somebody needs to they have a lot of good functional
+professionals and leaders but they don't really have anybody who could do process
+mapping or could you know Yeah.
+
+00:11:53
+
+Gerry Perkel: outline the flows uh that have to happen uh and or look at those flows
+and say yeah but they don't they happen that way because you have people and they
+don't have to happen that way if you used AI and so we could rearchitect these flows
+such that they can deliver greater value to the client or as you said grow or do it more
+cost-effectively and looking across their various uh areas and um And so to me, there's
+kind of a two-step process. Um, assessing all of this and building a plan for what you'd
+like to do. And then there's having a team that can actually implement that, right? And
+most of our effort today as tech Jays is on the implementing part of that.
+Balasubramanian GR: What?
+Gerry Perkel: And um I think we can increase the number of opportunities to
+implement if we can come in and offer a service to our clients to do the first part of
+this. Um and and you're doing some of that with and NSR like for instance they've got
+the are you working on the finance project the accounts receivable accounts payable
+
+00:13:09
+
+Balasubramanian GR: Yeah, I can't spare the project.
+Gerry Perkel: project right? So in and through that you're kind of looking at all the
+things they do and figuring out
+Balasubramanian GR: Yeah.
+Gerry Perkel: okay is that what we need to do and what could the system do and do
+we still need a human in the loop someplace here for a while or whatever until the
+system learns more and more I assume that's what you're doing is that right and then
+you and then you're turning around saying okay and we can then build
+Balasubramanian GR: Yeah.
+Gerry Perkel: that for you and it will take us this long and it'll cost this much type of
+thing right and so Um but in that case uh my sense is they had some some amount of
+ideas of what they wanted to accomplish because they had already started this with
+another vendor and it didn't work out. So they've been doing some real thinking about
+that. But let me give you an example in the client client I'm now talking about. Okay,
+they have a business development rep department which has got I don't know 8 to 10
+people in making phone calls, sending emails.
+
+00:14:19
+Gerry Perkel: Their job is to set a meeting up for one of their account executives and
+then that account executive does a discovery call and determines is this a good
+opportunity and starts working on it tries to turn it into a sale. Okay. So, they have eight
+people and the and the job of these people is to produce a certain number of
+meetings per month and to get those scheduled and for them to be high quality, etc.,
+and to make sure we're touching a bunch of targeted companies that we think could
+buy our our systems, etc. and uh to make sure we're in touch with what's going on at
+those companies. Now, there are um so that process needs to continue. We need to
+continue to um book discovery calls with new clients. We need to somehow outreach
+to customers and find out are they interested? Are do they do anything now? What are
+when are they thinking about this? what kind of opportunity might there be that all that
+sort of stuff that's done with say eight humans.
+
+00:15:28
+
+Gerry Perkel: The internet's filled with people that say they've got AI agents doing
+business development. Don't know how good they are. Don't know how reasonable it
+is. And so, and those agents work 24/7 365 and and so they don't take times for breaks
+and dinner and lunch and everything else that sleep that the um humans do. And um in
+addition, you can probably have them speak any language you want them to speak
+now, which the people we hire don't. And so they can be deployed to help in Germany
+and France and Spain and Mexico and and any place. So now so so somebody needs to
+take a look at this and say
+Balasubramanian GR: Yeah.
+Gerry Perkel: okay you know two years from now instead of generating 20 discovery
+calls a month by deploying eight people and having them do these following
+processes. We would like to have one person overseeing agents that do all of this stuff
+and the one person's there to, you know, pick up a call that somehow is a little unique
+or whatever that doesn't fit our model or whatever.
+00:16:40
+
+Gerry Perkel: And we should go build an AI agent that does all of these things you
+need to do to generate these things. and um and therefore we would be able to do
+more of it because we have AI agents that do it which would generate more leads and
+more business and by the way it would cost a whole lot less but it would take some
+investment to build the thing that would do that right so that's an example and then we
+need to take that example and that opportunity and we need to compare it to the
+three or four or five other good opportunities we find and say, "Is that one more
+important than going off and, you know, we have a set of customer support reps and
+they support the customers. Would we be better off doing that than trying to figure
+out a way to build agents that help that process, etc., etc.?" So in order to do that when
+you come in you've got to interview some people and you got to understand what the
+business development function really does and you know what the inputs are what the
+outputs are and what the process in the middle is and and and be able to look at it and
+say yeah that's probably doable by AI and begin to say and here's what the the uh value
+you would get out of it would be etc etc so and like I said they don't have anybody to
+do that so can you do
+
+00:18:09
+
+Balasubramanian GR: H. So, okay. So what we can do here is um as you rightly
+pointed out right like right now we are approaching every project even though we do a
+traditional design and discovery D&D phase where we pretty much do I would say
+about 75%age of what what these consultants do as an AI readiness uh report we
+understand their business process we understand whatever workflow that they want
+us to reimagine we understand that workflow and then we suggest them uh solutions
+start will help them improve the efficiency of the current workflow. Right? Uh and when
+we approach it, we approach it with an engineering mindset and and and with a
+solutioning mindset that this is how we are going to provide a solution rather than just
+understanding the current business flow and pointing out where they can make
+improvements where they can um make it better more efficient etc. Now another point
+is uh rather than just plugging in AI agents wherever you have human operations that
+can be replaced by AI, what I would suggest is understand the complete flow and and
+and and use this framework where you can first start with a simple process
+re-engineering rather than just force fitting AI into their current flow and uh see if that
+process re-engineering can help them improve their efficiency.
+
+00:19:31
+
+Balasubramanian GR: If not then you can move on to other steps where you can have
+a deterministic layer. If that also doesn't work then we can implement or we can
+suggest an AI layer. So rather than just telling them uh this is what we will do, we can
+say like hey this is your current process. This is where we feel like uh we feel where uh
+you can improvise in terms of a simple process re-engineering or implementing an
+agentic AI solution or any other AI capabilities you can build within this process and
+that will give you a certain level of efficiency gain. we can estimate an efficiency gain or
+an increase in revenue or any other way they can add value to their organization. So, so
+that can be like a report or more like a suggested report stating that this is what you
+can do and maybe to that you can add a small line that if you want to build this we can
+build it. So that is it's it's not it's not entirely different from what we are doing right now
+but it it is different in a way that right now in our final uh uh at the end of our
+engagement we provide a solution on how we are going to implement it rather than
+that we tell them that what they can implement and how they can implement rather
+than telling that we can implement it immediately.
+
+00:20:50
+
+Gerry Perkel: Good.
+Balasubramanian GR: who so it's just taking one step back from what we are doing
+this providing as a pure consulting assignment and tell them that this is what you can
+do to improve your current status quo. Uh that is what I I had in my mind when Philip
+and I were discussing about this. So does that's that is that something that the clients
+that you speak to are looking at or or are they looking at one level deeper also like hey
+you can tell us what to do but can you also implement it for them?
+Gerry Perkel: Yeah, I I would say that Um, in some of these situations, it will be a clear
+first step to ending up doing the projects for them. At a company like Northstar,
+Balasubramanian GR: H.
+Gerry Perkel: they are completely incapable of doing that work themselves and they
+want they need a partner to do this. And right now, we're the trusted partner that they
+have. uh this particular company that I'm talking about actually has the technical
+capability to do this. I'm not I'm not sure they should, but they do have they could do
+that.
+
+00:21:54
+
+Balasubramanian GR: Interesting.
+Gerry Perkel: And one of the reasons they do is they have a software development
+team and they've been going through the whole process of agentic AI development
+etc etc. And so they can deploy some of those people to a task like this. There's also
+kind of a misnomer in my view on many of these clients where they just think that you
+know they can kind of just tell all the people well just go start doing vibe coding
+yourself and you know let's let's have every function do their own and and I think you
+get a bunch of simple PC's that none of which work together none are secure none are
+hardened you get a you get a rat's nest of mess and everybody's got pretty pretty
+dashboards to show you and some cool little
+Balasubramanian GR: Agree.
+Gerry Perkel: demos to show you, but is it really the software you can run your
+company on? And I submit it really is not. And um and so,
+Balasubramanian GR: Absolutely.
+Gerry Perkel: you know, can we give everybody, you know, Claude and Chat GPT and
+have them come up with some little tools for themselves to make themselves more
+more productive?
+00:23:07
+
+Gerry Perkel: Absolutely. Yes. And we want to do all that. But you know for instance
+you're just not going to give to go to the guy that runs the BDR department and say
+okay from scratch write me a AI based BDR that runs all day and all night and does
+everything your BDR team does and does it better. It's just not going to work in in in my
+so um the companies need to have some sort of specific capability to do this. Some
+companies are choosing to build that department inhouse. Some are choosing to
+partner with people like us to basically be that brute
+Balasubramanian GR: Thank you.
+Gerry Perkel: force. And Northstar is a perfect example. Uh, Um, and um, and so I I
+think I think we would like to have this because I think if you go in and you do this work,
+you start to become trusted by the the the company, you have a leg up on anybody
+else who's going to do development because you know the problem set better than
+anybody else does.
+
+00:24:16
+
+Gerry Perkel: So it puts you in the best position if they are going to look for a partner, I
+think.
+Balasubramanian GR: Yeah.
+Gerry Perkel: And I think it puts you in good position to tell them why getting a partner
+is a better choice than building it a group themselves. And so all of those are in our
+favor in having this kind of capability.
+Balasubramanian GR: Yeah.
+Gerry Perkel: Now um it seems like some of this work is better done on site than it is
+from remote. You agree with that?
+Balasubramanian GR: I absolutely absolutely agree with that because I have done uh I
+mean in in in my uh when I was doing my own consultancy when I was running my own
+consultancy now the best work has come uh when I was on site uh
+Gerry Perkel: Yeah, I mean, when you're sitting with a group in a whiteboard and you
+can just do this stuff,
+Balasubramanian GR: yeah
+Gerry Perkel: it's way easier. I'm sorry. The tools of this stuff are fantastic, but they're
+not as good as that.
+Balasubramanian GR: absolutely I no arguments there absolutely agree with you on
+that.
+
+00:25:11
+
+Gerry Perkel: Yeah. Okay. So, now here's the thing I'm trying to imagine.
+Balasubramanian GR: Yeah.
+Gerry Perkel: So, let's imagine that they hired us to this company uh hired us to build a
+plan for them. Here's what the things we think you ought to go do and uh kind of
+outlines the the key things, maybe some priorities, a little bit of a road map if you will to
+do it. And you have two choices now. Go hire a team to start working on this or hire us
+or somebody else to do this. Um, and I've got a company of, you know, 200 employees,
+50 million in revenue, growing in industrial B2B company. Um, and I'm trying to get a
+sense how long does something like that take? And so, and it's a it's completely unfair
+question, I realize because you you don't have any real specifics,
+Balasubramanian GR: No
+Gerry Perkel: but I'm and I'm not looking for a specific answer as much as I'm looking
+for an order of magnitude
+Balasubramanian GR: context.
+Gerry Perkel: answer. It doesn't seem like it's a week's worth of work.
+00:26:18
+
+Gerry Perkel: It seems like it's more than that. It doesn't seem like it's three or four
+months worth of work. It's someplace in between that it seems like to me. Is that kind
+of your feel?
+Balasubramanian GR: Yeah,
+Gerry Perkel: It's a month or six weeks or maybe two months kind of a
+Balasubramanian GR: I agree. So if you do it remotely,
+Gerry Perkel: thing.
+Balasubramanian GR: right? Like then you need to add probably I mean let's assume
+we are doing it on-site first. Let's uh let's assume that.
+Gerry Perkel: Yeah.
+Balasubramanian GR: So if you're doing it onsite, uh if it's an entire business workflow
+we are trying to reimagine or any other uh as I said like an AI readiness report that we
+are giving I would say anywhere between one to two months should be ideal if I'm
+Gerry Perkel: Right?
+Balasubramanian GR: if if we are present on site but yeah if it's if it's done via uh via
+remote then I would say double the time minimum double the time because obviously
+the the time difference is there yeah productivity is you can
+
+00:27:12
+
+Gerry Perkel: Because the productivity is worse, you know.
+Balasubramanian GR: maximum collaborate for what two three hours a day uh but if
+if someone's on site then that that gives us like at least six 7 hours a day or even more
+uh depending on the client's uh capability. So yeah, one and a half I would say one to
+two months, one and a half months should be a sweet spot.
+Gerry Perkel: Mhm.
+Balasubramanian GR: Uh that kind of an
+Gerry Perkel: Okay. So, let's say this company wanted to do that.
+Balasubramanian GR: engagement.
+Gerry Perkel: Can you come to the States for a month and a half?
+Balasubramanian GR: Uh yeah, absolutely. Actually I was just telling Philip to uh there
+is a personal uh reason for me to be here for some time. Actually I'm we're expecting a
+a child. So uh I'll be going on my paternity leave.
+Gerry Perkel: Congratulations.
+Balasubramanian GR: Thank you very much. I'll be going on my paternity leave for a
+couple of weeks. So apart from that uh I'm completely available.
+Gerry Perkel: What when is your baby due?
+
+00:28:04
+
+Balasubramanian GR: Uh another two weeks we're expecting somewhere about two
+to three weeks. So uh so that's the expectation.
+Gerry Perkel: I'm expecting my first grandchild in two to three weeks. So
+Balasubramanian GR: Oh lovely lovely. Great. So uh so yeah that's the only point.
+Gerry Perkel: yeah,
+Balasubramanian GR: Apart from that, I have an active visa that's uh valid till August
+2029. So, so those are not a problem at all. So, traveling that's not an issue. So, just that
+that part is the only thing I was telling Philip. So, he said like we can figure it out
+accordingly. So,
+Gerry Perkel: now did you do any of this kind of work in your consulting
+Balasubramanian GR: yeah.
+Gerry Perkel: company?
+Balasubramanian GR: Uh so I did one uh but that was not an overall reimagination but
+that uh I reimagined their uh but a local an Indian company who is uh a very traditional
+manufacturing company uh running for almost three generations uh the third
+generation family is now running the business and they want to modernize their uh
+logistics and uh their logistics workflow.
+00:29:03
+
+Balasubramanian GR: So I reimagined their logistics workflow for them and uh
+improved their efficiency like things that took 2 3 weeks for them to complete uh the
+solution that I provided uh cut down the 3 weeks process to about 3 4 days. So so that
+kind of work I have done um uh but yeah not anyone outside India as of now but yes I
+do have uh experience working with clients outside uh uh outside India. So uh in my
+initial days I was uh working with Uni Liver. I I did a project with Uni Liver Limited. Uh so
+we uh collaborated with teams across the world across Uni Liver u Uni Liver uh
+resources across the world. The idea, the project was to onboard um any analytics
+product that is by a specific team and they wanted to implement that product across
+the companywide. Uh our team was uh studying those products and making sure
+those products comply to uni labor standards. We uh onboard those products we
+create uh a devops or an MLOps whichever that's required for the product.
+
+00:30:14
+
+Balasubramanian GR: We create a project management team. We create a technical
+team. We make sure the product is smoothly on boarded. So that was a project that I
+did but where we have collaborated with various clients uh uh across the world. So so
+that is not something uh that that's something that I can I can very well do that's not a
+problem. Um just at this part like this uh this two weeks part of paternity leave that's
+the only thing otherwise
+Gerry Perkel: Yeah. No, no, no.
+Balasubramanian GR: nothing's stopping.
+Gerry Perkel: It It won't happen that fast anyway,
+Balasubramanian GR: Yeah.
+Gerry Perkel: so that's fine.
+Balasubramanian GR: Yeah.
+Gerry Perkel: Okay.
+Balasubramanian GR: Yeah.
+Gerry Perkel: So, assuming it's like a six-w weekek project or something like that to to
+do this, um, what do you think the pricing for something like that should
+Balasubramanian GR: uh so 6 weeks project I'm thinking somewhere about I mean
+we can do it somewhere
+Gerry Perkel: be?
+Balasubramanian GR: around uh again I need to go back and and do a more detailed
+calculations but I'm just giving you a rough top of my head uh calculation so we usually
+like in techjs you must know that we do a lot value based uh pricing.
+
+00:31:18
+
+Balasubramanian GR: So uh but if I have to convert it that into a pure and effort
+based pricing, we could uh price it somewhere around uh anywhere between 75 to
+100K. But again that is again based on uh the the kind of value that we are creating, the
+kind of problem that we are solving. Uh but 75 to 100K but it can go up also but it can
+come down also. uh again depending on the kind of uh solution that we are providing.
+So again this is a very top of my head number but and can can go back and work on it
+even uh much more detailed on this.
+Gerry Perkel: Okay. And so, um,
+Balasubramanian GR: So
+Gerry Perkel: so if I'm a customer here, I I I don't disagree with you that it probably has
+value like that. Um, but uh if I'm a a customer and I'm saying, "Okay, well, you're going to
+you're going to give me one of your people for a month and a half and they clearly
+can't cost you anywhere near 75 to 100,000.
+00:32:26
+
+Gerry Perkel: And so why does it cost so much?" And um how how do you how do you
+respond to that?
+Balasubramanian GR: Okay. So, okay. From an F4 perspective, I agree actually like
+while I was while I was telling I realized that uh 75 to 100 will be uh not the kind of uh
+pricing that someone will expect. So let's say somewhere about uh 25 to 30k a month.
+So we could do it somewhere around 40 45K.
+Gerry Perkel: Yeah.
+Balasubramanian GR: So 40 to 50K would I think that would be a sweet spot if I'm for
+for a one and a half two
+Gerry Perkel: Okay.
+Balasubramanian GR: month or an 6 week 7 week
+Gerry Perkel: Okay.
+Balasubramanian GR: engagement
+Gerry Perkel: And um and if we were to do this um do you have a process you would
+follow or Okay, you you fly over here and you show up day one. What do we do?
+Balasubramanian GR: Uh okay. So what we can do is like maybe before we reach
+there we can probably have a couple of introductory calls and uh uh first of all we can
+set the stage up.
+
+00:33:32
+
+Balasubramanian GR: We can make sure u who will be the responsible uh point of
+contact from the client side who will be uh engaging with us uh throughout this period
+like six seven week period who will be uh helping us get details or connect us to people
+uh or all the departments whom we should be uh contacting. So, so we can set all
+those stops during the introductory call. Um, and then once we fly there, we can uh sit
+with that person and and even before flying there, we can give them a a six week plan
+on how we are going to go about it. And then we can ask them to u set those things
+ready there.
+Gerry Perkel: Mhm.
+Balasubramanian GR: Like if we have to go to let's say if it's a if it's a manufacturing
+company just thinking out loud, right? If it's a manufacturing company, if they have a
+manufacturing flow set up somewhere and if that is needed for us to go and visit, so
+they can arrange for those manu for those visits etc. uh if they are if if if if they have
+more than one uh office uh in US and if it's if it's needed for us to go and visit those
+offices so those logistics can be planned in advance and uh make sure that those can
+be uh uh planned and set ready.
+
+00:34:49
+
+Balasubramanian GR: Uh so what we can do is we can make sure that what we are
+going to do in that six weeks or seven weeks time we can create a clear plan and clear
+um well established uh process for that six seven weeks. Um and then we can travel
+and make sure that we follow whatever we had planned for those six seven weeks.
+Obviously we'll keep some buffer here and there to make sure that you know if
+anything comes up we have uh buffer for us to accommodate those issues. So that
+would be an ideal way of doing it. Uh but again uh if the client wants it in a different
+way,
+Gerry Perkel: Okay.
+Balasubramanian GR: we can work it out uh in a different way. But that will be an ideal
+way of doing it. Like we set everything up before we start with a couple of introductory
+calls um before we fly and uh we have everything ready and set up. Like once we go
+there, we spend uh as minimal time as possible and make sure that it's very efficient
+and you know we don't uh stay there uh more than what we expect us to expect us to
+say.
+00:35:48
+
+Gerry Perkel: Yeah.
+Balasubramanian GR: Therefore,
+Gerry Perkel: Okay. Um,
+Balasubramanian GR: Excuse
+Gerry Perkel: Okay. So, um we do that we, you know, sit down with the the head of
+customer service,
+Balasubramanian GR: me.
+Gerry Perkel: right? All right. What how what do we do? What how do we start? Do we
+we have a set of questions we want to go through already that are pre-planned or how
+are you approaching that?
+Balasubramanian GR: Yeah. So, so we will we will have our questions pre-planned
+before that. Uh so we will uh so we will create a plan for us and uh because in the
+introductory calls we will have an idea of uh which all departments we are going to talk
+to which all uh personal we are going to talk to. So we will have our questionnaire ready
+we'll have the the list of details or the things that we need to discover out of these
+sessions ready and uh we uh we will plan our questionnaire and the way we are going
+to approach is ready.
+
+00:36:44
+
+Balasubramanian GR: So let's say if the head of customer service we meet them we
+will we can again do it in two ways. We can either presend these questions to them uh
+and make them let them be prepared when we go there and when we go there we can
+get those questions answered or we can go there and answer those questions uh right
+uh uh right there face to face and get those answers and uh and and and and and
+continue from there onwards. So,
+Gerry Perkel: Mhm.
+Balasubramanian GR: so again either way is fine. Uh whichever way the client is okay
+dealing uh with if they feel that presending those questions will save some time can
+reduce the six week engagement to a fivewe engagement which could uh which could
+save some cost for the uh client then that's also can be worked out.
+Gerry Perkel: Okay. All right. Okay. Um, what other questions do you have for
+Balasubramanian GR: Um uh any other information?
+Gerry Perkel: me?
+Balasubramanian GR: I I I I I assume that you may not be able to publish a lot more in
+details about the the client that we are talking about.
+
+00:37:48
+
+Balasubramanian GR: Um uh but if there's anything else Oh
+Gerry Perkel: Tell you anything you want to know. So ask away if you have some
+Balasubramanian GR: okay. Okay. Okay. So you mentioned that the client has their
+own software development team and they are are they are
+Gerry Perkel: questions.
+Balasubramanian GR: they well into first of all the is the which company is this? Uh uh
+Philip gave me an idea but uh I'm still not very sure what he said weights and
+Gerry Perkel: Yeah.
+Balasubramanian GR: I did my research on weights and uh
+Gerry Perkel: What what what they do is they make um sensors that measure
+temperature and vibration and then they go into
+Balasubramanian GR: Yeah.
+Gerry Perkel: manufacturing companies and they attach these sensors to
+manufacturing equipment. They take all the readings they built they have built a a their
+own network protocol to connect these things all together. They take all those
+readings, they move them up to the cellularly up to the cloud, and then they have a set
+of of machine learning and AI uh stuff that crunches
+00:38:44
+
+Balasubramanian GR: Heat.
+Gerry Perkel: all of that data and comes up with a first set of here's some things you
+should look at or pay attention could be a problem. They then have a set of human um
+uh vibration an analyst look at the data and further uh qualify and then they
+communicate that data back to the customer and say, "Hey, machine number seven is
+one you better look at because if you don't, it's probably going to go down and we we
+don't want it to go down because that would stop your manufacturing line." Okay, so
+that's what they do and they do that currently for probably two to 300 companies and
+probably I don't know 700 to a,000 sites and um
+Balasubramanian GR: Okay.
+Gerry Perkel: they've got probably 500,000 sensors out in the marketplace
+Balasubramanian GR: Okay.
+Gerry Perkel: and Um, and so they have a a a sales team that, you know, that's pretty
+big, 15, 20 people that's working with these clients. They have a business development
+team that's trying to create leads. They have a customer service team that takes the
+information from the analysts and calls the client and has monthly reviews, etc. They
+have a marketing team that's trying to create demand, etc. They have a software
+development team that is building the AI analysis and and trying to make that better
+and better to ultimately not need so many vibration analysts.
+
+00:40:25
+
+Gerry Perkel: They have a hardware development team that is building the sensors
+and coming up with new sensors and things like that. And they have a product team
+that sits between engineering and the uh sales team and marketing team. And then
+most of the manufacturing is outsourced, but they do some some final assembly at the
+end. Uh they also have an installation team that goes into these factories and installs
+these products. Uh and um so that's kind of the way the company works.
+Balasubramanian GR: guard guard I mean I I did my research on them so pretty much
+Gerry Perkel: Okay.
+Balasubramanian GR: matches uh so yeah I I I was going through their uh their
+services what they offer etc. So I mean as you rightly pointed out they look like they are
+well into uh using AI and implementing not just uh AI as a software but AI and hardware
+also and trying to understand how machines uh what as you as you said like the
+sensors that can uh predetect uh machines that are about to fail are about to um you
+know malfunction and can save a lot for these companies in terms of fixing these
+before the the the risk happens.
+
+00:41:40
+
+Balasubramanian GR: So, so yeah, I mean they they looks like they're well into um well
+into AI
+Gerry Perkel: Yeah. So, for the software stuff,
+Balasubramanian GR: and Yeah.
+Gerry Perkel: they're well into using Aentic AI.
+Balasubramanian GR: Yeah.
+Gerry Perkel: The CEO is very capable himself at using Agenta AI. He's vibe coding 10
+hours a day these days. They're in the process of of probably rewriting their core
+software uh to have a fresh look at it and uh he's working with the team on that. And
+because he's so knowledgeable about what can be done, he's certain that if we did the
+right things in the rest of the company, we could get tremendous improvement by
+leveraging Agentic AI and you have little pockets where somebody's done some good
+work and somebody started developing an
+Balasubramanian GR: Absolutely.
+Gerry Perkel: application etc. But it's not well coordinated. It's not a road map. Um
+there's no real clear path to answering the question of how do we increase our revenue
+per person by by 2x in two years two to three years and that's the question.
+00:42:52
+
+Balasubramanian GR: Got
+Gerry Perkel: So the COO uh and I have been chartered
+Balasubramanian GR: it.
+Gerry Perkel: with um getting a plan built on how to do that by the end of the year.
+And in in between now and the end of September, we have to finalize how we're going
+to make that happen. And so I'm talking to you and trying to see I'm I'm meeting with
+the COO tomorrow and trying to understand how does she want to go about doing
+this. Now in parallel, the CEO issued a challenge to the executive team when I was
+there last week and there's I don't know eight executives or something like that. And he
+said to each of them, I want you to come back to me and show me a plan in in three
+weeks where all we would need to run the company is the eight of you that you don't
+need any people in your department. I want you to describe to me how and what we
+would have to go do AI development wise. So you don't need any more people by
+yourself.
+
+00:44:00
+
+Gerry Perkel: Now, he doesn't believe that you can do that, but he's trying to stretch
+their thinking and and get them to think more about how how this could be different
+because he believes that this AI movement is transformational and revolutionary and
+thinks his team is acting as if it's a minor productivity improvement tool set and he
+wants to look at the more transformative approach.
+Balasubramanian GR: Hat.
+Gerry Perkel: And so this was his way of getting them to think outside the box
+towards that. Now I don't think that's going to produce much of any value. Maybe it'll
+get them to think a little differently. What I think is you need to have a formal program
+to go off and work with those people with somebody like yourself to kind of think
+through that question because there's no way that chief
+Balasubramanian GR: Okay.
+Gerry Perkel: marketing officer is going to really know how to do something like that
+and you know asking her to do that is it's just not a reasonable request.
+Balasubramanian GR: Absolutely. Got it. Got it. Yeah, that that that is definitely that
+was one of the ways uh we can execute it like as you rightly pointed out right like we
+can go department by department.
+
+00:45:13
+
+Balasubramanian GR: uh we can we can probably I mean we can probably target
+where uh which is going to give them
+Gerry Perkel: Yeah.
+Balasubramanian GR: maximum value or uh wherever the the client or the CEO
+thinks that we need to start with uh as you as you pointed out like as I was doing my it's
+also like they're already uh implementing a lot of agentic AI in their uh software
+development and uh also in how they read the data from the sensors and how they can
+send those alerts. uh they also have dashboards that can uh give their clients um uh
+timely alerts and timely uh information on on on where to take action and what what
+actions to be taken. So they are very well equipped. I mean looks like at least based on
+my research it looks like they're very well equipped there. But on the other
+non-technical functions like sales and business development and marketing there is
+where I believe the value or the opportunity is maybe we can start with those areas. Uh
+Gerry Perkel: Yeah, I think this would be a project that probably excludes the software
+
+00:46:12
+
+Balasubramanian GR: like
+Gerry Perkel: development area because they they've already got a plan as to what
+they're doing,
+Balasubramanian GR: Yeah.
+Gerry Perkel: but it's everything but that and which is actually the bulk of the people
+and uh the bulk of the processes and um
+Balasubramanian GR: Yeah.
+Gerry Perkel: and figuring out how we can you really reimagine the company. Um, not
+so much so we can cut a bunch of people as so much as we could maybe double the
+revenue of this company with the people we have.
+Balasubramanian GR: Yeah.
+Gerry Perkel: And I I don't I I I don't think that's outside the realm of possibility and
+maybe even more than
+Balasubramanian GR: Yeah.
+Gerry Perkel: that. And this is not a problem set that's unique to this one client. I have
+lots of other clients that are trying to figure out this same thing. Uh and and and kind of
+don't know how to go about it and you know they they kind of hide behind the I don't
+understand the technology and I keep trying to tell them it's it that's you don't have to
+worry about that.
+
+00:47:20
+
+Gerry Perkel: I haven't seen anybody come up with a problem they want to solve. We
+can't solve yet. So that's not the problem.
+Balasubramanian GR: Yeah.
+Gerry Perkel: The problem is figure out what you want to solve.
+Balasubramanian GR: Yeah.
+Gerry Perkel: And it's really a business process planning and organizational
+reimagination problem. And the limit is perhaps your imagination. And that's a real limit,
+but it's not a technology problem from what I've seen so
+Balasubramanian GR: Yeah.
+Gerry Perkel: far.
+Balasubramanian GR: again the two main uh functions right sales which is going to
+drive your revenue and marketing I believe is one of uh their biggest cost centers. So
+uh like one of the projects that I did with a tech company uh it's called Titan. It's it's an
+email provider. Uh so I I developed a a revenue projection uh or a value projection for
+every product that they sell. It's a subscription based product. So uh my the solution
+that I provided would help them understand the value or the net present value or the
+lifetime value generated by one sale at the time of sale so that they know exactly
+where to concentrate which clients to put more effort on which areas to put more
+effort on so that they can really make their marketing process even more efficient than
+what it is right now.
+
+00:48:35
+
+Balasubramanian GR: So on the top of my head we can do something like that. we
+can we can implement a lot of these solutions to their marketing team and tell them
+where exactly to put your
+Gerry Perkel: What?
+Balasubramanian GR: effort on rather than wasting your effort on many things and
+save a lot of marketing dollars there and same on the sales side. Um who will be your
+more prospective client which client will give you more uh revenue at a certain
+particular point of time. So we can give them that intelligence so that that they can and
+to answer your the first question that you said right like we can increase the revenue
+from a white collar employee double or triple it over a period of time. So those are the
+areas that comes to my mind immediately but I'll do my uh I'll do more research on this
+and probably get back to you with some more well structured uh uh areas where we
+can where we can focus on. Um, will
+Gerry Perkel: and and I think and then along with this is also some
+00:49:25
+
+Balasubramanian GR: that
+Gerry Perkel: some discussion about where does the information sit to do all this
+because you know they have Netswuite, they have HubSpot, they've got some other
+internal systems and not everything talks to each other today. And so I'm sure there's
+some data readiness issues, but they've been but people have been so scared by stuff
+they've read that if you don't have your data ready, you can't start that they hide behind
+that, too. Well, our data is not ready. Well, you're gonna get passed by by your
+competition if you don't get on something. And my sense so far has been we can kind
+of help fix some of the data connectivity problems. It's not that hard.
+Balasubramanian GR: Yeah.
+Gerry Perkel: And uh so
+Balasubramanian GR: Yeah, definitely. We can create one streamlined uh uh sort of a
+system like a data
+Gerry Perkel: can
+Balasubramanian GR: system something that runs throughout the organization
+touches every part and well connected so that what's happening in marketing can
+relate to what's happening in sales and can provide uh and what's happening in
+production and can give a unified view to someone sitting at the top and tell them
+where we can get better.
+
+00:50:43
+
+Balasubramanian GR: So that's definitely something that can be worked on also as
+you said I mean as we discussed there are a lot many uh avenues and lot many
+opportunities that we can work around. So yeah, definitely. Definitely something. This
+is something that can be executed.
+Gerry Perkel: Okay. All right.
+Balasubramanian GR: Yeah.
+Gerry Perkel: Uh, is this your first child coming?
+Balasubramanian GR: Uh yeah.
+Gerry Perkel: Ah. Oh, really exciting then.
+Balasubramanian GR: Thank you.
+Gerry Perkel: Yeah.
+Balasubramanian GR: Thank you so much.
+Gerry Perkel: Yeah. And do you know if it's a boy or a girl?
+Balasubramanian GR: Uh no, we uh in India it's not allowed uh to
+Gerry Perkel: Ah. Oh, I see. Is that right? Okay.
+Balasubramanian GR: Yeah.
+Gerry Perkel: Yeah. Interesting.
+Balasubramanian GR: Yeah.
+Gerry Perkel: Okay. Well, that'll be exciting.
+Balasubramanian GR: Correct. Yeah.
+Gerry Perkel: And and do you have parents and and her parents around that can help
+if to make
+Balasubramanian GR: Yeah. Yeah.
+Gerry Perkel: this all work well?
+
+00:51:29
+
+Balasubramanian GR: Yeah. Yeah. Her parents are here. So, yeah.
+Gerry Perkel: Ah, okay. Good.
+Balasubramanian GR: Yeah. That's good.
+Gerry Perkel: And where are you located,
+Balasubramanian GR: Yeah.
+Gerry Perkel: Bala?
+Balasubramanian GR: Uh Bangalore.
+Gerry Perkel: You're in Bangalore. Okay.
+Balasubramanian GR: Yeah.
+Gerry Perkel: All right.
+Balasubramanian GR: Yeah.
+Gerry Perkel: Good.
+Balasubramanian GR: Good.
+Gerry Perkel: Any other questions for me?
+Balasubramanian GR: Uh not right now. Okay. So, what I'll do, I'll go back uh I'll do
+more uh research on uh weights what we have discussed. uh then I'll come back to you
+with a more structured idea of how we can uh execute this. Uh you can review it and
+you can let me know like what could work, what could not work.
+Gerry Perkel: Sure.
+Balasubramanian GR: Maybe we can have another call uh maybe end of this week
+Friday or maybe early next week whichever works for you better. Um based on that we
+can take this forward and I'll have a word with Philip also on this and hear what he
+thinks about it uh and get his ideas also and uh and get back to you on this.
+
+00:52:18
+
+Gerry Perkel: Yeah. Now, weights um is an interesting uh situation that they're
+probably have a a preconceived notion that they wouldn't hire anybody to do the
+development that they would do it themselves somehow or bring it inhouse. Now, they
+might change that. Philip and the CEO of Weights have met and and had a
+conversation and so uh he knows of us and doing this project with Weights would
+probably be as much for learning for us about how we could do this and present it and
+offer it to others as it is you know to lead to a big project and etc. So, we want not
+decide to do it, but it I think we would learn a lot along the way and help polish what we
+can communicate to others that we can do. Um, if we had a bunch of clients sign up,
+do we have anybody else besides you that can do
+Balasubramanian GR: uh that is something that I need to uh work on like right now it's
+only me I was actually talking about this
+Gerry Perkel: this?
+Balasubramanian GR: to Philip also on uh adding more resources to this uh my first
+idea is to find internally uh if there is someone in techjs who already capable of doing
+this rather than going outside but yes if the need arises we will have to start recruiting
+so uh I'm
+
+00:53:47
+
+Gerry Perkel: Well,
+Balasubramanian GR: already uh reaching out to my
+Gerry Perkel: based here in the states as well to do this, you know, I I don't know.
+That's another
+Balasubramanian GR: Yeah, I'm reaching out to my network. I'm seeing like a lot of my
+friends,
+Gerry Perkel: question.
+Balasubramanian GR: my know ex-colagues, my batchmates who are in US who will
+be willing to take this up. So, I've been trying to reach them is uh reach out to them and
+see if anyone will be interested in that.
+Gerry Perkel: Okay. All right.
+Balasubramanian GR: So,
+Gerry Perkel: All right. Great. Well, pleasure to meet you. Any other questions I can
+answer for
+Balasubramanian GR: no,
+Gerry Perkel: you?
+Balasubramanian GR: not nothing uh as of now. Gary, if there's something I'll reach
+out to you, I'll message you.
+Gerry Perkel: Okay.
+Balasubramanian GR: Great. Um, again, thank you. Thank you. It's a it's a great
+pleasure to meet you also. Uh, good to talk to you and uh and and it's really exciting,
+right? Like this these kind of opportunities pushes you and uh uh helps you understand
+more about these industries. So really really excited to start on this. So uh let me get
+back to you uh on on what I promised and uh and from there we'll take it
+Gerry Perkel: Correct.
+Balasubramanian GR: forward.
+Gerry Perkel: All right, brother. Great to meet you.
+Balasubramanian GR: Great.
+Gerry Perkel: Thank you.
+Balasubramanian GR: Thank you. Thank you so much for your time and have a good
+day.
+Gerry Perkel: All right. Go back.
+Balasubramanian GR: Bye-bye.
+
+Transcription ended after 00:55:29
+
+This editable transcript was computer generated and might contain errors. People can
+also change the text after it was created.
+

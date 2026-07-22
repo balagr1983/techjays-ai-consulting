@@ -35,12 +35,17 @@ know "where we are and what we should do" before committing to an AI build.
   builder-advisor combination; the only verified public price is a boutique at USD 15,000
   to USD 25,000 for 4 weeks, leaving the mid-market fee band undocumented (peer interviews
   to fill it). Full findings in `Research/`; roadmap draft v0.1 in `Offering/roadmap.md`.
-- **22 Jul 2026:** **First inbound opportunity.** Gerry Perkel (CEO Coaching) brought an
-  AI consulting opportunity for **Waites** (waites.net, Cincinnati; AI-powered predictive
-  maintenance, sensors + analytics + human vibration analysts). Gerry is almost certainly
-  the CEO coach Philip referenced on 16 Jul (garbled as "Jerry" in that transcript), so
-  the CEO-coach referral channel is now producing. Prospect file:
-  `Prospects/Waites/waites-brief.md`. Gerry call transcript pending.
+- **22 Jul 2026:** **First inbound opportunity, scoped in principle on the Gerry Perkel
+  call.** Waites (waites.net; ~200 people, ~USD 50 million revenue, predictive
+  maintenance): ~6-week onsite process re-architecting study of sales, BD, marketing,
+  and customer service (software dev excluded), prioritized agentic-AI roadmap as the
+  deliverable, USD 40,000 to 50,000, likely ~Sep start (end-September decision deadline;
+  Gerry + COO chartered to deliver a roadmap by end of year to double revenue per
+  white-collar employee). Gerry coaches Techjays, Northstar, AND Waites - he is the
+  16 Jul transcript's "Jerry", and says many of his clients need the same thing: this is
+  the pilot for the practice AND the test of the CEO-coach channel. Bala owes Gerry a
+  proposal + questionnaire and a follow-up call by end of week / early next week.
+  Full detail: `Prospects/Waites/waites-brief.md`.
 - **21 Jul 2026:** Second research pass done. Closed the packaging picture for Deloitte
   (agentic readiness assessment, digital-channels scoped), EY (free 15-minute EY.ai
   Maturity Model, 7 dimensions, lead-gen play), Bain (AI Deployment Matrix 2x2
@@ -127,8 +132,10 @@ how does the market react), sales positioning, cross-selling into delivery, team
 | 5 | Claude | Second research pass: BCG X, Bain, Deloitte, EY, IBM Consulting packaging + targeted procurement-records hunt for real assessment fees + verify the buyer-survey figures before client-facing use. | Done 21 Jul 2026 - 4 of 5 firms closed (BCG still dark); no disclosed fees found; buyer stats still unverified |
 | 6 | Bala | Send the Philip update (draft in COMMUNICATIONS.md) and book the working session. | Open |
 | 7 | Claude | Dedicated verification pass on the six buyer-survey statistics before any client-facing deck (Phase 2 gate). | Open |
-| 8 | Bala | Share the Gerry Perkel call transcript; then scope the Waites opportunity (which SKU shape, or custom) and decide how to loop in Philip. | Open |
-| 9 | Bala | Get the staff list from Susan or Mency for team screening. | Open |
+| 8 | Bala + Claude | Waites proposal for Gerry: discovery process, 6-week plan, deliverables, projected gains, pilot-priced at USD 40,000 to 50,000 (framed as founding-client pricing to protect the list-price anchor). Due before the follow-up call (end of week / early next week). | Open |
+| 9 | Bala + Claude | Waites assessment questionnaire for sales, BD, marketing, customer service (pre-sendable). | Open |
+| 10 | Bala | Brief Philip on the Waites opportunity and Gerry call; align pricing framing. | Open |
+| 11 | Bala | Get the staff list from Susan or Mency for team screening; extend to US network for a stateside delivery resource (Gerry's hint). | Open |
 
 ## 8. People
 
