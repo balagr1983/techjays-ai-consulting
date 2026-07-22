@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Techjays AI Consulting Practice: Roadmap and Decisions</title>
+<style>
+  :root {
+    --navy: #0E2238;
+    --navy-2: #16324F;
+    --gold: #D9A441;
+    --gold-soft: #F2E3C4;
+    --paper: #FAF8F4;
+    --ink: #22303E;
+    --muted: #5B6B7A;
+    --line: #DDD5C6;
+    --good: #2E7D5B;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { background: #E9E5DC; }
+  body { font-family: "Segoe UI", -apple-system, Roboto, Arial, sans-serif; color: var(--ink); }
+
+  .slide {
+    width: 297mm; height: 209mm;
+    margin: 10mm auto; padding: 16mm 18mm;
+    background: var(--paper);
+    box-shadow: 0 2px 14px rgba(0,0,0,.18);
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  @media print {
+    html, body { background: none; }
+    .slide { margin: 0; box-shadow: none; page-break-after: always; }
+    @page { size: A4 landscape; margin: 0; }
+  }
+
+  .kicker { font-size: 10.5pt; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 4mm; }
+  h1 { font-size: 30pt; line-height: 1.15; color: var(--navy); font-weight: 700; }
+  h2 { font-size: 21pt; color: var(--navy); margin-bottom: 7mm; font-weight: 700; }
+  h3 { font-size: 12.5pt; color: var(--navy); margin-bottom: 2.5mm; }
+  p, li, td, th { font-size: 11pt; line-height: 1.5; }
+  .muted { color: var(--muted); }
+  .small { font-size: 9.5pt; }
+
+  .footer {
+    position: absolute; bottom: 8mm; left: 18mm; right: 18mm;
+    display: flex; justify-content: space-between;
+    font-size: 8.5pt; color: var(--muted);
+    border-top: 1px solid var(--line); padding-top: 2.5mm;
+  }
+  .gold-rule { width: 22mm; height: 1.4mm; background: var(--gold); border-radius: 2px; margin: 5mm 0 7mm; }
+
+  /* Title slide */
+  .title-slide { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%); color: #fff; justify-content: center; }
+  .title-slide h1 { color: #fff; font-size: 34pt; max-width: 200mm; }
+  .title-slide .sub { font-size: 13pt; color: #C9D4DF; margin-top: 6mm; }
+  .title-slide .meta { position: absolute; bottom: 14mm; left: 18mm; font-size: 10pt; color: #9FB0C0; }
+  .title-slide .brand { position: absolute; top: 14mm; left: 18mm; font-size: 11pt; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+
+  /* Cards and grids */
+  .grid { display: grid; gap: 5mm; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 3mm; padding: 6mm; }
+  .card .tag { display: inline-block; font-size: 8.5pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #fff; background: var(--navy); border-radius: 2mm; padding: 1mm 3mm; margin-bottom: 3mm; }
+  .card.gold-top { border-top: 2.5mm solid var(--gold); }
+  .price { font-size: 15pt; font-weight: 700; color: var(--navy); }
+  .duration { font-size: 9.5pt; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+
+  table.clean { border-collapse: collapse; width: 100%; background: #fff; }
+  table.clean th { background: var(--navy); color: #fff; text-align: left; padding: 2.8mm 4mm; font-size: 10pt; }
+  table.clean td { border-bottom: 1px solid var(--line); padding: 2.6mm 4mm; vertical-align: top; }
+  table.clean tr:last-child td { border-bottom: none; }
+
+  .arrow-flow { display: flex; align-items: stretch; gap: 0; }
+  .arrow-flow .step { flex: 1; position: relative; }
+  .arrow-flow .chev { align-self: center; color: var(--gold); font-size: 20pt; padding: 0 2.5mm; font-weight: 700; }
+
+  /* 2x2 matrix */
+  .matrix { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 2mm; width: 100%; height: 84mm; }
+  .quad { border-radius: 2.5mm; padding: 4.5mm; color: #fff; display: flex; flex-direction: column; }
+  .quad h4 { font-size: 11.5pt; margin-bottom: 1.5mm; }
+  .quad p { font-size: 9pt; line-height: 1.35; opacity: .92; }
+  .q1 { background: var(--good); }
+  .q2 { background: var(--navy-2); }
+  .q3 { background: #8A7B5C; }
+  .q4 { background: #A9B2BA; color: #38434E; }
+  .axis-x { text-align: center; font-size: 9pt; color: var(--muted); letter-spacing: .1em; text-transform: uppercase; margin-top: 2.5mm; }
+  .axis-y { writing-mode: vertical-rl; transform: rotate(180deg); text-align: center; font-size: 9pt; color: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
+
+  /* Timeline */
+  .timeline { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4mm; margin-top: 4mm; }
+  .phase { border-top: 2.5mm solid var(--gold); background: #fff; border-left: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-radius: 0 0 2.5mm 2.5mm; padding: 4.5mm; }
+  .phase .when { font-size: 9pt; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--gold); margin-bottom: 1.6mm; }
+  .phase h4 { font-size: 11.5pt; color: var(--navy); margin-bottom: 2.2mm; }
+  .phase ul { padding-left: 4.5mm; }
+  .phase li { font-size: 9pt; line-height: 1.4; margin-bottom: 1.2mm; }
+  .phase .exit { margin-top: 2.5mm; font-size: 8.5pt; color: var(--good); font-weight: 600; }
+
+  .big-num { font-size: 26pt; font-weight: 700; color: var(--navy); line-height: 1; }
+  .note-strip { background: var(--gold-soft); border-radius: 2.5mm; padding: 4mm 6mm; font-size: 10pt; }
+
+  ol.decisions { counter-reset: dec; list-style: none; }
+  ol.decisions li { counter-increment: dec; display: flex; gap: 4mm; margin-bottom: 3.6mm; align-items: flex-start; }
+  ol.decisions li::before {
+    content: counter(dec);
+    min-width: 8mm; height: 8mm; border-radius: 50%;
+    background: var(--navy); color: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 11pt;
+  }
+  .check { color: var(--good); font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: TITLE -->
+<section class="slide title-slide">
+  <div class="brand">Techjays</div>
+  <div>
+    <div class="kicker">Internal working draft, v0.1</div>
+    <h1>The Techjays AI Consulting Practice</h1>
+    <div class="sub">Market verdict, the offering, and the roadmap to launch.<br>Six decisions to make together.</div>
+  </div>
+  <div class="meta">Prepared by Bala for the working session with Philip &nbsp;|&nbsp; 21 Jul 2026 &nbsp;|&nbsp; Evidence base: two verified research passes, full sources in the project repo</div>
+</section>
+
+<!-- SLIDE 2: WHERE WE LANDED -->
+<section class="slide">
+  <div class="kicker">1. Where we landed</div>
+  <h2>This is an established, purchasable category. The mid-market middle is wide open.</h2>
+  <div class="grid" style="grid-template-columns: 1.25fr 1fr; flex: 1;">
+    <div>
+      <table class="clean">
+        <tr><th>Tier</th><th>How they monetize the diagnostic</th><th>Verified example</th></tr>
+        <tr><td><strong>Strategy firms</strong></td><td>Diagnostic opens the transformation engagement, no standalone SKU</td><td>McKinsey QuantumBlack; Bain AI Deployment Matrix</td></tr>
+        <tr><td><strong>Big Four</strong></td><td>Charge for depth, or give a scan away as lead-gen</td><td>PwC: 12 domains, 0-100 score; EY: free 15-minute scan</td></tr>
+        <tr><td><strong>Mid-tier</strong></td><td>Free gated scan, or fuse advisory and build in one offer</td><td>Thoughtworks FOREST; West Monroe</td></tr>
+        <tr><td><strong>Boutiques</strong></td><td>Fixed-fee, fixed-duration productized studies</td><td>Kriv AI: USD 15,000 to 25,000, 4 weeks</td></tr>
+      </table>
+      <p class="small muted" style="margin-top:4mm;">Nine firms verified across two research passes (17 and 21 Jul 2026). Every offering examined is a funnel: assessment, then roadmap, then delivery.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:5mm;">
+      <div class="card gold-top">
+        <h3>The format is proven</h3>
+        <p>Fixed fee, 4 to 8 weeks, ending in a stack-ranked and costed roadmap. We enter a recognized category, we do not have to create one.</p>
+      </div>
+      <div class="card gold-top">
+        <h3>The middle is empty</h3>
+        <p>Published floor: USD 15,000 to 25,000 boutique scans. Inferred big-firm studies: USD 400,000 and above. Nobody publishes a price in between.</p>
+      </div>
+      <div class="card gold-top">
+        <h3>Nobody shows their price</h3>
+        <p>Even firms selling advisory on AWS Marketplace hide fees behind private offers. Publishing a real fixed price is itself a differentiator available to us.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Techjays AI Consulting Practice: internal draft</span><span>2</span></div>
+</section>
+
+<!-- SLIDE 3: THE OFFERING LADDER -->
+<section class="slide">
+  <div class="kicker">2. What we sell</div>
+  <h2>An offering ladder: each step earns the next.</h2>
+  <div class="arrow-flow" style="flex:1; align-items:flex-start;">
+    <div class="step card" style="border-top: 2.5mm solid var(--line);">
+      <span class="tag" style="background:var(--muted);">SKU 0 · proposed</span>
+      <h3>AI Opportunity Scan</h3>
+      <div class="duration">1 to 2 days</div>
+      <div class="price">USD 7,500 to 15,000</div>
+      <p class="small" style="margin-top:2.5mm;">Half-day leadership workshop, rapid scan, memo with the top 3 opportunities. Paid taster that qualifies the buyer.</p>
+    </div>
+    <div class="chev">&#8250;</div>
+    <div class="step card gold-top">
+      <span class="tag">SKU 1 · core</span>
+      <h3>AI Opportunity Study</h3>
+      <div class="duration">8 weeks, fixed fee</div>
+      <div class="price">USD 100,000 to 150,000</div>
+      <p class="small" style="margin-top:2.5mm;">Scored readiness assessment, opportunity portfolio on the ROI vs cost 2x2, stack-ranked costed roadmap, executive readout. 30 to 40 page report.</p>
+    </div>
+    <div class="chev">&#8250;</div>
+    <div class="step card gold-top">
+      <span class="tag">SKU 2 · depth</span>
+      <h3>AI Pre-Readiness Study</h3>
+      <div class="duration">8 weeks, fixed fee</div>
+      <div class="price">About USD 150,000</div>
+      <p class="small" style="margin-top:2.5mm;">Operations mapped to the tiniest detail: every workflow, handoff, and exception path, with an AI-enabled target state. Our DND muscle as a product.</p>
+    </div>
+    <div class="chev">&#8250;</div>
+    <div class="step card" style="border-top: 2.5mm solid var(--navy);">
+      <span class="tag" style="background:var(--good);">Delivery</span>
+      <h3>Fixed-bid build</h3>
+      <div class="duration">Per roadmap item</div>
+      <div class="price">Priced separately</div>
+      <p class="small" style="margin-top:2.5mm;">Any roadmap item converts to a fixed-bid delivery proposal. The study is priced independently, the advice stays clean.</p>
+    </div>
+  </div>
+  <div class="note-strip" style="margin-top:5mm;">Market proof for the ladder: IBM Consulting sells the identical shape on AWS Marketplace, a 1-hour consult, then a 2 to 4 week PoC, then an 8 to 12 week MVP, then 4 to 10 month delivery, described as "the front door for advisory-led engagements".</div>
+  <div class="footer"><span>Techjays AI Consulting Practice: internal draft</span><span>3</span></div>
+</section>
+
+<!-- SLIDE 4: FRAMEWORK -->
+<section class="slide">
+  <div class="kicker">3. The framework</div>
+  <h2>Six scored dimensions. One signature chart the CEO keeps.</h2>
+  <div class="grid" style="grid-template-columns: 1.15fr 1fr; flex:1;">
+    <div>
+      <table class="clean">
+        <tr><th>Dimension</th><th>Why it earns its place</th></tr>
+        <tr><td><strong>Strategy &amp; Leadership</strong></td><td>AI ambition tied to revenue, margin, client experience</td></tr>
+        <tr><td><strong>Workflows &amp; Operating Model</strong></td><td>Our differentiator: process-level mapping, the thing big-firm studies skip</td></tr>
+        <tr><td><strong>Data</strong></td><td>Scored per priority use case, not in the abstract</td></tr>
+        <tr><td><strong>Technology &amp; Engineering</strong></td><td>The engineering-rigor claim needs an engineering dimension</td></tr>
+        <tr><td><strong>Talent &amp; Adoption</strong></td><td>Skills, change readiness, KPI discipline</td></tr>
+        <tr><td><strong>Governance, Risk &amp; Trust</strong></td><td>Increasingly expected; agentic governance is the 2026 conversation</td></tr>
+      </table>
+      <p class="small muted" style="margin-top:3.5mm;">Scoring 1 to 5 per dimension with published level definitions. Name candidates on the table: <strong>AI Value Compass</strong>, <strong>BLUEPRINT</strong>, <strong>AI GPS</strong>. Decision 1.</p>
+    </div>
+    <div style="display:flex; gap:2.5mm;">
+      <div class="axis-y">Return on investment &#8594;</div>
+      <div style="flex:1; display:flex; flex-direction:column;">
+        <div class="matrix">
+          <div class="quad q1"><h4>Quick Wins</h4><p>High ROI, low cost. Do these first, fund the journey.</p></div>
+          <div class="quad q2"><h4>Big Bets</h4><p>High ROI, high cost. Plan properly, sequence deliberately.</p></div>
+          <div class="quad q3"><h4>Fill-ins</h4><p>Low ROI, low cost. Bundle with adjacent work.</p></div>
+          <div class="quad q4"><h4>Not now</h4><p>Low ROI, high cost. Name them, park them, revisit.</p></div>
+        </div>
+        <div class="axis-x">Cost and effort &#8594;</div>
+        <p class="small muted" style="margin-top:3mm;">Every opportunity plotted, stack-ranked, and costed. This chart is the one slide the client CEO keeps.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Techjays AI Consulting Practice: internal draft</span><span>4</span></div>
+</section>
+
+<!-- SLIDE 5: WHY WE WIN -->
+<section class="slide">
+  <div class="kicker">4. Why we win</div>
+  <h2>Three differentiators, one honest caveat.</h2>
+  <div class="grid" style="grid-template-columns: repeat(3, 1fr);">
+    <div class="card gold-top">
+      <div class="big-num">~1/4</div>
+      <h3 style="margin-top:2.5mm;">of big-firm fees</h3>
+      <p class="small">Comparable study, mid-market price. Big-firm studies infer out above USD 400,000; our core study is USD 100,000 to 150,000. Same fee logic that already wins us DND work.</p>
+    </div>
+    <div class="card gold-top">
+      <div class="big-num">Skin in the game</div>
+      <h3 style="margin-top:2.5mm;">with written safeguards</h3>
+      <p class="small">We build what we recommend, and the method protects the advice: fixed fee independent of any build decision, every recommendation carries build / buy / partner / do-nothing options, the client owns every deliverable.</p>
+    </div>
+    <div class="card gold-top">
+      <div class="big-num">Workflow depth</div>
+      <h3 style="margin-top:2.5mm;">not org-level abstraction</h3>
+      <p class="small">Big-firm studies score the organization. We map the actual processes, because that is where AI value hides and that is the muscle our DND teams already have.</p>
+    </div>
+  </div>
+  <div class="note-strip" style="margin-top:6mm;">
+    <strong>The caveat: the window rewards speed.</strong> Accenture launched a Carnegie Mellon co-branded maturity model in June 2026 attacking "strategy without engineering rigor", and West Monroe already markets integrated strategy plus build. Our angle is not unique forever; being mid-market priced, workflow-deep, and fast is the combination to own now.
+  </div>
+  <div class="footer"><span>Techjays AI Consulting Practice: internal draft</span><span>5</span></div>
+</section>
+
+<!-- SLIDE 6: TIMELINE -->
+<section class="slide">
+  <div class="kicker">5. How we stand it up</div>
+  <h2>From today to launch in five phases.</h2>
+  <div class="timeline">
+    <div class="phase">
+      <div class="when">Now to early Aug</div>
+      <h4>Align &amp; gather</h4>
+      <ul>
+        <li>Peer interviews: real fees, bias perception</li>
+        <li>Internal staff scan for the fractional pod</li>
+        <li>Dharma sounding, org placement</li>
+        <li>This working session</li>
+      </ul>
+      <div class="exit">Exit: names, positioning, prices locked</div>
+    </div>
+    <div class="phase">
+      <div class="when">Aug 2026</div>
+      <h4>Define the offering</h4>
+      <ul>
+        <li>Framework documented, dimensions locked</li>
+        <li>SKU one-pagers finalized</li>
+        <li>Report template designed</li>
+        <li>Bias-objection answer in writing</li>
+      </ul>
+      <div class="exit">Exit: sample report skeleton exists</div>
+    </div>
+    <div class="phase">
+      <div class="when">Sep 2026</div>
+      <h4>Build collateral</h4>
+      <ul>
+        <li>Sales deck and one-pagers</li>
+        <li>Demo assessment report on a fictional company</li>
+        <li>DND materials re-narrated to one story</li>
+      </ul>
+      <div class="exit">Exit: cold intro to signed SoW path ready</div>
+    </div>
+    <div class="phase">
+      <div class="when">Q4 2026</div>
+      <h4>Pilot</h4>
+      <ul>
+        <li>1 or 2 friendly clients, pilot pricing</li>
+        <li>Over-invest deliberately</li>
+        <li>Pilot doubles as the team tryout</li>
+      </ul>
+      <div class="exit">Exit: case study + validated margin</div>
+    </div>
+    <div class="phase">
+      <div class="when">From Q1 2027</div>
+      <h4>Launch &amp; scale</h4>
+      <ul>
+        <li>Publish the case study</li>
+        <li>Cross-sell into every delivery account</li>
+        <li>Revisit pricing with pilot data</li>
+      </ul>
+      <div class="exit">Exit: two concurrent engagements without Philip</div>
+    </div>
+  </div>
+  <p class="small muted" style="margin-top:4mm;">Team runs in parallel and fractional-first: engagement lead, AI solution architect, business or process analyst per engagement. Nobody leaves billable work before the pilot proves the margin. Detail in team-plan.md.</p>
+  <div class="footer"><span>Techjays AI Consulting Practice: internal draft</span><span>6</span></div>
+</section>
+
+<!-- SLIDE 7: THE MATH -->
+<section class="slide">
+  <div class="kicker">6. The simple math</div>
+  <h2>Illustrative economics, for us to pressure-test together.</h2>
+  <div class="grid" style="grid-template-columns: 1fr 1fr 1fr;">
+    <div class="card gold-top">
+      <h3>One core study (SKU 1)</h3>
+      <table class="clean" style="margin-top:2mm;">
+        <tr><td>Fee (midpoint)</td><td style="text-align:right;"><strong>USD 125,000</strong></td></tr>
+        <tr><td>Team, 8 weeks<br><span class="small muted">lead 50% + architect 50% + analyst 100%</span></td><td style="text-align:right;">~4 person-months</td></tr>
+        <tr><td>Delivery cost <span class="small muted">(placeholder rate)</span></td><td style="text-align:right;">~USD 40,000</td></tr>
+        <tr><td><strong>Gross margin</strong></td><td style="text-align:right;"><strong class="check">~USD 85,000 (68%)</strong></td></tr>
+      </table>
+    </div>
+    <div class="card gold-top">
+      <h3>The pilot</h3>
+      <p class="small" style="margin-top:2mm;">At a 40 to 50 percent pilot discount the study runs near breakeven, and buys three assets no budget line can: a referenceable case study, the team tryout, and a tested methodology.</p>
+      <p class="small muted" style="margin-top:2.5mm;">Candidate: the enterprise-readiness opportunity from the 16 Jul conversation may be the natural first pilot.</p>
+    </div>
+    <div class="card gold-top">
+      <h3>The real prize: conversion</h3>
+      <p class="small" style="margin-top:2mm;">Every study seeds fixed-bid delivery. One converted roadmap item at typical Techjays engagement size repays the entire practice setup. The market pattern is unanimous: the assessment is the front door, delivery is the house.</p>
+      <p class="small muted" style="margin-top:2.5mm;">Nobody publishes attach rates. Our pilot measures ours, and that number drives launch pricing.</p>
+    </div>
+  </div>
+  <div class="note-strip" style="margin-top:6mm;"><strong>Flagged:</strong> the cost rate is a placeholder, not a Techjays actual. First job of the working session follow-up is replacing it with our real loaded rates.</div>
+  <div class="footer"><span>Techjays AI Consulting Practice: internal draft</span><span>7</span></div>
+</section>
+
+<!-- SLIDE 8: DECISIONS -->
+<section class="slide">
+  <div class="kicker">7. What I need from you</div>
+  <h2>Six decisions, one working session.</h2>
+  <div class="grid" style="grid-template-columns: 1.3fr 1fr; flex:1;">
+    <ol class="decisions">
+      <li><div><strong>Names.</strong> The framework (AI Value Compass / BLUEPRINT / AI GPS) and the two service names.</div></li>
+      <li><div><strong>Pilot.</strong> Which friendly client, and at what pilot price.</div></li>
+      <li><div><strong>SKU 0.</strong> Is the 1 to 2 day paid Opportunity Scan in or out at launch?</div></li>
+      <li><div><strong>The face.</strong> Who fronts the practice publicly.</div></li>
+      <li><div><strong>Channel.</strong> Cloud marketplace listings now, or after the pilot?</div></li>
+      <li><div><strong>Org placement.</strong> Where the practice sits, and Dharma's sponsorship.</div></li>
+    </ol>
+    <div style="display:flex; flex-direction:column; gap:5mm;">
+      <div class="card">
+        <h3>Proposed session agenda (45 min)</h3>
+        <p class="small">10 min market verdict &nbsp;·&nbsp; 15 min offering and framework &nbsp;·&nbsp; 10 min pilot and team &nbsp;·&nbsp; 10 min decisions and dates</p>
+      </div>
+      <div class="card">
+        <h3>Already moving</h3>
+        <p class="small"><span class="check">&#10003;</span> Two verified research passes done<br>
+        <span class="check">&#10003;</span> Framework, SKU, and report drafts ready<br>
+        <span class="check">&#10003;</span> Team plan and internal scouting map seeded<br>
+        <span class="check">&#10003;</span> Peer interviews and staff list in progress</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Techjays AI Consulting Practice: internal draft</span><span>8</span></div>
+</section>
+
+</body>
+</html>
