@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Waites x Techjays: Engagement Approach Board</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root {
+    --paper: #F6F3EC;
+    --ink: #26221B;
+    --muted: #6E675B;
+    --faint: #A29A8A;
+    --card: #FFFFFF;
+    --line: #E4DECF;
+    --amber: #C2801B;
+    --teal: #21707A;
+    --sage: #5E7D4E;
+    --violet: #6B5B95;
+    --coral: #B95C50;
+    --navy: #2C3E50;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; }
+  body {
+    font-family: 'Archivo', 'Segoe UI', sans-serif; color: var(--ink);
+    background: var(--paper);
+    background-image: radial-gradient(circle, #D8D2C2 1px, transparent 1px);
+    background-size: 26px 26px;
+  }
+  #viewport { position: fixed; inset: 0; overflow: hidden; cursor: grab; }
+  #viewport.drag { cursor: grabbing; }
+  #canvas { position: absolute; transform-origin: 0 0; width: 7000px; height: 2200px; }
+
+  .part-label {
+    position: absolute; font-family: 'JetBrains Mono', monospace;
+    font-size: 15px; letter-spacing: .28em; text-transform: uppercase;
+    color: var(--faint); font-weight: 500; white-space: nowrap;
+  }
+
+  .card {
+    position: absolute; background: var(--card); border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(38,34,27,.10), 0 2px 6px rgba(38,34,27,.06);
+    padding: 26px 28px 24px; cursor: pointer;
+  }
+  .card::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+    border-radius: 14px 14px 0 0; background: var(--accent, var(--amber));
+  }
+  .card h2 { font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 600; margin-bottom: 12px; line-height: 1.2; }
+  .card p, .card li, .card td, .card th { font-size: 14.5px; line-height: 1.55; }
+  .card .cap { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--accent, var(--amber)); margin-bottom: 8px; }
+  .muted { color: var(--muted); }
+  .small { font-size: 12.5px; }
+
+  ul.plain { padding-left: 20px; }
+  ul.plain li { margin-bottom: 8px; }
+
+  table.t { border-collapse: collapse; width: 100%; }
+  table.t th { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-align: left; padding: 6px 10px; border-bottom: 2px solid var(--line); }
+  table.t td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.t tr:last-child td { border-bottom: none; }
+
+  .disclaim {
+    margin-top: 14px; padding: 10px 14px; border-left: 3px solid var(--faint);
+    background: #F4F0E6; border-radius: 0 8px 8px 0;
+    font-size: 12px; color: var(--muted); font-style: italic; font-family: 'Fraunces', Georgia, serif;
+  }
+
+  .steps { counter-reset: s; list-style: none; }
+  .steps li { counter-increment: s; position: relative; padding-left: 40px; margin-bottom: 12px; }
+  .steps li::before {
+    content: counter(s, decimal-leading-zero); position: absolute; left: 0; top: 1px;
+    font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; color: var(--accent, var(--amber));
+  }
+  .steps b { font-weight: 600; }
+
+  /* title card */
+  #c-title {
+    background: linear-gradient(140deg, #221E17 0%, #33291C 70%, #3D2F1C 100%);
+    color: #F2EDE2; padding: 46px 44px;
+  }
+  #c-title::before { background: var(--amber); }
+  #c-title .cap { color: #C89B4D; }
+  #c-title h1 { font-family: 'Fraunces', Georgia, serif; font-size: 44px; font-weight: 600; line-height: 1.12; margin: 10px 0 18px; }
+  #c-title h1 em { font-style: italic; color: #E0B266; }
+  #c-title p { color: #BFB6A4; font-size: 15.5px; max-width: 540px; }
+  #c-title .draft { margin-top: 26px; display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: #8F8674; border: 1px solid #4A4232; border-radius: 20px; padding: 6px 14px; }
+
+  /* chrome */
+  #bar {
+    position: fixed; left: 50%; transform: translateX(-50%); bottom: 22px; z-index: 10;
+    display: flex; align-items: center; gap: 10px;
+    background: rgba(30,26,20,.92); color: #EFE9DC; border-radius: 40px;
+    padding: 10px 16px; box-shadow: 0 8px 30px rgba(0,0,0,.25);
+    font-family: 'Archivo', sans-serif;
+  }
+  #bar button {
+    background: none; border: 1px solid rgba(239,233,220,.28); color: #EFE9DC;
+    border-radius: 20px; padding: 7px 16px; font-size: 13px; cursor: pointer; font-family: inherit;
+  }
+  #bar button:hover { background: rgba(239,233,220,.12); }
+  #tourtitle { font-size: 13.5px; max-width: 420px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 0 6px; }
+  #counter { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: #A79D89; }
+  #hint { position: fixed; right: 22px; bottom: 26px; z-index: 10; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--faint); letter-spacing: .08em; }
+</style>
+</head>
+<body>
+<div id="viewport"><div id="canvas">
+
+  <!-- ============ TITLE ============ -->
+  <div class="card" id="c-title" style="left:90px; top:300px; width:660px;">
+    <div class="cap">Waites x Techjays</div>
+    <h1>A structured approach to the <em>agentic AI</em> opportunity study</h1>
+    <p>How we would map, quantify, and sequence the opportunities across sales, business development, marketing, and customer service, and hand over a roadmap the leadership team can execute.</p>
+    <div class="draft">Working draft v1 · for internal review</div>
+  </div>
+
+  <!-- ============ PART 1 · OBJECTIVE ============ -->
+  <div class="part-label" style="left:900px; top:70px;">Part 1 · The objective</div>
+
+  <div class="card" id="c-obj" style="left:900px; top:130px; width:560px; --accent: var(--amber);">
+    <div class="cap">Where this starts</div>
+    <h2>The objective set by Waites leadership</h2>
+    <ul class="plain">
+      <li>Double revenue per white-collar employee within about two years, by growing revenue with the current team rather than reducing it.</li>
+      <li>A coordinated, company-wide roadmap by end of 2026; the approach to get there is being finalized now.</li>
+      <li>Good AI initiative already exists in pockets. What is missing is a single quantified picture of where agentic AI creates the most leverage across the commercial and support functions.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="c-questions" style="left:900px; top:560px; width:560px; --accent: var(--amber);">
+    <div class="cap">Definition of done</div>
+    <h2>The questions this study answers</h2>
+    <ul class="plain">
+      <li>Which processes, re-architected, move revenue per employee the most?</li>
+      <li>Where does agentic AI genuinely outperform simpler fixes, and where does it not?</li>
+      <li>What is each opportunity worth, and what would capturing it take?</li>
+      <li>In what order should Waites act, starting with the first 90 days?</li>
+      <li>Which data connections (NetSuite, HubSpot, internal systems) are needed along the way?</li>
+    </ul>
+  </div>
+
+  <!-- ============ PART 2 · APPROACH ============ -->
+  <div class="part-label" style="left:1660px; top:70px;">Part 2 · Approach</div>
+
+  <div class="card" id="c-layers" style="left:1660px; top:130px; width:560px; --accent: var(--teal);">
+    <div class="cap">Operating principle</div>
+    <h2>Three layers, applied in order</h2>
+    <svg viewBox="0 0 500 300" style="width:100%; margin:6px 0 10px;">
+      <defs>
+        <marker id="m-layers" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#8A8172"/>
+        </marker>
+      </defs>
+      <rect x="20" y="16" width="460" height="70" rx="10" fill="#EAF2EC" stroke="#5E7D4E" stroke-width="1.5"/>
+      <text x="40" y="45" font-family="Archivo" font-size="16" font-weight="600" fill="#26221B">1 · Process re-engineering</text>
+      <text x="40" y="68" font-family="Archivo" font-size="12.5" fill="#6E675B">Remove steps, handoffs, and waits before any technology is added</text>
+      <line x1="250" y1="86" x2="250" y2="112" stroke="#8A8172" stroke-width="1.6" marker-end="url(#m-layers)"/>
+      <rect x="20" y="116" width="460" height="70" rx="10" fill="#E8EFF2" stroke="#21707A" stroke-width="1.5"/>
+      <text x="40" y="145" font-family="Archivo" font-size="16" font-weight="600" fill="#26221B">2 · Deterministic automation</text>
+      <text x="40" y="168" font-family="Archivo" font-size="12.5" fill="#6E675B">Rules, integrations, and workflow automation where certainty is enough</text>
+      <line x1="250" y1="186" x2="250" y2="212" stroke="#8A8172" stroke-width="1.6" marker-end="url(#m-layers)"/>
+      <rect x="20" y="216" width="460" height="70" rx="10" fill="#EDEAF4" stroke="#6B5B95" stroke-width="1.5"/>
+      <text x="40" y="245" font-family="Archivo" font-size="16" font-weight="600" fill="#26221B">3 · Agentic AI</text>
+      <text x="40" y="268" font-family="Archivo" font-size="12.5" fill="#6E675B">Agents where judgment, language, and 24/7 scale change the economics</text>
+    </svg>
+    <p class="small muted">Each opportunity is taken through the layers in this order. AI is applied where it earns its place, not by default.</p>
+  </div>
+
+  <div class="card" id="c-scope" style="left:1660px; top:790px; width:560px; --accent: var(--teal);">
+    <div class="cap">Boundaries</div>
+    <h2>Scope</h2>
+    <table class="t">
+      <tr><th>In scope</th><th>Out of scope</th></tr>
+      <tr>
+        <td>Sales, Business Development, Marketing, Customer Service, and the data connectivity underneath them (NetSuite, HubSpot, internal systems)</td>
+        <td>Software development, which already has its own roadmap</td>
+      </tr>
+    </table>
+    <p class="small muted" style="margin-top:12px;">The evaluation lens is revenue capacity: helping the same team produce more qualified pipeline, more closed revenue, and better retention. Cost effects are recorded where they appear.</p>
+  </div>
+
+  <!-- ============ PART 3 · METHOD ============ -->
+  <div class="part-label" style="left:2420px; top:70px;">Part 3 · Method</div>
+
+  <div class="card" id="c-cycle" style="left:2420px; top:130px; width:600px; --accent: var(--sage);">
+    <div class="cap">Department by department</div>
+    <h2>The study cycle</h2>
+    <ol class="steps" style="margin-top:6px;">
+      <li><b>Understand.</b> Structured interviews with leads and the people doing the work, supported by pre-shared questionnaires and observation.</li>
+      <li><b>Map.</b> As-is workflows: inputs, outputs, handoffs, systems touched, volumes, cycle times, and where the hours go.</li>
+      <li><b>Re-architect.</b> Target-state design through the three layers, including where humans stay in the loop.</li>
+      <li><b>Quantify.</b> Projected gain per opportunity, with assumptions stated and testable.</li>
+      <li><b>Prioritize.</b> All opportunities plotted on return vs effort and stack-ranked into a sequenced roadmap.</li>
+    </ol>
+  </div>
+
+  <div class="card" id="c-matrix" style="left:2420px; top:760px; width:600px; --accent: var(--sage);">
+    <div class="cap">Prioritization</div>
+    <h2>Return vs effort</h2>
+    <svg viewBox="0 0 520 330" style="width:100%; margin-top:4px;">
+      <line x1="60" y1="20" x2="60" y2="290" stroke="#A29A8A" stroke-width="1.4"/>
+      <line x1="60" y1="290" x2="500" y2="290" stroke="#A29A8A" stroke-width="1.4"/>
+      <text x="30" y="160" font-family="JetBrains Mono" font-size="10" fill="#6E675B" transform="rotate(-90 30 160)" text-anchor="middle" letter-spacing="2">RETURN</text>
+      <text x="280" y="318" font-family="JetBrains Mono" font-size="10" fill="#6E675B" text-anchor="middle" letter-spacing="2">EFFORT AND COST</text>
+      <rect x="75" y="30" width="200" height="120" rx="8" fill="#EAF2EC" stroke="#5E7D4E"/>
+      <text x="90" y="55" font-family="Archivo" font-size="14" font-weight="600" fill="#26221B">Quick wins</text>
+      <text x="90" y="76" font-family="Archivo" font-size="11.5" fill="#6E675B">High return, low effort.</text>
+      <text x="90" y="93" font-family="Archivo" font-size="11.5" fill="#6E675B">First in the sequence.</text>
+      <rect x="290" y="30" width="200" height="120" rx="8" fill="#E8EFF2" stroke="#21707A"/>
+      <text x="305" y="55" font-family="Archivo" font-size="14" font-weight="600" fill="#26221B">Big bets</text>
+      <text x="305" y="76" font-family="Archivo" font-size="11.5" fill="#6E675B">High return, high effort.</text>
+      <text x="305" y="93" font-family="Archivo" font-size="11.5" fill="#6E675B">Planned and sequenced deliberately.</text>
+      <rect x="75" y="160" width="200" height="120" rx="8" fill="#F2EFE6" stroke="#A29A8A"/>
+      <text x="90" y="185" font-family="Archivo" font-size="14" font-weight="600" fill="#26221B">Fill-ins</text>
+      <text x="90" y="206" font-family="Archivo" font-size="11.5" fill="#6E675B">Low return, low effort.</text>
+      <text x="90" y="223" font-family="Archivo" font-size="11.5" fill="#6E675B">Bundled with adjacent work.</text>
+      <rect x="290" y="160" width="200" height="120" rx="8" fill="#EFEBE4" stroke="#C8C0B0"/>
+      <text x="305" y="185" font-family="Archivo" font-size="14" font-weight="600" fill="#26221B">Not now</text>
+      <text x="305" y="206" font-family="Archivo" font-size="11.5" fill="#6E675B">Low return, high effort.</text>
+      <text x="305" y="223" font-family="Archivo" font-size="11.5" fill="#6E675B">Documented and revisited later.</text>
+    </svg>
+  </div>
+
+  <div class="card" id="c-example" style="left:3100px; top:130px; width:520px; --accent: var(--sage);">
+    <div class="cap">Worked example</div>
+    <h2>The business development function</h2>
+    <p>A team of eight to ten people produces a target number of qualified meetings per month. The study maps how a meeting is actually made: list building, research, outreach, follow-ups, scheduling.</p>
+    <p style="margin-top:10px;">Each step is then classified: which parts a cleaner process removes, which are deterministic automation between HubSpot and the surrounding systems, and where agents working continuously and in multiple languages change the meeting economics.</p>
+    <p style="margin-top:10px;">The output is a costed target design with a projected meetings-per-person multiple, comparable against the other opportunities on the same matrix.</p>
+  </div>
+
+  <!-- ============ PART 4 · ENGAGEMENT MODEL ============ -->
+  <div class="part-label" style="left:3820px; top:70px;">Part 4 · Engagement model</div>
+
+  <div class="card" id="c-model" style="left:3820px; top:130px; width:560px; --accent: var(--violet);">
+    <div class="cap">Working model</div>
+    <h2>Hybrid: onsite and remote, by design</h2>
+    <ul class="plain">
+      <li><b>Onsite</b> for the parts where presence matters most: re-architecture working sessions, observing the actual work, executive workshops, and the final readout.</li>
+      <li><b>Remote</b> for what can be done efficiently over video calls, pre-shared questionnaires, and document review, completed before travel.</li>
+      <li>The onsite duration flexes with the pre-work: the more discovery completes remotely, the shorter the onsite window needs to be, which also reduces cost.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="c-team" style="left:3820px; top:560px; width:560px; --accent: var(--violet);">
+    <div class="cap">Team</div>
+    <h2>Two roles, one onsite</h2>
+    <table class="t">
+      <tr><th>Role</th><th>Presence</th><th>Responsibility</th></tr>
+      <tr><td>Engagement lead</td><td>Onsite, full-time</td><td>Interviews, workshops, process mapping, prioritization, executive readout</td></tr>
+      <tr><td>Solution designer</td><td>Offsite, part-time on this engagement</td><td>Target-state designs, feasibility and effort estimates, data connectivity analysis</td></tr>
+    </table>
+    <p class="small muted" style="margin-top:12px;">The time-zone offset works in the engagement's favor: material gathered onsite during the US working day is developed further overnight and is ready for review the next morning.</p>
+  </div>
+
+  <div class="card" id="c-commercials" style="left:3820px; top:1010px; width:560px; --accent: var(--violet);">
+    <div class="cap">Commercial basis</div>
+    <h2>How the engagement is priced</h2>
+    <p>Professional fees on a USD 200 per hour basis. Travel and logistics for the onsite period are billed separately at actuals.</p>
+    <div class="disclaim">Indicative basis only. The final commercial construct depends on the scope, the team composition, and the onsite/remote split agreed once discovery boundaries are confirmed.</div>
+  </div>
+
+  <!-- ============ PART 5 · PLAN ============ -->
+  <div class="part-label" style="left:4560px; top:70px;">Part 5 · Plan</div>
+
+  <div class="card" id="c-plan" style="left:4560px; top:130px; width:980px; --accent: var(--coral);">
+    <div class="cap">Indicative sequence</div>
+    <h2>Remote preparation, then a focused onsite window</h2>
+    <table class="t" style="margin-top:4px;">
+      <tr><th style="width:22%;">Phase</th><th>Focus</th></tr>
+      <tr><td><b>Pre-engagement</b><br><span class="small muted">remote</span></td><td>Introductory calls, a named point of contact, questionnaires sent to all four departments, document and metrics collection, systems overview via video, logistics locked.</td></tr>
+      <tr><td><b>Week 1</b> · onsite</td><td>Executive alignment session; business development deep dive begins; sales cycle starts.</td></tr>
+      <tr><td><b>Week 2</b> · onsite</td><td>Sales mapping completed; marketing deep dive; first re-architecture working sessions.</td></tr>
+      <tr><td><b>Week 3</b> · onsite</td><td>Customer service deep dive; data connectivity review with systems owners; target designs progressing offsite in parallel.</td></tr>
+      <tr><td><b>Week 4</b> · onsite</td><td>Quantification: volumes, costs, and gain estimates per opportunity; validation interviews.</td></tr>
+      <tr><td><b>Week 5</b> · onsite</td><td>Prioritization session with leadership; stack-ranked portfolio agreed; initiative outlines drafted.</td></tr>
+      <tr><td><b>Week 6</b> · onsite</td><td>Roadmap synthesis and business case; draft review; executive readout.</td></tr>
+    </table>
+    <p class="small muted" style="margin-top:10px;">A weekly checkpoint with the sponsor runs through the engagement.</p>
+    <div class="disclaim">Indicative plan. The number of onsite weeks, the department order, and the overall duration will change based on the scope that is finally agreed and how much discovery completes remotely before travel.</div>
+  </div>
+
+  <div class="card" id="c-questionnaire" style="left:4560px; top:1090px; width:700px; --accent: var(--coral);">
+    <div class="cap">Pre-work sample</div>
+    <h2>Business development questionnaire, excerpt</h2>
+    <ol class="steps" style="margin-top:6px;">
+      <li>Walk us through a lead's journey from first touch to a booked discovery call: each step, system, and handoff.</li>
+      <li>What is the monthly meeting target per person, typical attainment, and where do the hours go in a normal week?</li>
+      <li>Which outreach steps are templated or sequenced today, and which are crafted individually?</li>
+      <li>What information is consulted before outreach, and what is missing?</li>
+      <li>What are the main reasons a booked meeting does not become a qualified opportunity?</li>
+    </ol>
+    <p class="small muted" style="margin-top:8px;">Full questionnaires for all four departments follow once scope is confirmed. Each is designed to be answered in under an hour.</p>
+  </div>
+
+  <!-- ============ PART 6 · OUTCOMES ============ -->
+  <div class="part-label" style="left:5700px; top:70px;">Part 6 · Outcomes</div>
+
+  <div class="card" id="c-deliverables" style="left:5700px; top:130px; width:580px; --accent: var(--amber);">
+    <div class="cap">Deliverables</div>
+    <h2>The roadmap report</h2>
+    <table class="t">
+      <tr><td>1</td><td>Executive summary</td></tr>
+      <tr><td>2</td><td>Current-state process maps for business development, sales, marketing, and customer service</td></tr>
+      <tr><td>3</td><td>Opportunity portfolio on the return vs effort matrix, stack-ranked</td></tr>
+      <tr><td>4</td><td>Initiative outlines for the top opportunities: target workflow, layer classification, projected gain, indicative effort, and build / buy / partner options</td></tr>
+      <tr><td>5</td><td>Data connectivity assessment and sequencing</td></tr>
+      <tr><td>6</td><td>Sequenced roadmap with a concrete first 90 days</td></tr>
+    </table>
+    <p class="small muted" style="margin-top:10px;">Delivered through a working session with the executive team, in addition to the written report.</p>
+  </div>
+
+  <div class="card" id="c-principles" style="left:5700px; top:750px; width:580px; --accent: var(--amber);">
+    <div class="cap">Working principles</div>
+    <h2>How the advice stays useful</h2>
+    <ul class="plain">
+      <li>Every initiative carries build, buy, and partner options, including paths that do not involve Techjays. Where the in-house team is the right answer, the report says so.</li>
+      <li>Waites owns all artifacts produced during the engagement.</li>
+      <li>Effort and feasibility estimates come from a team that designs and builds these systems in delivery work, so the roadmap is grounded in implementation reality.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="c-next" style="left:5700px; top:1160px; width:580px; --accent: var(--amber);">
+    <div class="cap">From here</div>
+    <h2>Next steps</h2>
+    <ol class="steps" style="margin-top:6px;">
+      <li>Feedback on this document and the approach.</li>
+      <li>Introductory call with the sponsor to confirm scope, priorities, and the onsite/remote split.</li>
+      <li>Department questionnaires finalized and sent.</li>
+      <li>Detailed plan and commercial construct confirmed against the agreed scope.</li>
+      <li>Dates locked; pre-engagement begins.</li>
+    </ol>
+  </div>
+
+</div></div>
+
+<div id="bar">
+  <button id="btn-prev">&#8592;</button>
+  <span id="tourtitle">Overview — the whole board</span>
+  <span id="counter">overview</span>
+  <button id="btn-next">&#8594;</button>
+  <button id="btn-ov">Overview</button>
+</div>
+<div id="hint">drag to pan · scroll to zoom · arrows to present</div>
+
+<script>
+window.tour = [
+  { id: 'c-title',         t: '01 · The engagement, in one view' },
+  { id: 'c-obj',           t: '02 · The objective set by Waites leadership' },
+  { id: 'c-questions',     t: '03 · The questions the study answers' },
+  { id: 'c-layers',        t: '04 · Three layers, applied in order' },
+  { id: 'c-scope',         t: '05 · Scope' },
+  { id: 'c-cycle',         t: '06 · The study cycle' },
+  { id: 'c-example',       t: '07 · Worked example: business development' },
+  { id: 'c-matrix',        t: '08 · Prioritization: return vs effort' },
+  { id: 'c-model',         t: '09 · Hybrid working model' },
+  { id: 'c-team',          t: '10 · Team' },
+  { id: 'c-commercials',   t: '11 · Commercial basis' },
+  { id: 'c-plan',          t: '12 · The plan' },
+  { id: 'c-questionnaire', t: '13 · Pre-work sample' },
+  { id: 'c-deliverables',  t: '14 · Deliverables' },
+  { id: 'c-principles',    t: '15 · Working principles' },
+  { id: 'c-next',          t: '16 · Next steps' }
+];
+</script>
+<script>
+/* Magic-board interaction engine — pan, zoom, guided tour, overview. */
+(function () {
+  const vp = document.getElementById('viewport');
+  const canvas = document.getElementById('canvas');
+  const counter = document.getElementById('counter');
+  const tourTitle = document.getElementById('tourtitle');
+  const tour = window.tour || [];
+  let st = { x: 0, y: 0, s: 1 }, ti = -1;
+
+  function apply(anim) {
+    canvas.style.transition = anim ? 'transform .85s cubic-bezier(.45,.05,.2,1)' : 'none';
+    canvas.style.transform = `translate(${st.x}px,${st.y}px) scale(${st.s})`;
+  }
+  function flyToEl(el, pad = 0.84, maxScale = 1.5) {
+    const vw = innerWidth, vh = innerHeight;
+    const cw = el.offsetWidth, ch = el.offsetHeight, cx = el.offsetLeft, cy = el.offsetTop;
+    const s = Math.min(vw * pad / cw, vh * pad / ch, maxScale);
+    st.s = s; st.x = vw / 2 - s * (cx + cw / 2); st.y = vh / 2 - s * (cy + ch / 2); apply(true);
+  }
+  function overview() {
+    ti = -1;
+    if (tourTitle) tourTitle.textContent = 'Overview — the whole board';
+    if (counter) counter.textContent = 'overview';
+    const cards = [...document.querySelectorAll('.card')];
+    if (!cards.length) return;
+    let minX = 1e9, minY = 1e9, maxX = -1e9, maxY = -1e9;
+    cards.forEach(c => {
+      minX = Math.min(minX, c.offsetLeft); minY = Math.min(minY, c.offsetTop - 90);
+      maxX = Math.max(maxX, c.offsetLeft + c.offsetWidth); maxY = Math.max(maxY, c.offsetTop + c.offsetHeight);
+    });
+    const bw = maxX - minX, bh = maxY - minY, vw = innerWidth, vh = innerHeight;
+    const s = Math.min(vw * 0.9 / bw, vh * 0.86 / bh);
+    st.s = s; st.x = vw / 2 - s * (minX + bw / 2); st.y = vh / 2 - s * (minY + bh / 2); apply(true);
+  }
+  function goto(n) {
+    if (n < 0 || !tour.length) { overview(); return; }
+    if (n >= tour.length) n = tour.length - 1;
+    ti = n; const stop = tour[n];
+    const el = document.getElementById(stop.id); if (!el) return;
+    flyToEl(el);
+    if (tourTitle) { const b = document.createElement('b'); b.textContent = stop.t; tourTitle.replaceChildren(b); }
+    if (counter) counter.textContent = String(n + 1).padStart(2, '0') + ' / ' + String(tour.length).padStart(2, '0');
+  }
+  const next = () => goto(ti < 0 ? 0 : ti + 1);
+  const prev = () => (ti <= 0 ? overview() : goto(ti - 1));
+
+  const bp = document.getElementById('btn-prev'), bn = document.getElementById('btn-next'), bo = document.getElementById('btn-ov');
+  if (bn) bn.onclick = e => { e.stopPropagation(); next(); };
+  if (bp) bp.onclick = e => { e.stopPropagation(); prev(); };
+  if (bo) bo.onclick = e => { e.stopPropagation(); overview(); };
+  addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', ' ', 'PageDown'].includes(e.key)) { e.preventDefault(); next(); }
+    else if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+    else if (e.key === 'o' || e.key === 'O' || e.key === 'Home') overview();
+  });
+
+  function focusCard(id) {
+    const idx = tour.findIndex(s => s.id === id);
+    if (idx >= 0) { goto(idx); return; }
+    const el = document.getElementById(id); if (!el) return;
+    flyToEl(el);
+    const h = el.querySelector('h2');
+    if (tourTitle) { const b = document.createElement('b'); b.textContent = h ? h.textContent : id; tourTitle.replaceChildren(b); }
+    if (counter) counter.textContent = '•';
+  }
+  let panning = false, sx = 0, sy = 0, ox = 0, oy = 0, downTarget = null, moved = false;
+  vp.addEventListener('pointerdown', e => { panning = true; moved = false; sx = e.clientX; sy = e.clientY; ox = st.x; oy = st.y; downTarget = e.target; vp.classList.add('drag'); vp.setPointerCapture(e.pointerId); });
+  vp.addEventListener('pointermove', e => { if (!panning) return; const dx = e.clientX - sx, dy = e.clientY - sy; if (Math.abs(dx) + Math.abs(dy) > 6) moved = true; st.x = ox + dx; st.y = oy + dy; apply(false); });
+  vp.addEventListener('pointerup', () => { panning = false; vp.classList.remove('drag'); if (!moved && downTarget && downTarget.closest) { const card = downTarget.closest('.card'); if (card && card.id) focusCard(card.id); } });
+  vp.addEventListener('wheel', e => {
+    e.preventDefault();
+    const f = e.deltaY < 0 ? 1.12 : 1 / 1.12, ns = Math.max(0.12, Math.min(2.6, st.s * f)), mx = e.clientX, my = e.clientY;
+    st.x = mx - (mx - st.x) * (ns / st.s); st.y = my - (my - st.y) * (ns / st.s); st.s = ns; apply(false);
+  }, { passive: false });
+  addEventListener('resize', () => (ti < 0 ? overview() : goto(ti)));
+  let tx = 0; addEventListener('touchstart', e => tx = e.touches[0].clientX, { passive: true });
+  addEventListener('touchend', e => { const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 50) dx < 0 ? next() : prev(); }, { passive: true });
+
+  window.board = { goto, next, prev, overview };
+  overview();
+})();
+</script>
+</body>
+</html>
