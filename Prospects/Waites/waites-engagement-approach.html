@@ -51,15 +51,13 @@
 
   .title-slide { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%); color: #fff; justify-content: center; }
   .title-slide h1 { color: #fff; font-size: 33pt; max-width: 210mm; }
-  .title-slide .sub { font-size: 13pt; color: #C9D4DF; margin-top: 6mm; max-width: 190mm; }
-  .title-slide .meta { position: absolute; bottom: 14mm; left: 18mm; font-size: 10pt; color: #9FB0C0; }
+  .title-slide .sub { font-size: 13pt; color: #C9D4DF; margin-top: 6mm; max-width: 195mm; }
   .title-slide .brand { position: absolute; top: 14mm; left: 18mm; font-size: 11pt; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
   .draft-pill { display: inline-block; border: 1px solid var(--gold); color: var(--gold); border-radius: 10mm; padding: 1.5mm 5mm; font-size: 9.5pt; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 6mm; }
 
   .grid { display: grid; gap: 5mm; }
   .card { background: #fff; border: 1px solid var(--line); border-radius: 3mm; padding: 5.5mm; }
   .card.gold-top { border-top: 2.5mm solid var(--gold); }
-  .card .tag { display: inline-block; font-size: 8.5pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #fff; background: var(--navy); border-radius: 2mm; padding: 1mm 3mm; margin-bottom: 3mm; }
 
   table.clean { border-collapse: collapse; width: 100%; background: #fff; }
   table.clean th { background: var(--navy); color: #fff; text-align: left; padding: 2.6mm 4mm; font-size: 10pt; }
@@ -101,7 +99,12 @@
   .phase ul { padding-left: 4mm; }
   .phase li { font-size: 8.2pt; line-height: 1.35; margin-bottom: 1mm; }
 
-  .note-strip { background: var(--gold-soft); border-radius: 2.5mm; padding: 3.5mm 5.5mm; font-size: 10pt; }
+  .disclaim {
+    margin-top: 4mm; padding: 3mm 5mm; border-left: 1.2mm solid var(--muted);
+    background: #F1EDE3; border-radius: 0 2mm 2mm 0;
+    font-size: 9pt; color: var(--muted); font-style: italic;
+  }
+
   .check-list li { list-style: none; padding-left: 7mm; position: relative; margin-bottom: 2.6mm; }
   .check-list li::before { content: "\2713"; position: absolute; left: 0; color: var(--good); font-weight: 700; }
 </style>
@@ -112,40 +115,39 @@
 <section class="slide title-slide">
   <div class="brand">Techjays</div>
   <div>
-    <div class="draft-pill">Working document for discussion</div>
-    <h1>Reimagining Waites for the Agentic AI Era</h1>
-    <div class="sub">A structured approach to finding, sizing, and sequencing the opportunities that double revenue per employee, across sales, business development, marketing, and customer service.</div>
+    <div class="draft-pill">Working draft v1 · internal review</div>
+    <h1>A structured approach to the agentic AI opportunity study</h1>
+    <div class="sub">How we would map, quantify, and sequence the opportunities across sales, business development, marketing, and customer service, and hand over a roadmap the leadership team can execute.</div>
   </div>
-  <div class="meta">Prepared by Balasubramanian GR (Bala), Techjays &nbsp;|&nbsp; For discussion with Gerry Perkel &nbsp;|&nbsp; Jul 2026</div>
 </section>
 
-<!-- SLIDE 2: THE CHALLENGE -->
+<!-- SLIDE 2: THE OBJECTIVE -->
 <section class="slide">
-  <div class="kicker">1. The challenge</div>
-  <h2>The goal is clear. The highest-leverage places to act are not, yet.</h2>
+  <div class="kicker">1. The objective</div>
+  <h2>The objective set by Waites leadership</h2>
   <div class="grid" style="grid-template-columns: 1.2fr 1fr; flex:1;">
     <div style="display:flex; flex-direction:column; gap:5mm;">
       <div class="card gold-top">
         <h3>The ambition</h3>
-        <p>Double revenue per white-collar employee within two years, growing the business with the team you have, not by cutting it. A coordinated roadmap by end of 2026, with the approach settled by end of September.</p>
+        <p>Double revenue per white-collar employee within about two years, by growing revenue with the current team rather than reducing it. A coordinated roadmap by end of 2026, with the approach being finalized now.</p>
       </div>
       <div class="card gold-top">
-        <h3>The reality today</h3>
-        <p>Strong functional teams and real pockets of AI initiative, but no coordinated map of where agentic AI creates the most leverage across the commercial and support functions. Department heads are being asked a question that is not reasonable to answer alone: "reimagine your function".</p>
+        <h3>The situation today</h3>
+        <p>Strong functional teams and real AI initiative in pockets, but no single quantified picture of where agentic AI creates the most leverage across the commercial and support functions. Department heads are being asked to reimagine their functions, which is difficult to do from inside the function alone.</p>
       </div>
       <div class="card gold-top">
-        <h3>Our starting belief</h3>
-        <p>Technology is not the limiting factor. The limit is a clear, quantified picture of how work flows today and how it could flow instead. That picture is what this engagement produces.</p>
+        <h3>Our starting position</h3>
+        <p>Technology is unlikely to be the limiting factor. What is missing is a clear, quantified picture of how work flows today and how it could flow instead. Producing that picture is the purpose of this engagement.</p>
       </div>
     </div>
     <div class="card" style="display:flex; flex-direction:column; justify-content:center;">
-      <h3>What this engagement answers</h3>
+      <h3>The questions this study answers</h3>
       <ul class="check-list" style="margin-top:3mm;">
         <li>Which processes, re-architected, move revenue per employee the most?</li>
-        <li>Where does agentic AI genuinely beat simpler fixes, and where does it not?</li>
-        <li>What is each opportunity worth, and what would it take to capture it?</li>
+        <li>Where does agentic AI genuinely outperform simpler fixes, and where does it not?</li>
+        <li>What is each opportunity worth, and what would capturing it take?</li>
         <li>In what order should Waites act, starting with the first 90 days?</li>
-        <li>What data foundations need connecting along the way?</li>
+        <li>Which data connections (NetSuite, HubSpot, internal systems) are needed along the way?</li>
       </ul>
     </div>
   </div>
@@ -154,23 +156,23 @@
 
 <!-- SLIDE 3: APPROACH -->
 <section class="slide">
-  <div class="kicker">2. Our approach</div>
-  <h2>Re-engineer before you automate. Automate before you add AI.</h2>
+  <div class="kicker">2. Approach</div>
+  <h2>Three layers, applied in order</h2>
   <div class="layers">
     <div class="layer l1">
       <div class="num">1</div>
       <h3>Process re-engineering</h3>
-      <p>First, simplify. Remove steps, handoffs, and waits that exist only because the process grew up around people and legacy systems. Often the cheapest gains live here, with no technology at all.</p>
+      <p>First, simplify: remove steps, handoffs, and waits before any technology is added. Some of the cheapest gains require no technology at all.</p>
     </div>
     <div class="layer l2">
       <div class="num">2</div>
-      <h3>Deterministic layer</h3>
-      <p>Then automate what is rule-based: integrations, workflow automation, triggers between NetSuite, HubSpot, and internal systems. Where certainty beats probability, deterministic wins.</p>
+      <h3>Deterministic automation</h3>
+      <p>Then automate what is rule-based: integrations, triggers, and workflow automation between NetSuite, HubSpot, and internal systems, where certainty is enough.</p>
     </div>
     <div class="layer l3">
       <div class="num">3</div>
-      <h3>Agentic AI layer</h3>
-      <p>Only then deploy agents, where judgment, language, research, and 24/7 scale genuinely change the economics: outreach, qualification, multi-language coverage, always-on responsiveness.</p>
+      <h3>Agentic AI</h3>
+      <p>Only then deploy agents, where judgment, language, research, and continuous operation genuinely change the economics of the process.</p>
     </div>
   </div>
   <div class="grid" style="grid-template-columns: 1fr 1fr; margin-top:5mm;">
@@ -180,8 +182,8 @@
       <strong>Out:</strong> Software development, which already has its own roadmap.</p>
     </div>
     <div class="card">
-      <h3>The lens is revenue, not headcount</h3>
-      <p>Every opportunity is assessed the same way: does it help the same team produce more meetings, more qualified pipeline, more closed revenue, better retention? Cost savings are recorded where they appear, but capacity multiplication is the goal.</p>
+      <h3>Evaluation lens</h3>
+      <p>Every opportunity is assessed on revenue capacity: does it help the same team produce more qualified pipeline, more closed revenue, and better retention? Cost effects are recorded where they appear.</p>
     </div>
   </div>
   <div class="footer"><span>Waites x Techjays: engagement approach, working draft</span><span>3</span></div>
@@ -189,34 +191,35 @@
 
 <!-- SLIDE 4: METHOD -->
 <section class="slide">
-  <div class="kicker">3. How the study works</div>
-  <h2>The same disciplined cycle, department by department.</h2>
+  <div class="kicker">3. Method</div>
+  <h2>The same study cycle, department by department</h2>
   <div class="cycle">
-    <div class="stage"><h4>1. Understand</h4><p>Structured interviews with leads and doers, pre-shared questionnaires, observation of the real work, not the org-chart version of it.</p></div>
+    <div class="stage"><h4>1. Understand</h4><p>Structured interviews with leads and the people doing the work, supported by pre-shared questionnaires and observation.</p></div>
     <div class="chev">&#8250;</div>
-    <div class="stage"><h4>2. Map</h4><p>As-is workflow maps: inputs, outputs, handoffs, systems touched, volumes, cycle times, and where the hours actually go.</p></div>
+    <div class="stage"><h4>2. Map</h4><p>As-is workflows: inputs, outputs, handoffs, systems touched, volumes, cycle times, and where the hours go.</p></div>
     <div class="chev">&#8250;</div>
-    <div class="stage"><h4>3. Re-architect</h4><p>Target-state design through the three layers: what disappears, what becomes deterministic, where agents take over, where humans stay in the loop.</p></div>
+    <div class="stage"><h4>3. Re-architect</h4><p>Target-state design through the three layers, including where humans stay in the loop.</p></div>
     <div class="chev">&#8250;</div>
-    <div class="stage"><h4>4. Quantify</h4><p>Projected gain per opportunity: capacity freed, revenue lift, cost avoided, with the assumptions stated and testable.</p></div>
+    <div class="stage"><h4>4. Quantify</h4><p>Projected gain per opportunity, with the assumptions stated and testable.</p></div>
     <div class="chev">&#8250;</div>
-    <div class="stage"><h4>5. Prioritize</h4><p>Every opportunity plotted on return vs effort, stack-ranked into a sequenced roadmap Waites can start executing immediately.</p></div>
+    <div class="stage"><h4>5. Prioritize</h4><p>All opportunities plotted on return vs effort and stack-ranked into a sequenced roadmap.</p></div>
   </div>
   <div class="grid" style="grid-template-columns: 1fr 1.1fr; margin-top:6mm; flex:1;">
     <div class="card">
-      <h3>Example: the BDR function</h3>
-      <p class="small">Eight to ten people produce a target number of qualified meetings per month. We map how a meeting actually gets made: list building, research, outreach sequences, follow-ups, scheduling. Then we ask, step by step: which parts vanish with a cleaner process, which are deterministic automation, and where would agents working around the clock and in any language change the meeting economics entirely? The output is not "use AI in BD"; it is a costed target design with a projected meetings-per-person multiple.</p>
+      <h3>Worked example: the business development function</h3>
+      <p class="small">A team of eight to ten people produces a target number of qualified meetings per month. The study maps how a meeting is actually made: list building, research, outreach, follow-ups, scheduling. Each step is then classified: which parts a cleaner process removes, which are deterministic automation, and where agents working continuously and in multiple languages change the meeting economics. The output is a costed target design with a projected meetings-per-person multiple, comparable against the other opportunities on the same matrix.</p>
     </div>
     <div style="display:flex; gap:2.5mm;">
       <div class="axis-y">Return &#8594;</div>
       <div style="flex:1; display:flex; flex-direction:column;">
         <div class="matrix">
-          <div class="quad q1"><h4>Quick wins</h4><p>High return, low effort. Fund the journey, build belief.</p></div>
-          <div class="quad q2"><h4>Big bets</h4><p>High return, high effort. Sequence deliberately.</p></div>
-          <div class="quad q3"><h4>Fill-ins</h4><p>Low return, low effort. Bundle with adjacent work.</p></div>
-          <div class="quad q4"><h4>Not now</h4><p>Low return, high effort. Named and parked, not forgotten.</p></div>
+          <div class="quad q1"><h4>Quick wins</h4><p>High return, low effort. First in the sequence.</p></div>
+          <div class="quad q2"><h4>Big bets</h4><p>High return, high effort. Planned and sequenced deliberately.</p></div>
+          <div class="quad q3"><h4>Fill-ins</h4><p>Low return, low effort. Bundled with adjacent work.</p></div>
+          <div class="quad q4"><h4>Not now</h4><p>Low return, high effort. Documented and revisited later.</p></div>
         </div>
         <div class="axis-x">Effort and cost &#8594;</div>
+        <p class="small muted" style="margin-top:2.5mm;">Every opportunity is plotted, stack-ranked, and costed on this matrix.</p>
       </div>
     </div>
   </div>
@@ -226,19 +229,19 @@
 <!-- SLIDE 5: ENGAGEMENT MODEL -->
 <section class="slide">
   <div class="kicker">4. Engagement model and team</div>
-  <h2>Hybrid by design: onsite where it matters, remote where it is efficient.</h2>
+  <h2>Hybrid: onsite and remote, by design</h2>
   <div class="grid" style="grid-template-columns: 1fr 1fr 1fr; flex:1; align-items:start;">
     <div class="card gold-top">
       <h3>Onsite for the critical work</h3>
-      <p class="small">Whiteboard re-architecture sessions, shadowing the real work, executive workshops, and the final readout are done in person, where they are dramatically more productive.</p>
+      <p class="small">Re-architecture working sessions, observation of the actual work, executive workshops, and the final readout are conducted in person, where they are most productive.</p>
     </div>
     <div class="card gold-top">
       <h3>Remote where it is efficient</h3>
-      <p class="small">Suitable discovery work moves to video calls, pre-shared questionnaires, and document review before travel. The more that lands before we fly, the shorter and sharper the onsite window becomes, and the lower the overall cost. The onsite duration flexes with how much we can complete this way.</p>
+      <p class="small">Suitable discovery work is handled over video calls, pre-shared questionnaires, and document review, completed before travel. The onsite duration flexes with the pre-work: the more discovery completes remotely, the shorter the onsite window needs to be, which also reduces cost.</p>
     </div>
     <div class="card gold-top">
-      <h3>Follow-the-sun advantage</h3>
-      <p class="small">With the engagement lead onsite in the US and a solution designer offsite in India, work continues around the clock: what is whiteboarded during your business day returns as worked-up target designs and estimates by the next morning.</p>
+      <h3>Working across time zones</h3>
+      <p class="small">With the engagement lead onsite in the US and the solution designer offsite in India, material gathered during the US working day is developed further overnight and is ready for review the next morning.</p>
     </div>
   </div>
   <div class="grid" style="grid-template-columns: 1.3fr 1fr; margin-top:5mm;">
@@ -246,42 +249,43 @@
       <h3>The team</h3>
       <table class="clean" style="margin-top:2mm;">
         <tr><th>Role</th><th>Presence</th><th>Owns</th></tr>
-        <tr><td><strong>Engagement lead</strong> (Bala, Techjays)</td><td>Onsite, full-time</td><td>Interviews, workshops, mapping, prioritization, executive readout</td></tr>
-        <tr><td><strong>Solution designer</strong> (Techjays)</td><td>Offsite, fractional</td><td>Target-state designs, feasibility and effort estimates, data connectivity analysis</td></tr>
+        <tr><td>Engagement lead</td><td>Onsite, full-time</td><td>Interviews, workshops, process mapping, prioritization, executive readout</td></tr>
+        <tr><td>Solution designer</td><td>Offsite, part-time on this engagement</td><td>Target-state designs, feasibility and effort estimates, data connectivity analysis</td></tr>
       </table>
     </div>
     <div class="card">
       <h3>Commercial basis</h3>
-      <p class="small">Professional fees on a USD 200 per hour basis, with travel and logistics for the onsite period billed separately at actuals. A detailed commercial construct follows once scope and the onsite/remote split are confirmed together.</p>
+      <p class="small">Professional fees on a USD 200 per hour basis, with travel and logistics for the onsite period billed separately at actuals.</p>
+      <div class="disclaim">Indicative basis only. The final commercial construct depends on the scope, the team composition, and the onsite/remote split agreed once discovery boundaries are confirmed.</div>
     </div>
   </div>
   <div class="footer"><span>Waites x Techjays: engagement approach, working draft</span><span>5</span></div>
 </section>
 
-<!-- SLIDE 6: SIX WEEK PLAN -->
+<!-- SLIDE 6: PLAN -->
 <section class="slide">
-  <div class="kicker">5. The plan</div>
-  <h2>Engineered weeks: remote preparation, then a sharp onsite window.</h2>
+  <div class="kicker">5. Plan</div>
+  <h2>Remote preparation, then a focused onsite window</h2>
   <div class="timeline">
     <div class="phase remote">
       <div class="when">Pre-engagement · remote</div>
       <h4>Set the stage</h4>
-      <ul><li>Intro calls, single point of contact named</li><li>Questionnaires sent to all four departments</li><li>Document and metrics collection</li><li>Systems overview via video</li><li>Logistics and calendar locked</li></ul>
+      <ul><li>Introductory calls, point of contact named</li><li>Questionnaires sent to all four departments</li><li>Document and metrics collection</li><li>Systems overview via video</li><li>Logistics and calendar locked</li></ul>
     </div>
     <div class="phase">
       <div class="when">Week 1 · onsite</div>
       <h4>Align and begin</h4>
-      <ul><li>Executive alignment workshop</li><li>BD deep dive: interviews, shadowing</li><li>Sales cycle begins</li></ul>
+      <ul><li>Executive alignment session</li><li>Business development deep dive</li><li>Sales cycle begins</li></ul>
     </div>
     <div class="phase">
       <div class="when">Week 2 · onsite</div>
       <h4>Sales + Marketing</h4>
-      <ul><li>Sales mapping completed</li><li>Marketing deep dive</li><li>First re-architecture whiteboards</li></ul>
+      <ul><li>Sales mapping completed</li><li>Marketing deep dive</li><li>First re-architecture working sessions</li></ul>
     </div>
     <div class="phase">
       <div class="when">Week 3 · onsite</div>
-      <h4>Service + data spine</h4>
-      <ul><li>Customer service deep dive</li><li>Data connectivity review with systems owners</li><li>Target designs drafted offsite in parallel</li></ul>
+      <h4>Service + data</h4>
+      <ul><li>Customer service deep dive</li><li>Data connectivity review with systems owners</li><li>Target designs progressing offsite in parallel</li></ul>
     </div>
     <div class="phase">
       <div class="when">Week 4 · onsite</div>
@@ -291,46 +295,47 @@
     <div class="phase">
       <div class="when">Week 5 · onsite</div>
       <h4>Prioritize</h4>
-      <ul><li>Return vs effort workshop with leadership</li><li>Stack-ranked portfolio agreed</li><li>Initiative outlines drafted</li></ul>
+      <ul><li>Return vs effort session with leadership</li><li>Stack-ranked portfolio agreed</li><li>Initiative outlines drafted</li></ul>
     </div>
     <div class="phase">
       <div class="when">Week 6 · onsite</div>
       <h4>Roadmap + readout</h4>
-      <ul><li>Roadmap synthesis and business case</li><li>Draft review with COO and Gerry</li><li>Executive readout to CEO and team</li></ul>
+      <ul><li>Roadmap synthesis and business case</li><li>Draft review with the sponsor</li><li>Executive readout</li></ul>
     </div>
   </div>
-  <div class="note-strip" style="margin-top:5mm;">A weekly checkpoint with the COO and Gerry runs throughout. And the more discovery we complete remotely in pre-engagement, the more the onsite window can compress, reserving in-person time for the work that genuinely needs a whiteboard and a handshake.</div>
+  <p class="small muted" style="margin-top:4mm;">A weekly checkpoint with the sponsor runs through the engagement.</p>
+  <div class="disclaim">Indicative plan. The number of onsite weeks, the department order, and the overall duration will change based on the scope that is finally agreed and how much discovery completes remotely before travel.</div>
   <div class="footer"><span>Waites x Techjays: engagement approach, working draft</span><span>6</span></div>
 </section>
 
 <!-- SLIDE 7: DELIVERABLES -->
 <section class="slide">
-  <div class="kicker">6. What Waites gets</div>
-  <h2>Concrete artifacts, owned by Waites, actionable without us.</h2>
+  <div class="kicker">6. Deliverables</div>
+  <h2>What the engagement produces</h2>
   <div class="grid" style="grid-template-columns: 1.15fr 1fr; flex:1;">
     <div class="card">
       <h3>The roadmap report</h3>
       <table class="clean" style="margin-top:2mm;">
-        <tr><td>1</td><td>Executive summary: the one-page answer</td></tr>
-        <tr><td>2</td><td>How your commercial engine actually works today: process maps for BD, sales, marketing, and customer service</td></tr>
-        <tr><td>3</td><td>Opportunity portfolio: every opportunity on the return vs effort matrix, stack-ranked</td></tr>
-        <tr><td>4</td><td>Initiative outlines for the top opportunities: target workflow, three-layer classification, projected gain, indicative effort, and honest build / buy / partner options for each</td></tr>
-        <tr><td>5</td><td>Data connectivity assessment: what needs connecting, in what order, and what does not need fixing before starting</td></tr>
+        <tr><td>1</td><td>Executive summary</td></tr>
+        <tr><td>2</td><td>Current-state process maps for business development, sales, marketing, and customer service</td></tr>
+        <tr><td>3</td><td>Opportunity portfolio on the return vs effort matrix, stack-ranked</td></tr>
+        <tr><td>4</td><td>Initiative outlines for the top opportunities: target workflow, layer classification, projected gain, indicative effort, and build / buy / partner options for each</td></tr>
+        <tr><td>5</td><td>Data connectivity assessment and sequencing</td></tr>
         <tr><td>6</td><td>Sequenced roadmap with a concrete first 90 days</td></tr>
       </table>
     </div>
     <div style="display:flex; flex-direction:column; gap:5mm;">
       <div class="card gold-top">
         <h3>Executive readout</h3>
-        <p class="small">A working session with the CEO and executive team, not a deck-drop: the portfolio debated, the sequence agreed, owners identified.</p>
+        <p class="small">A working session with the executive team to review the portfolio, agree the sequence, and identify owners, in addition to the written report.</p>
       </div>
       <div class="card gold-top">
-        <h3>Straight advice, no lock-in</h3>
-        <p class="small">Every initiative carries build, buy, and partner options, including paths that do not involve Techjays. Waites owns every artifact outright. If the best answer for a given initiative is your in-house team, the report will say so.</p>
+        <h3>Independent recommendations</h3>
+        <p class="small">Every initiative carries build, buy, and partner options, including paths that do not involve Techjays. Where the in-house team is the right answer, the report says so. Waites owns all artifacts produced during the engagement.</p>
       </div>
       <div class="card gold-top">
-        <h3>Estimates you can trust</h3>
-        <p class="small">Effort and feasibility numbers come from people who build these systems every day, not from a slideware library.</p>
+        <h3>Grounded estimates</h3>
+        <p class="small">Effort and feasibility estimates come from a team that designs and builds these systems in delivery work, so the roadmap reflects implementation reality.</p>
       </div>
     </div>
   </div>
@@ -340,48 +345,47 @@
 <!-- SLIDE 8: WHAT WE NEED + NEXT STEPS -->
 <section class="slide">
   <div class="kicker">7. Making it work</div>
-  <h2>What we need from Waites, and how we start.</h2>
+  <h2>What we need from Waites, and how we start</h2>
   <div class="grid" style="grid-template-columns: 1fr 1fr; flex:1;">
     <div class="card">
       <h3>What we need</h3>
       <ul class="check-list" style="margin-top:3mm;">
-        <li>A named point of contact who owns our calendar and access</li>
-        <li>Time with department heads and, importantly, the people who do the work</li>
-        <li>Questionnaire pre-work returned before travel: it directly shortens the engagement</li>
+        <li>A named point of contact who owns the calendar and access</li>
+        <li>Time with department heads and with the people doing the work</li>
+        <li>Questionnaire pre-work returned before travel, which directly shortens the onsite window</li>
         <li>Systems walkthroughs: NetSuite, HubSpot, and the internal tools that matter</li>
         <li>Baseline metrics where they exist: volumes, targets, conversion rates, cycle times</li>
       </ul>
     </div>
     <div class="card">
-      <h3>Proposed next steps</h3>
+      <h3>Next steps</h3>
       <table class="clean" style="margin-top:2mm;">
-        <tr><td>1</td><td>Feedback on this document: what works, what does not</td></tr>
-        <tr><td>2</td><td>Introductory call with the COO: confirm scope, priorities, and the onsite/remote split</td></tr>
+        <tr><td>1</td><td>Feedback on this document and the approach</td></tr>
+        <tr><td>2</td><td>Introductory call with the sponsor: confirm scope, priorities, and the onsite/remote split</td></tr>
         <tr><td>3</td><td>Department questionnaires finalized and sent</td></tr>
-        <tr><td>4</td><td>Detailed week-by-week plan and commercial construct confirmed</td></tr>
-        <tr><td>5</td><td>Dates locked, pre-engagement begins</td></tr>
+        <tr><td>4</td><td>Detailed plan and commercial construct confirmed against the agreed scope</td></tr>
+        <tr><td>5</td><td>Dates locked; pre-engagement begins</td></tr>
       </table>
     </div>
   </div>
-  <div class="note-strip" style="margin-top:5mm;">This is a working document, deliberately: the fastest way to a plan Waites believes in is to react to something concrete. Tell us where we are wrong.</div>
   <div class="footer"><span>Waites x Techjays: engagement approach, working draft</span><span>8</span></div>
 </section>
 
 <!-- SLIDE 9: APPENDIX -->
 <section class="slide">
   <div class="kicker">Appendix</div>
-  <h2>Sample of the pre-work: Business Development questionnaire (excerpt)</h2>
+  <h2>Pre-work sample: Business Development questionnaire, excerpt</h2>
   <div class="card" style="flex:1;">
     <table class="clean" style="margin-top:1mm;">
-      <tr><td>1</td><td>Walk us through a lead's journey from first touch to a booked discovery call: every step, every system touched, every handoff between people.</td></tr>
-      <tr><td>2</td><td>What is the monthly meeting target per BDR, what is typical attainment, and where do a BDR's hours actually go in a normal week?</td></tr>
-      <tr><td>3</td><td>Which outreach steps are templated or sequenced today, and which are personally crafted each time? What tooling is in place?</td></tr>
-      <tr><td>4</td><td>What information does a BDR consult before reaching out (HubSpot fields, NetSuite history, external research), and what do they wish they had?</td></tr>
-      <tr><td>5</td><td>What are the top three reasons a booked meeting fails to become a qualified opportunity?</td></tr>
-      <tr><td>6</td><td>If your team's capacity doubled tomorrow at the same cost, where would you point the extra effort first, and why?</td></tr>
+      <tr><td>1</td><td>Walk us through a lead's journey from first touch to a booked discovery call: each step, every system touched, every handoff between people.</td></tr>
+      <tr><td>2</td><td>What is the monthly meeting target per person, what is typical attainment, and where do the hours go in a normal week?</td></tr>
+      <tr><td>3</td><td>Which outreach steps are templated or sequenced today, and which are crafted individually each time? What tooling is in place?</td></tr>
+      <tr><td>4</td><td>What information is consulted before reaching out (HubSpot fields, NetSuite history, external research), and what is missing?</td></tr>
+      <tr><td>5</td><td>What are the main reasons a booked meeting does not become a qualified opportunity?</td></tr>
+      <tr><td>6</td><td>If the team's capacity doubled tomorrow at the same cost, where would the extra effort go first, and why?</td></tr>
     </table>
   </div>
-  <p class="small muted" style="margin-top:4mm;">Full questionnaires for Sales, Business Development, Marketing, and Customer Service follow once the scope is confirmed. Each is designed to be answerable in under an hour, and every answer shortens the onsite window.</p>
+  <p class="small muted" style="margin-top:4mm;">Full questionnaires for all four departments follow once the scope is confirmed. Each is designed to be answerable in under an hour, and completed pre-work directly shortens the onsite window.</p>
   <div class="footer"><span>Waites x Techjays: engagement approach, working draft</span><span>9</span></div>
 </section>
 
