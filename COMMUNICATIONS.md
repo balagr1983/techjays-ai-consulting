@@ -3,6 +3,16 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 23 Jul 2026 - Waites approach note to Philip (SENT; Philip AGREED)
+
+Bala emailed Philip the Waites broad points and approach: 6-week onsite study across
+sales/BD/marketing/customer service (software dev excluded), agentic-AI roadmap
+deliverable, USD 200 per hour effort basis with travel and logistics extra, framed as
+initial offering while establishing the practice. Positioned explicitly as a preliminary
+structured document, not a proposal. **Philip responded agreeing to the suggestions.**
+(Claude could not read the thread directly: Gmail connector lacks read permissions;
+summary per Bala.)
+
 ## 21 Jul 2026 - Update to Philip (DRAFTED, not yet sent)
 
 Purpose: close the loop on the 16 Jul commitment to report research findings back in a

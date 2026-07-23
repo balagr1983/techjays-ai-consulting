@@ -88,3 +88,5 @@
 |------|-------|
 | 22 Jul 2026 | Gerry Perkel call: opportunity scoped in principle (see table). Transcript on file. |
 | 22 Jul 2026 | Prior research brief received from Bala's separate Fable session; merged here. |
+| 23 Jul 2026 | Approach note sent to Philip (USD 200/hr basis, T&E extra, hybrid model); Philip agreed. |
+| 23 Jul 2026 | Engagement-approach document v1 built (`waites-engagement-approach.html`, 9 slides): three-layer method, hybrid onsite/remote model, 2-person team (Bala onsite + solution designer offsite, follow-the-sun), plan with remote pre-engagement, deliverables, BD questionnaire excerpt. Rate stated as USD 200/hr + T&E, no totals. Pending Bala review, then Philip, then Gerry. |
