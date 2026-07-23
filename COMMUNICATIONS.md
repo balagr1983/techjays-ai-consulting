@@ -3,6 +3,18 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 24 Jul 2026 - Waites approach document sent to Philip (SENT)
+
+Bala emailed Philip the finished Waites engagement-approach document for review, hosted
+on Jetrix: https://app.jetrix.ai/reports/shared/6a6270f1cef0867f187b37e1 (passcode 6385).
+Source file: `Prospects/Waites/waites-engagement-approach.html` (v3 + layout fixes).
+Email summarized the contents: re-engineering first, then automation, then AI; scope =
+sales, BD, marketing, customer service; hybrid remote/onsite model with week-wise plan;
+commercials limited to the USD 200 per hour basis with travel and logistics separate,
+no totals, disclaimers that numbers and timelines will be refined once actual scope is
+decided. Ask: Philip's feedback / changes; once he is okay, Bala sets up a call with
+Gerry to walk him through it.
+
 ## 23 Jul 2026 - Waites approach note to Philip (SENT; Philip AGREED)
 
 Bala emailed Philip the Waites broad points and approach: 6-week onsite study across
