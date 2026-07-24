@@ -86,6 +86,7 @@
 
 | Date | Event |
 |------|-------|
+| 24 Jul 2026 | **Philip approved the approach document** ("structure seems spot on... go ahead and set up the call with Gerry"; USD 200/hr rate confirmed reasonable for the initial engagement; travel separate agreed). Next: Gerry walkthrough call. |
 | 22 Jul 2026 | Gerry Perkel call: opportunity scoped in principle (see table). Transcript on file. |
 | 22 Jul 2026 | Prior research brief received from Bala's separate Fable session; merged here. |
 | 23 Jul 2026 | Approach note sent to Philip (USD 200/hr basis, T&E extra, hybrid model); Philip agreed. |

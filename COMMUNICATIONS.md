@@ -3,6 +3,16 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 24 Jul 2026 - Philip APPROVED the approach document (verified from Gmail)
+
+Philip's reply on the "Call with Gerry" thread (23 Jul 20:07 UTC): "the structure seems
+spot on. Hybrid model, focus on process first, and keeping travel separate are all
+good. Go ahead and set up the call with Gerry." His earlier reply (22 Jul 19:56 UTC)
+also verified verbatim: approach makes sense, pilot framing endorsed, "$200/hr rate
+seems reasonable for this initial engagement given the goal of establishing the
+practice", travel/logistics separate agreed. **Next action: Bala sets up the Gerry
+walkthrough call.**
+
 ## 24 Jul 2026 - Waites approach document sent to Philip (SENT)
 
 Bala emailed Philip the finished Waites engagement-approach document for review, hosted
