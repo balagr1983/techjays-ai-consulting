@@ -3,14 +3,18 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
-## 24 Jul 2026 - Note to Gerry with the approach document (DRAFTED in Gmail, pending Bala's send)
+## 24 Jul 2026 - Note to Gerry with the approach document (SENT, with Bala's edits)
 
-Draft created directly in Bala's Gmail (to gerryperkel@ceocoachinginternational.com,
-subject "Waites - engagement approach document"): Jetrix link + passcode, summary
-(scope, three-layer approach, hybrid model, week-wise plan, questionnaire sample),
-notes Philip has reviewed and is aligned, flags plan/commercials as indicative pending
-scope, and asks for a walkthrough call this week or early next (EST). Bala to review
-and send from Gmail drafts.
+Sent to gerryperkel@ceocoachinginternational.com ("Waites - engagement approach
+document"): Jetrix link + passcode, summary (scope, three-layer approach, hybrid model,
+week-wise plan, questionnaire sample), Philip reviewed and aligned, plan/commercials
+flagged indicative pending scope, ask for a walkthrough call this week or early next.
+Bala's edits before sending: corrected the Jetrix link, "before we take it to them"
+instead of naming the COO, removed the EST reference. Awaiting Gerry's response /
+call slot.
+
+Process note: going forward, email drafts are shared in chat for approval BEFORE being
+placed in Gmail drafts.
 
 ## 24 Jul 2026 - Philip APPROVED the approach document (verified from Gmail)
 
