@@ -3,6 +3,17 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 28 Jul 2026 - Gerry's response to the approach document (RECEIVED)
+
+Gerry: "a great first pass and helps to define how a process like this would work." He
+will discuss it with the client (the COO, "she") as a rough first draft to test whether
+this is a direction she wants. His ask back to Bala: start thinking about how to
+describe this service to potential clients - what to arm a salesperson with to pitch it
+in a clear, concise, compelling manner, and why a client should choose us. He returns
+later this week with more info. (This ask maps directly onto the practice packaging
+work in Offering/: framework strawman, SKU one-pagers, positioning.) Bala's reply:
+drafted 28 Jul, pending send.
+
 ## 24 Jul 2026 - Note to Gerry with the approach document (SENT, with Bala's edits)
 
 Sent to gerryperkel@ceocoachinginternational.com ("Waites - engagement approach
