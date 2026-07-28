@@ -11,8 +11,10 @@ this is a direction she wants. His ask back to Bala: start thinking about how to
 describe this service to potential clients - what to arm a salesperson with to pitch it
 in a clear, concise, compelling manner, and why a client should choose us. He returns
 later this week with more info. (This ask maps directly onto the practice packaging
-work in Offering/: framework strawman, SKU one-pagers, positioning.) Bala's reply:
-drafted 28 Jul, pending send.
+work in Offering/: framework strawman, SKU one-pagers, positioning.) Bala's reply SENT
+28 Jul: treat the doc as a direction test, will refine after her reaction; committed to
+sharing a first cut of the sales packaging (service description, salesperson toolkit,
+why-us) "in the next few days".
 
 ## 24 Jul 2026 - Note to Gerry with the approach document (SENT, with Bala's edits)
 
