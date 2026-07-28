@@ -66,6 +66,44 @@ starts fractional and with delivery-lead agreement.
   builder environment; or industry operators who ran AI programs client-side.
 - Peer interview question 11 already asks for names; log them in the tracker below.
 
+## US hire vs internal-first (analysis, 28 Jul 2026)
+
+**Position: internal-first by default; fractional US contractor per engagement when a
+deal demands local presence; a full US hire only after a trigger condition is met.**
+
+The affordability math: a US-based senior consultant costs roughly USD 180,000 to
+250,000 fully loaded per year (USD 15,000 to 20,000 per month). At the current price
+point of USD 40,000 to 50,000 per 6-week engagement, a US hire needs five to six
+back-to-back engagements per year just to break even on their own cost, against a
+pipeline that today holds one unsigned pilot. An India-based Techjays consultant plus
+USD 10,000 to 14,000 of travel per onsite engagement is profitable from engagement
+one. Strategic point: the "quarter of big-firm fees" positioning exists because of the
+cost structure; US payroll erodes the differentiator itself.
+
+**For internal-first:**
+- Profitable from the first engagement; zero utilization risk on an unproven pipeline.
+- Skin-in-the-game estimates require people who know Techjays delivery; an external
+  hire starts at zero.
+- DND alumni already have the discovery/workshop/documentation muscle; the pilot is
+  the tryout.
+- Quality and culture control in year one; growth story for good internal people.
+- The hybrid model reduces the onsite dependency a US body would otherwise fill.
+
+**Against internal-only (the honest counterarguments):**
+- US visas are the binding constraint: most of the bench will not have one, and new
+  visas from India take months. Two or three concurrent US deals would hit the wall.
+  Gerry has already asked about additional resources and hinted US-based would help.
+- Time zones: relationship-layer responsiveness (not design work) suffers.
+- Exec-room polish for US mid-market CEOs is scarce on any bench.
+- Pulling billable people has a real delivery cost.
+
+**Trigger condition for revisiting a US hire:** pilot proves the margin and the
+assessment-to-build attach rate, AND the referral channel produces its second or third
+concurrent deal.
+
+**Action now:** when screening the staff list, capture "holds a valid US visa" as an
+explicit filter alongside the six consulting-trait criteria.
+
 ## Candidate tracker
 
 | Date | Name | Source (internal/network) | Candidate role | Status | Notes |
