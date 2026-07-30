@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI and Automation Opportunity Study: Service Packaging</title>
+<style>
+  :root {
+    --navy: #0E2238;
+    --navy-2: #16324F;
+    --gold: #D9A441;
+    --gold-soft: #F2E3C4;
+    --paper: #FAF8F4;
+    --ink: #22303E;
+    --muted: #5B6B7A;
+    --line: #DDD5C6;
+    --good: #2E7D5B;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { background: #E9E5DC; }
+  body { font-family: "Segoe UI", -apple-system, Roboto, Arial, sans-serif; color: var(--ink); }
+
+  .slide {
+    width: 297mm; height: 209mm;
+    margin: 10mm auto; padding: 15mm 18mm;
+    background: var(--paper);
+    box-shadow: 0 2px 14px rgba(0,0,0,.18);
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  @media print {
+    html, body { background: none; }
+    .slide { margin: 0; box-shadow: none; page-break-after: always; }
+    @page { size: A4 landscape; margin: 0; }
+  }
+
+  .kicker { font-size: 10.5pt; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 4mm; }
+  h1 { font-size: 30pt; line-height: 1.15; color: var(--navy); font-weight: 700; }
+  h2 { font-size: 20pt; color: var(--navy); margin-bottom: 6mm; font-weight: 700; }
+  h3 { font-size: 12.5pt; color: var(--navy); margin-bottom: 2.5mm; }
+  p, li, td, th { font-size: 10.5pt; line-height: 1.5; }
+  .muted { color: var(--muted); }
+  .small { font-size: 9pt; }
+
+  .footer {
+    position: absolute; bottom: 7mm; left: 18mm; right: 18mm;
+    display: flex; justify-content: space-between;
+    font-size: 8.5pt; color: var(--muted);
+    border-top: 1px solid var(--line); padding-top: 2.5mm;
+  }
+
+  .title-slide { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%); color: #fff; justify-content: center; }
+  .title-slide h1 { color: #fff; font-size: 33pt; max-width: 215mm; }
+  .title-slide .sub { font-size: 13pt; color: #C9D4DF; margin-top: 6mm; max-width: 200mm; }
+  .title-slide .brand { position: absolute; top: 14mm; left: 18mm; font-size: 11pt; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+  .draft-pill { display: inline-block; border: 1px solid var(--gold); color: var(--gold); border-radius: 10mm; padding: 1.5mm 5mm; font-size: 9.5pt; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 6mm; }
+
+  .grid { display: grid; gap: 5mm; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 3mm; padding: 5.5mm; }
+  .card.gold-top { border-top: 2.5mm solid var(--gold); }
+
+  table.clean { border-collapse: collapse; width: 100%; background: #fff; }
+  table.clean th { background: var(--navy); color: #fff; text-align: left; padding: 2.6mm 4mm; font-size: 10pt; }
+  table.clean td { border-bottom: 1px solid var(--line); padding: 2.4mm 4mm; vertical-align: top; }
+  table.clean tr:last-child td { border-bottom: none; }
+
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
+    color: #fff; border-radius: 3mm; padding: 7mm 8mm;
+  }
+  .hero p { font-size: 13.5pt; line-height: 1.55; }
+  .hero .lead-in { font-size: 9.5pt; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 2.5mm; }
+
+  .numline { counter-reset: n; list-style: none; }
+  .numline li { counter-increment: n; position: relative; padding-left: 9mm; margin-bottom: 2.8mm; }
+  .numline li::before {
+    content: counter(n); position: absolute; left: 0; top: 0.2mm;
+    width: 6mm; height: 6mm; border-radius: 50%;
+    background: var(--navy); color: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 9.5pt; font-weight: 700;
+  }
+
+  .method-strip { display: flex; align-items: center; gap: 3mm; background: #fff; border: 1px solid var(--line); border-radius: 3mm; padding: 4mm 5mm; }
+  .method-strip .step { flex: 1; text-align: center; }
+  .method-strip .step b { display: block; font-size: 10.5pt; color: var(--navy); }
+  .method-strip .step span { font-size: 8.8pt; color: var(--muted); }
+  .method-strip .chev { color: var(--gold); font-size: 15pt; font-weight: 700; }
+
+  .cite { font-size: 8.2pt; color: var(--muted); line-height: 1.45; border-left: 1mm solid var(--line); padding-left: 3.5mm; }
+
+  .obj td:first-child { width: 34%; font-weight: 600; color: var(--navy); }
+
+  .check-list li { list-style: none; padding-left: 7mm; position: relative; margin-bottom: 2.4mm; }
+  .check-list li::before { content: "\2713"; position: absolute; left: 0; color: var(--good); font-weight: 700; }
+
+  .pillar { border-top: 2.5mm solid var(--gold); }
+  .pillar .idx { font-size: 20pt; font-weight: 700; color: var(--gold); line-height: 1; margin-bottom: 2mm; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: TITLE -->
+<section class="slide title-slide">
+  <div class="brand">Techjays</div>
+  <div>
+    <div class="draft-pill">Working draft v1 · internal review</div>
+    <h1>The AI and Automation Opportunity Study: how we describe it, sell it, and win it</h1>
+    <div class="sub">A first cut answering three questions: how do we describe this service to potential clients, what do we arm a salesperson with, and why should a client choose us.</div>
+  </div>
+</section>
+
+<!-- SLIDE 2: HOW WE DESCRIBE THE SERVICE -->
+<section class="slide">
+  <div class="kicker">Question 1</div>
+  <h2>How we describe the service</h2>
+  <div class="hero">
+    <div class="lead-in">The one-liner</div>
+    <p>For companies that know AI matters but do not know where to start: a fixed-fee, six to eight week study that maps how the business actually runs, identifies where process re-engineering, automation, and AI can grow revenue per employee, and delivers a stack-ranked, costed roadmap that can be executed immediately, in-house or with us.</p>
+  </div>
+  <div class="grid" style="grid-template-columns: 1.25fr 1fr; margin-top:5mm; flex:1;">
+    <div class="card">
+      <h3>The pitch in three sentences</h3>
+      <ol class="numline" style="margin-top:2.5mm;">
+        <li>Most companies are stuck between AI pilots and real impact, and the stall is organizational, not technological.</li>
+        <li>We study the business the way engineers do, process by process, and quantify where the leverage is.</li>
+        <li>In six to eight weeks the leadership team gets a prioritized plan with numbers they can defend to their board.</li>
+      </ol>
+      <p class="cite" style="margin-top:3.5mm;">MIT NANDA, The GenAI Divide: State of AI in Business 2025: about 95% of enterprise gen AI pilots show little to no measurable P&amp;L impact, attributed to workflow integration, not model quality. &nbsp;·&nbsp; McKinsey, The State of AI 2025: workflow redesign is the strongest of 25 factors driving AI's bottom-line impact; only 21% of companies have done it.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:5mm;">
+      <div class="card gold-top">
+        <h3>What it is</h3>
+        <p>A quantified operating plan: scored assessment, opportunity portfolio on a return vs effort matrix, and a sequenced roadmap with a concrete first 90 days.</p>
+      </div>
+      <div class="card gold-top">
+        <h3>What it is not</h3>
+        <p>A strategy deck, a technology audit, or a staffing pitch.</p>
+      </div>
+    </div>
+  </div>
+  <div class="method-strip" style="margin-top:5mm;">
+    <div class="step"><b>1 · Re-engineer</b><span>simplify the process first</span></div>
+    <div class="chev">&#8250;</div>
+    <div class="step"><b>2 · Automate</b><span>rules, integrations, workflow automation</span></div>
+    <div class="chev">&#8250;</div>
+    <div class="step"><b>3 · Apply AI</b><span>where it changes the economics</span></div>
+    <div class="chev">&#8250;</div>
+    <div class="step"><b>Prioritize</b><span>every opportunity costed and stack-ranked</span></div>
+  </div>
+  <div class="footer"><span>Service packaging, working draft</span><span>2</span></div>
+</section>
+
+<!-- SLIDE 3: WHAT THE SALESPERSON CARRIES -->
+<section class="slide">
+  <div class="kicker">Question 2</div>
+  <h2>What the salesperson carries</h2>
+  <div class="grid" style="grid-template-columns: 1fr 1fr 1fr;">
+    <div class="card gold-top">
+      <h3>The offer card</h3>
+      <p class="small">Six to eight weeks, fixed fee. Deliverables by name: readiness scorecard, opportunity portfolio on the return vs effort matrix, initiative outlines with build / buy / partner options, first-90-days plan, executive readout.</p>
+    </div>
+    <div class="card gold-top">
+      <h3>The sample report</h3>
+      <p class="small">A full assessment report on a fictional company: the single most convincing artifact for a "show me what I get" buyer. Flagged as the next collateral investment.</p>
+    </div>
+    <div class="card gold-top">
+      <h3>The qualification profile</h3>
+      <p class="small">Mid-market, roughly 100 to 500 employees. Operations- or GTM-heavy. Board or CEO pressure on AI. Pilots that have not moved the P&amp;L.</p>
+    </div>
+  </div>
+  <div class="grid" style="grid-template-columns: 1fr 1.35fr; margin-top:5mm; flex:1;">
+    <div class="card">
+      <h3>Three door-opener questions</h3>
+      <ol class="numline" style="margin-top:2.5mm;">
+        <li>What did your last AI pilot change in the P&amp;L?</li>
+        <li>If your team doubled tomorrow at the same cost, where would you point it?</li>
+        <li>Who in your company can draw how a customer order actually flows, end to end?</li>
+      </ol>
+      <p class="small muted" style="margin-top:3mm;">Designed so any answer opens the conversation, on ground where the buyer is the expert. For services buyers, adapt question 3 to "a customer request".</p>
+    </div>
+    <div class="card">
+      <h3>Objection answers, written down</h3>
+      <table class="clean obj" style="margin-top:2mm;">
+        <tr><td>"Why not a big firm?"</td><td>Same study, a fraction of the fee, and a plan you can build rather than a strategy deck.</td></tr>
+        <tr><td>"You will just tell us to hire you."</td><td>Fixed fee independent of any build decision; every recommendation carries build / buy / partner options; the client owns everything.</td></tr>
+        <tr><td>"Our data is not ready."</td><td>Data readiness is one of the things the study assesses. It is not an entry ticket.</td></tr>
+        <tr><td>"We can do this in-house."</td><td>Individual productivity, yes. Department-level re-architecture needs dedicated structure from outside the daily grind.</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="footer"><span>Service packaging, working draft</span><span>3</span></div>
+</section>
+
+<!-- SLIDE 4: WHY CHOOSE US -->
+<section class="slide">
+  <div class="kicker">Question 3</div>
+  <h2>Why choose us: three reasons, each one verifiable</h2>
+  <div class="grid" style="grid-template-columns: 1fr 1fr 1fr; flex:1;">
+    <div class="card pillar">
+      <div class="idx">1</div>
+      <h3>We build what we recommend</h3>
+      <p>The estimates in the roadmap come from people who design and deliver these systems every week, so the plan is buildable, not theoretical. And because we can be asked to execute it, we have to live with our own advice: an incentive no pure-strategy firm has.</p>
+    </div>
+    <div class="card pillar">
+      <div class="idx">2</div>
+      <h3>Engineering depth at a mid-market price</h3>
+      <p>A comparable study from the big firms runs several times our fee and stops at strategy altitude. We work at workflow level: the actual steps, handoffs, and systems, because that is where the value hides and where our delivery teams operate daily.</p>
+    </div>
+    <div class="card pillar">
+      <div class="idx">3</div>
+      <h3>Independence by design</h3>
+      <p>Fixed fee, no obligation to build with us, every recommendation carries build / buy / partner options, and the client owns every artifact. If the right answer is their in-house team or another vendor, the report says so.</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:5mm;">
+    <h3>Proof</h3>
+    <p class="small">Delivery heritage across AI and data programs. Example outcome from prior consulting work: a three-week logistics process redesigned to run in three to four days. The proof section grows as the practice builds case studies; the first pilot engagement's case study slots in here.</p>
+  </div>
+  <div class="footer"><span>Service packaging, working draft</span><span>4</span></div>
+</section>
+
+</body>
+</html>
