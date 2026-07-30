@@ -1,12 +1,19 @@
 # Buyer-Side Demand Signals - Why Companies Stall Before AI
 
-> Source: deep research sweep, 17 Jul 2026. IMPORTANT: the claims below were extracted
-> from primary/reputable sources but remain UNVERIFIED after two passes: the 21 Jul
-> second pass attempted adversarial verification of the six headline statistics and
-> returned no verdicts either way (verification budget was consumed by the firm
-> teardown). Status: neither confirmed nor refuted. Do NOT use these figures in
-> client-facing material until a dedicated verification pass (queued for before Phase 2
-> collateral) confirms them against the original publications.
+> Source: deep research sweep, 17 Jul 2026. IMPORTANT: most claims below were extracted
+> from primary/reputable sources but remain UNVERIFIED (the 21 Jul verification pass
+> returned no verdicts). Do NOT use unverified figures in client-facing material.
+>
+> **EXCEPTIONS - verified 28 Jul 2026 by direct fetch of the sources, safe to cite:**
+> 1. MIT NANDA "GenAI Divide: State of AI in Business 2025" (via Fortune, 18 Aug 2025):
+>    ~5% of AI pilot programs achieve rapid revenue acceleration; the vast majority
+>    stall with little to no measurable P&L impact; cause attributed to a "learning
+>    gap" (tools that do not adapt to workflows), not model quality. Confirmed verbatim.
+> 2. McKinsey "The State of AI" (Mar 2025): workflow redesign has the biggest effect of
+>    25 attributes tested on EBIT impact from gen AI; only ~21% of organizations have
+>    fundamentally redesigned workflows (high performers ~55%); 39% report
+>    enterprise-level EBIT impact. Confirmed via search snapshot of the report; fetch
+>    of mckinsey.com blocked, re-fetch the PDF before print use.
 
 ## The core stall: adoption is high, value is not
 
