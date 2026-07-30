@@ -28,8 +28,11 @@ costed, plotted on return vs effort, and stack-ranked.
 1. **The offer card:** duration, fixed fee, named deliverables (readiness scorecard,
    opportunity portfolio on the return vs effort matrix, initiative outlines with
    build / buy / partner options, first-90-days plan, executive readout).
-2. **A sample report on a fictional company.** The single most convincing artifact for
-   a "show me what I get" buyer. Next collateral investment.
+2. **An anonymized sample report built from real Techjays engagements** (process maps,
+   target designs, roadmaps with client identifiers removed). Answers the "show me what
+   I get" buyer with work we have really done rather than an invented example. Next
+   collateral investment. (Revised 31 Jul from "fictional company" per Bala: a made-up
+   example carries no proof weight.)
 3. **Three door-opener questions:**
    - What did your last AI pilot change in the P&L?
    - If your team doubled tomorrow at the same cost, where would you point it?
