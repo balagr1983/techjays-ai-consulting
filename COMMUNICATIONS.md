@@ -3,6 +3,27 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 31 Jul 2026 - Philip's feedback on the packaging deck (RECEIVED; Dharma added to thread)
+
+Philip (31 Jul 20:56 UTC, verified from Gmail; added dharmaraj.m@techjays.com to the
+thread): "Overall direction looks good and a lot of the feedback is cosmetic. Claude
+created decks are increasingly hard to read with the structure, the smaller font sizes
+and the increasing use of subtext. Please can you fix font size by increasing it, moving
+it over to a traditional deck format and making the points pop up better? I think Dharma
+has a markdown file with this description to help fix it. Also let's go with Google Sans
+as the font for legibility. Once you review this once with Dharma, please go ahead and
+share with Gerry."
+
+Actions taken 2 Aug: located the Techjays Proposal Style Guide markdown (identical
+copies in Claude_Skills_Repo/style_guide.md and Shift_Living/proposals/style_guide.md;
+almost certainly Dharma's file - confirm in the Dharma review). Rebuilt
+`Offering/service-packaging-deck.html` to that system: 100vh snap-scrolled slides,
+17px+ body with clamp-scaled headings, navy/teal/coral tokens, dark bookends,
+progress/counter/print chrome, print rules. Font stack leads with Google Sans per
+Philip, falling back to Inter/system (the guide's no-webfont-fetch rule kept).
+**Next: Bala reviews with Dharma, then the deck goes to Gerry (Gerry email already
+drafted).**
+
 ## 28 Jul 2026 - Gerry's response to the approach document (RECEIVED)
 
 Gerry: "a great first pass and helps to define how a process like this would work." He

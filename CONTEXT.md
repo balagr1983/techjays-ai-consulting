@@ -134,7 +134,8 @@ how does the market react), sales positioning, cross-selling into delivery, team
 | 7 | Claude | Dedicated verification pass on the six buyer-survey statistics before any client-facing deck (Phase 2 gate). | Open |
 | 8 | Bala + Claude | Waites proposal for Gerry: discovery process, 6-week plan, deliverables, projected gains, pilot-priced at USD 40,000 to 50,000 (framed as founding-client pricing to protect the list-price anchor). Due before the follow-up call (end of week / early next week). | Open |
 | 9 | Bala + Claude | Waites assessment questionnaire for sales, BD, marketing, customer service (pre-sendable). | Open |
-| 10 | Bala | Brief Philip on the Waites opportunity and Gerry call; align pricing framing. | Open |
+| 10 | Bala | Brief Philip on the Waites opportunity and Gerry call; align pricing framing. | Done - approach doc and packaging deck both approved (23 and 31 Jul) |
+| 12 | Bala + Claude | Packaging deck rebuilt to the Techjays Proposal Style Guide per Philip's 31 Jul feedback (bigger type, traditional deck format, Google Sans). Review with Dharma, then send to Gerry with the drafted email. | Open |
 | 11 | Bala | Get the staff list from Susan or Mency for team screening; extend to US network for a stateside delivery resource (Gerry's hint). | Open |
 
 ## 8. People
