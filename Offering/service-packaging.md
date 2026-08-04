@@ -66,4 +66,6 @@ costed, plotted on return vs effort, and stack-ranked.
 
 | Date | Event |
 |------|-------|
+| 4 Aug 2026 | Final deck (`Service_Packaging_Deck_V2.pptx`, house style) content-verified and SENT to Gerry on the existing thread. Awaiting his feedback and the COO-discussion update. |
+| 31 Jul to 4 Aug 2026 | Deck iterations: HTML deck, NotebookLM version, then rebuilt to the Techjays house style (doc plugin 0.2.0 design system). Philip's cosmetic feedback applied (Google Sans, bigger type, traditional deck format); format approved. Em dashes as row separators accepted by Bala for now despite house no-em-dash rule. |
 | 28 Jul 2026 | First cut drafted; email to Philip for feedback prepared. |

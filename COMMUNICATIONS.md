@@ -24,6 +24,19 @@ Philip, falling back to Inter/system (the guide's no-webfont-fetch rule kept).
 **Next: Bala reviews with Dharma, then the deck goes to Gerry (Gerry email already
 drafted).**
 
+## 4 Aug 2026 - Service packaging deck sent to Gerry (SENT)
+
+Bala replied on the existing thread with the promised first cut on Gerry's three
+questions, attaching `Offering/Service_Packaging_Deck_V2.pptx` (7 slides, Techjays
+house style per Dharma's design system; format approved by Philip and Dharma; content
+verified against the locked packaging material before send). Email highlights: the
+one-liner, MIT/McKinsey backing, seller toolkit (door-openers, objection answers,
+qualification profile), three verifiable why-us reasons. Also flagged the deeper Waites
+research since the last call, offered to add substance to the earlier first-pass
+approach document if the client conversation is progressing, and asked for feedback
+plus any update from Gerry's discussion with the COO. **Status: awaiting Gerry's
+response.**
+
 ## 28 Jul 2026 - Gerry's response to the approach document (RECEIVED)
 
 Gerry: "a great first pass and helps to define how a process like this would work." He

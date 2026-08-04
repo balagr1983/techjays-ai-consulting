@@ -86,6 +86,8 @@
 
 | Date | Event |
 |------|-------|
+| 4 Aug 2026 | Service packaging deck sent to Gerry (same thread), with the offer to enrich the approach document using the deeper Waites research if the COO conversation is progressing. Awaiting Gerry: deck feedback + client-discussion update. |
+| 28 Jul 2026 | Gerry on the approach doc: "a great first pass"; discussing with the COO as a direction test. Asked for the sales packaging (delivered 4 Aug). |
 | 24 Jul 2026 | **Philip approved the approach document** ("structure seems spot on... go ahead and set up the call with Gerry"; USD 200/hr rate confirmed reasonable for the initial engagement; travel separate agreed). Next: Gerry walkthrough call. |
 | 22 Jul 2026 | Gerry Perkel call: opportunity scoped in principle (see table). Transcript on file. |
 | 22 Jul 2026 | Prior research brief received from Bala's separate Fable session; merged here. |

@@ -35,6 +35,18 @@ know "where we are and what we should do" before committing to an AI build.
   builder-advisor combination; the only verified public price is a boutique at USD 15,000
   to USD 25,000 for 4 weeks, leaving the mid-market fee band undocumented (peer interviews
   to fill it). Full findings in `Research/`; roadmap draft v0.1 in `Offering/roadmap.md`.
+- **28 Jul to 4 Aug 2026:** **Sales packaging cycle completed.** Gerry called the
+  approach doc "a great first pass", took it to the Waites COO as a direction test, and
+  asked how we describe/sell the service and why clients should choose us. Built the
+  service packaging (one-liner, pitch, seller toolkit, why-us; `Offering/service-packaging.md`),
+  verified the MIT NANDA and McKinsey stats against sources (deck-safe), and produced
+  the deck through three format iterations (HTML, NotebookLM, then the Techjays house
+  style per Dharma's design system, which shipped in the updated doc plugin 0.2.0).
+  Philip approved direction and rate on the way through; format approved by Philip and
+  Dharma; content verified before send. **Deck sent to Gerry 4 Aug
+  (`Offering/Service_Packaging_Deck_V2.pptx`). Now waiting on Gerry: deck feedback and
+  the COO-discussion update.** Tooling unblocked along the way: Node + pptxgenjs and
+  Python 3.12 + PDF/Office libraries now installed; /doc:deck pipeline functional.
 - **22 Jul 2026:** **First inbound opportunity, scoped in principle on the Gerry Perkel
   call.** Waites (waites.net; ~200 people, ~USD 50 million revenue, predictive
   maintenance): ~6-week onsite process re-architecting study of sales, BD, marketing,
