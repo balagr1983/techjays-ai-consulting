@@ -1,5 +1,10 @@
 # Buyer-Side Demand Signals - Why Companies Stall Before AI
 
+> See also `bcg-ceo-board-ai-gap.md` (added 5 Aug 2026): BCG's Split Decisions survey,
+> press-release grade and deck-safe with attribution. Headline: 61% of CEOs say their
+> boards are rushing AI transformation; 35% of CEO evaluations ride on AI ROI. The
+> board-pressure angle that completes the buyer picture below.
+
 > Source: deep research sweep, 17 Jul 2026. IMPORTANT: most claims below were extracted
 > from primary/reputable sources but remain UNVERIFIED (the 21 Jul verification pass
 > returned no verdicts). Do NOT use unverified figures in client-facing material.
