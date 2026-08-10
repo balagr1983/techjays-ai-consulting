@@ -3,6 +3,27 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 11 Aug 2026 - NSR case-study pointer mail to Philip (FINALIZED; Bala sending)
+
+Practice-relevant because the NSR story is the flagship case study the roadmap's launch
+phase depends on (Philip presents it at a CEO forum in September). Bala finalized a
+pointer-format mail answering the questions Philip raised on their 6 Aug phone call:
+M1 go-live (29 Jul) with hypercare ticket signals, users onboarded (102 measured daily
+vs the old 95 figure), M2 status with the Techjays mitigation story (re-baselined to
+21 Aug on a CieTrade dependency), M3 slicing strategy plus the FinOps prize (NSR board
+~19 Aug), and measured operational benefits (email intake 8 min to 2.1, worksheet setup
+11 min to 2 to 3, about 2,940 hours per month realised today). Attaches Rajesh's two
+artefacts (board-view deck v2.3 + ROI-by-milestone review) as the base material.
+Proposes widening the case-study scope to include the HubSpot CRM engagement (live
+6 Jul, hypercare complete, the most finished proof point at NSR). Asks Philip for his
+preferred format (document, deck, or lighter) and a 30-minute walkthrough to shape the
+September presentation. Underlying consolidated draft:
+`C:\Bala\Documents\NSR\OpsAI_Hypercare\2026-08-11-philip-case-study-consolidated-draft.md`.
+Parallel thread the same day: Sree Hari (for Aparna) is building a leadership milestone
+view from the same artefacts for a Philip discussion; numbers aligned with this mail.
+**Follow-up owed: Philip's format preference and the walkthrough slot; refreshed usage
+numbers land week of 24 Aug.**
+
 ## 31 Jul 2026 - Philip's feedback on the packaging deck (RECEIVED; Dharma added to thread)
 
 Philip (31 Jul 20:56 UTC, verified from Gmail; added dharmaraj.m@techjays.com to the
