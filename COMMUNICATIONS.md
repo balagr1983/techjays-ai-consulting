@@ -3,7 +3,28 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
-## 11 Aug 2026 - NSR case-study pointer mail to Philip (FINALIZED; Bala sending)
+## 11 Aug 2026 - Philip reply + Gerry looped in; adoption working session set (Wed 12 Aug, 8:30 AM PT)
+
+Fast-moving follow-on to the case-study mail below, all same day. Philip called the data
+"great info" and reframed the mission: get NSR the full 94 percent of the 21,900 hours
+per month and remove adoption and enforcement blockers. He looped in Gerry Perkel, who
+it turns out is working with NSR on the rollout plan (practice-relevant: Gerry is also
+the Waites-opportunity contact, and this deepens the relationship). Bala answered
+Gerry's two questions on the thread: (1) volume vs per-transaction savings - the
+measured 86/14 split between legacy and portal, refused-saves mechanism, and the
+briefing lever worth about 5,000 hours per month in projections; (2) removing the human
+from the loops - human-in-the-loop was the two-phase design agreed with NSR in
+discovery, autonomy is gated per workflow on evidence (volume through the loop, measured
+agreement rate, confidence threshold; the CRM migration's 75-score gate cited as
+precedent), judgment loops stay human by design, and Phase 2 is design intent, not yet a
+scoped project - it would be planned fresh once current milestones land. That framing
+deliberately positions Phase 2 as a future paid engagement rather than absorbed scope.
+One-hour working session with Gerry set for Wednesday 12 Aug, 8:30 AM PT (invite
+created, Bala sending). **Follow-up owed: confirm the complete Phase 2 automation
+picture with Rajesh before the call; bring adoption ideas plus which workflows are
+closest to the autonomy gate.**
+
+## 11 Aug 2026 - NSR case-study pointer mail to Philip (SENT)
 
 Practice-relevant because the NSR story is the flagship case study the roadmap's launch
 phase depends on (Philip presents it at a CEO forum in September). Bala finalized a
