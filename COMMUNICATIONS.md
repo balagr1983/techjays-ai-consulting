@@ -3,6 +3,21 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 12 Aug 2026 - Gerry working session HELD (adoption and rollout); three metric commitments
+
+The one-hour session happened as planned. Practice-relevant outcomes: Gerry proposed
+tracking a "human adoption curve" alongside the success-story data (an insight asset for
+the eventual case study and for the practice's rollout methodology); his NSR frame is
+350 to 700 transactions per person by end 2027 at 4x to 5x efficiency; and he
+independently raised the post-hypercare support-model question (bug fix vs change
+request vs new feature), converging with Bala's own scope-control finding, to be taken
+to Dharma and Philip. Gerry also mentioned ongoing discussions with Philip on packaging
+consulting capabilities. Bala owes three deliverables by end of next week: a
+quantifiable adoption metric, an accuracy-measurement approach, and documented
+time-savings evidence. Gerry meets Caitlin for her perspective, then a follow-up session
+to review the metrics. **Follow-up owed: the three deliverables; Gerry's readout from
+the Caitlin conversation.**
+
 ## 11 Aug 2026 - Philip reply + Gerry looped in; adoption working session set (Wed 12 Aug, 8:30 AM PT)
 
 Fast-moving follow-on to the case-study mail below, all same day. Philip called the data
