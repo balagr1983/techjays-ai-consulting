@@ -3,6 +3,19 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 13 Aug 2026 - Gerry follow-up email SENT (Philip cc'd)
+
+Recap mail sent on the thread: the human adoption curve gets built into our tracking;
+the three aligned points (350 to 700 transactions per person by end 2027; Phase 2
+automation stays evidence-gated with humans on critical approvals; value realisation
+lands around end September with vendor delays managed transparently); Bala's three
+action items restated with the end-of-next-week commitment (quantifiable adoption
+metric, accuracy-measurement approach, documented time-savings evidence); ask for
+Gerry's readout after his Caitlin call, then a slot to review the metrics and shape the
+rollout plan. Philip was copied, so no separate Philip update was sent. **Follow-up
+owed: the three deliverables, front-loaded before Bala's travel from Saturday; Gerry's
+Caitlin readout.**
+
 ## 12 Aug 2026 - Gerry working session HELD (adoption and rollout); three metric commitments
 
 The one-hour session happened as planned. Practice-relevant outcomes: Gerry proposed
