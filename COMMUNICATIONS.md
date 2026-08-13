@@ -3,6 +3,17 @@
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
 
+## 13 Aug 2026 - Adoption evidence pipeline update (Dharma call)
+
+Practice-relevant note from Bala's Dharma sync: Caitlin has been asked for quantitative
+adoption numbers on the NSR portal, feeding directly into the business case being built
+with Gerry in parallel (the three Gerry deliverables). Also decided: the hypercare
+report becomes a recurring client-facing report to NSR after one more internal
+refinement week - a reusable delivery-transparency asset for the practice's
+methodology story. And Bala is now the single point of contact for all NSR
+engagements (Dharma decision), which consolidates the relationship Gerry interfaces
+with.
+
 ## 13 Aug 2026 - Gerry follow-up email SENT (Philip cc'd)
 
 Recap mail sent on the thread: the human adoption curve gets built into our tracking;
