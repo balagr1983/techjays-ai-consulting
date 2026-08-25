@@ -1,4 +1,4 @@
-# Communications Log - Techjays AI Consulting Practice
+﻿# Communications Log - Techjays AI Consulting Practice
 
 > Log of key messages, emails, and outreach for the AI consulting initiative.
 > Newest entries at the top. Each entry: date, channel, who, gist, and any follow-up owed.
@@ -220,3 +220,24 @@ Bala
 
 _Peer outreach (research on AI consulting engagements and potential hires) will be
 logged here as it happens._
+
+---
+
+## 25 Aug 2026 - Check-in mail to Gerry (SENT)
+
+Thread: "NSR Ops AI Status and Consulting Updates" (to gerryperkel@ceocoachinginternational.com, sent 25 Aug 2026). Purpose: soft chase on the consulting work (CON-B1/W1/W2) and the Caitlin readout (Ops AI OPS-W1); heads-up that the Gerry metrics are being pulled together with Rajesh this week; availability (parenting leave 31 Aug - 4 Sep, back 7 Sep); quick catch-up proposed Tue/Thu this week (Wed 26 Aug is a holiday in India).
+
+Body as sent:
+
+Hi Gerry,
+
+Hope you are doing well. Wanted to check in on a couple of things: how the consulting work has been shaping up on your side, and how your conversation with Caitlin went. I am also working with Rajesh this week to pull together the metrics we discussed, so we will have something concrete to walk through.
+
+[personal paragraph redacted from the record per Bala, 25 Aug 2026]
+
+I will be on paternity leave starting next week for a week, back at work by September 7. Before that, it would be great to catch up quickly this week if you have a slot: Tuesday or Thursday would work best on my end, as Wednesday is a holiday here in India. Happy to work around your calendar.
+
+Look forward to hearing from you.
+
+Best regards,
+Bala
